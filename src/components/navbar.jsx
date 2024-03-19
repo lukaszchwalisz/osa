@@ -5,9 +5,9 @@ export function Navbar() {
         <>
         <nav> 
             <ul  className="flex flex-row justify-end">
-                <span className="flex flex-center flex-1"><li><Link to="/"><img className="w-64" src="/src/assets/web_logo_fit2.png" alt="logo OSA"></img></Link></li></span>
+                <span className="flex flex-center flex-1"><li><Link to="/osa/"><img className="w-64" src="/osa/src/assets/web_logo_fit2.png" alt="logo OSA"></img></Link></li></span>
                 <li className="text-slate-500 font-bold font-mono space-x-2 p-4">
-                <Link to="/">Home</Link>
+                <Link to="/osa/">Home</Link>
                 </li>
                 <li className="text-slate-400 font-bold font-mono hover:text-slate-500 space-x-2 p-4">
                 <Link to="/about">Stowarzyszenie</Link>
