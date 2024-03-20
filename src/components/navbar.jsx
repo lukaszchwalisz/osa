@@ -5,7 +5,7 @@ export function Navbar() {
         <>
         <nav> 
             <ul  className="flex flex-row justify-end">
-                <span className="flex flex-center flex-1"><li><Link to="/osa/"><img className="w-64" src="https://lukaszchwalisz.github.io/osa/src/assets/web_logo_fit2.png" alt="logo OSA"></img></Link></li></span>
+                <span className="flex flex-center flex-1"><li><Link to="/osa/"><img className="w-64" src="../osa/src/assets/web_logo_fit2.png" alt="logo OSA"></img></Link></li></span>
                 <li className="text-slate-500 font-bold font-mono space-x-2 p-4">
                 <Link to="/osa/">Home</Link>
                 </li>
