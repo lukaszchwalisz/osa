@@ -11,8 +11,8 @@ function App() {
     <div className="container mx-auto">
       <Navbar/>
       <Routes>
-        <Route path="/osa/" element={<Home/>} />
-        <Route path="/about" element={<About/>} />
+        <Route path="/osa" element={<Home/>} />
+        <Route path="/osa/about" element={<About/>} />
       </Routes>
       </div>
   );
