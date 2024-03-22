@@ -8,8 +8,8 @@ const About = () => {
    <article className="flex flex-row">
    <div className="basis-1/4"></div>
    <div className="basis-1/2">
-      <h1 className="text-purple-700 font-bold">Trochę historii</h1>
-      <p className="text-slate-500 my-4">W Polsce stowarzyszenia antymobbingowe zaczęły powstawać od roku 2001. 
+      <h1 className="text-indigo-700 font-bold font-mono text-2xl mb-4">Trochę historii</h1>
+      <p className="text-slate-500">W Polsce stowarzyszenia antymobbingowe zaczęły powstawać od roku 2001. 
         Jako pierwsze powstało Ogólnopolskie Stowarzyszenie Antymobbingowe OSA z siedzibą w Gdańsku. 
         Pomysł utworzenia stowarzyszenia zrodził się w dniu 17.09.2001r. na Konferencji zorganizowanej 
         przez Korporację Organizacji Samopomocowych KOS. Grupa inicjatywna zrealizowała ten pomysł 17 października
@@ -28,7 +28,7 @@ const About = () => {
     <article className="flex flex-row">
     <div className="basis-1/4"></div>
     <div className="basis-1/2">
-    <h1 className="text-purple-700 font-bold">Ogólnopolskie Stowarzyszenie Antymobbingowe "OSA"</h1>
+   
       <p className="text-slate-500 my-4">
         Ogólnopolskie Stowarzyszenie Antymobbingowe "OSA" powstało w odpowiedzi na zapotrzebowanie społeczne w zakresie pomocy prawnej i
         psychologicznej osób pokrzywdzonych w miejscu pracy. Pomaga poszkodowanym odnaleźć się w takich trudnych sytuacjach i znaleźć rozwiązanie.
@@ -81,7 +81,7 @@ const About = () => {
     <article className="flex flex-row">
     <div className="basis-1/4"></div>
     <div className="basis-1/2">
-      <h1 className="text-purple-700 font-bold my-4">Cele statutowe stowarzyszenia:</h1>
+      <h1 className="text-indigo-700 font-bold font-mono text-2xl my-4">Cele statutowe stowarzyszenia:</h1>
       <ul className="list-disc">
         <li className="text-slate-500">podnoszenie świadomości w zakresie profilaktyki i skutecznej walki z mobbingiem, rozumianym jako przemoc psychiczna w pracy</li>
         <li className="text-slate-500">nagłaśnianie problemu mobbingu, pokazywanie skutków ekonomicznych, zdrowotnych i moralnych występowania tego zjawiska</li>
@@ -100,7 +100,7 @@ const About = () => {
     <article className="flex flex-row">
     <div className="basis-1/4"></div>
     <div className="basis-1/2">
-      <h1 className="text-purple-700 font-bold my-4">Realizujemy poprzez:</h1>
+      <h1 className="text-indigo-700 font-bold font-mono text-2xl my-4">Realizujemy poprzez:</h1>
       <ul className="list-disc">
         <li className="text-slate-500">zrzeszanie w swoich szeregach specjainteresowanych identyfikacji i prewencji przypadków dyskryminacji i przemocy w miejscu pracy</li>
         <li className="text-slate-500">pomoc prawną, medyczną, psychologiczną</li>
@@ -123,7 +123,7 @@ const About = () => {
     <article className="flex flex-row">
     <div className="basis-1/4"></div>
     <div className="basis-1/2">
-      <h1 className="text-purple-700 font-bold my-4">Warunki wstąpienia do Stowarzyszenia "OSA".</h1>
+      <h1 className="text-indigo-700 font-bold font-mono text-2xl my-4">Warunki wstąpienia do Stowarzyszenia "OSA".</h1>
       <p className="text-slate-500 my-1">Członkiem Ogólnopolskiego Stowarzyszenia Antymobbingowego "OSA" może zostać każdy, kto :</p>
       <ul className="list-disc">
         <li className="text-slate-500">zna i chce przestrzegać postanowień statutu, jak też celów i zadań Stowarzyszenia</li>
@@ -140,16 +140,16 @@ const About = () => {
     <article className="flex flex-row">
     <div className="basis-1/4"></div>
     <div className="basis-1/2">
-      <h1 className="text-purple-700 font-bold my-4">Co należy zrobić, zostać członkiem Stowarzyszenia "OSA" ?</h1>
+      <h1 className="text-indigo-700 font-bold font-mono text-2xl my-4">Co należy zrobić, zostać członkiem Stowarzyszenia "OSA" ?</h1>
       <ul className="list-decimal">
         <li className="text-slate-500">Zgłosić chęć członkostwa do Zarządu Stowarzyszenia lub jego Punktów Konsultacyjnych</li>
         <li className="text-slate-500">Zapoznać się z treścią ustawy o stowarzyszeniach, statutem Stowarzyszenia, ustawy o ochronie danych osobowych, ustawy o pożytku publicznym i wolontariacie</li>
         <li className="text-slate-500">Wypełnić deklarację członkowską, na podstawie której podejmowana jest przez Zarząd Stowarzyszenia decyzja o przyjęciu w poczet członków</li>
-        <li className="text-slate-500">Wpłacić jednorazowe wpisowe w kwocie 20,00 złotych(słownie dwadzieścia złotych)</li>
+        <li className="text-slate-500 mb-4">Wpłacić jednorazowe wpisowe w kwocie 20,00 złotych(słownie dwadzieścia złotych)</li>
       </ul>
     </div>
     </article>
-
+    <hr className="my-5 h-0.5 border-t-0 bg-neutral-100 opacity-100 dark:opacity-50"/>
 
      </>
      );
