@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom"
+import { Navbar } from 'flowbite-react';
 
-export function Navbar() {
+export function Header() {
     return (
         <>
         <nav> 
@@ -29,6 +30,25 @@ export function Navbar() {
             </ul>
             <hr className="my-5 h-0.5 border-t-0 bg-neutral-100 opacity-100 dark:opacity-50"/>
         </nav>
+        <Navbar fluid rounded>
+      <Navbar.Brand as={Link} href="/osa/">
+        <img src="https://raw.githubusercontent.com/lukaszchwalisz/osa/main/src/assets/images/Web_logo_fit2.png" className="mr-3 h-6 sm:h-9" alt="Flowbite React Logo" />
+        <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">OSA</span>
+            </Navbar.Brand>
+            <Navbar.Toggle />
+            <Navbar.Collapse>
+                <Navbar.Link href="/osa/about/" active>
+                Stowarzyszenie
+                </Navbar.Link>
+                <Navbar.Link as={Link} href="#">
+                Działania
+                </Navbar.Link>
+                <Navbar.Link href="/osa/">Wiedza</Navbar.Link>
+                <Navbar.Link href="#">Galeria</Navbar.Link>
+                <Navbar.Link href="#">Kontact</Navbar.Link>
+            </Navbar.Collapse>
+            </Navbar>
+
          </>
     )
   }
