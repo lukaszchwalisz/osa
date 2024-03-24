@@ -3,7 +3,28 @@
 const About = () => {
   return (
     <>
+      <table className="table-fixed text-justify-start">
+        <thead>
+          <tr>
+            <th className="text-left">O nas</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Trochę historii</td>
 
+          </tr>
+          <tr>
+            <td>Cele statutowe</td>
+ 
+          </tr>
+          <tr>
+            <td>Warunki wstąpienia</td>
+
+          </tr>
+        </tbody>
+      </table>
+      
    <article className="flex flex-row">
    <div className="basis-1/4"></div>
    <div className="basis-1/2">
