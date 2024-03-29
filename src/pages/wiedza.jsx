@@ -255,9 +255,273 @@ const Wiedza = () => {
 
           </article>
 
-
-
+          <article>
           
+          <h1 className="text-indigo-700 dark:text-indigo-400 font-bold font-mono text-2xl mb-4">
+          Płaszczyzny występowania zjawiska</h1>         
+          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          Na płaszczyźnie współpracowników źródłem prześladowania może być osobista niechęć danych osób,
+          wynikająca z jakichś zdarzeń z przeszłości, próba pokazania się w lepszym świetle kosztem drugiej osoby,
+          zazdrość o coś, co posiadają inni np. uroda, młodość, umiejętności, wykształcenie. Nadmierne ingerowanie
+          zwierzchników w takie konflikty przynosi czasami zupełnie odwrotne efekty i dodatkowe posądzenia o
+          faworyzowanie danej osoby, czy podteksty seksualne. Jednak brak jakiejkolwiek interwencji jest jeszcze gorszy,
+          ponieważ oznacza przyzwolenie na stosowanie takich praktyk, rodzi poczucie bezkarności i rozprzestrzenianie się
+          nieetycznych zachowań. Większość kadry kierowniczej w firmach zazwyczaj nie posiada kompetencji menedżerskich i
+          chociaż ma dużą wiedzę zawodową, to nie wie jak się zachować w takich sytuacjach. Dlatego woli ich nie zauważać,
+          zamiast zdecydowanie zareagować. 
+          </p>
+          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          W układzie podwładny zwierzchnik zdarza się, gdy przełożony przychodzi z zewnątrz firmy, zachowuje się i działa w
+          sposób nieakceptowany przez grupę i nic nie robi by przekonać do siebie zespół, którym kieruje. Inny przypadek,
+          gdy dawny kolega otrzymuje awans, na który w przekonaniu innych nie zasługuje. Jego polecenia mogą być wtedy z
+          rozmysłem błędnie interpretowane, wykonywane ślamazarnie czy wręcz bojkotowane.
+          </p>
+          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          W układzie zwierzchnik podwładny jest najczęstszym przypadkiem mobbingu. W atmosferze obawy o swoje miejsce pracy
+          podwładny staje się łatwym przeciwnikiem. Zwierzchnik wykorzystuje swoją pozycję, nadużywa władzy, stosuje sposób
+          zarządzania przez zastraszanie. Ma to na celu odwrócenie uwagi od własnej niekompetencji albo dowartościowania się
+          szefów niższego szczebla, zawiedzionych w swoich ambicjach. Taki sposób zarządzania jest mało efektywny i nieskuteczny,
+          ale w błędnym przekonaniu niektórych zapewnia posłuszeństwo i maksymalną wydajność pracowników.
+          </p>
+          </article>
+
+          <article>  
+          <h1 className="text-indigo-700 dark:text-indigo-400 font-bold font-mono text-2xl mb-4">
+          Etapy przebiegu zjawiska</h1>
+          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          W początkowym etapie osoba, która zaczyna być szykanowana nie zdaje jeszcze sobie z tego sprawy. Próbuje działać
+          racjonalnie, załagodzić lub rozwiązać sporadyczne konflikty, ale bezskutecznie. Podważa się jej wiedzę i umiejętności,
+          rozsiewa plotki i pomówienia, stopniowo prowadząc do jej wyobcowania z grupy i obniżenia samooceny. Kolejne próby
+          poprawienia sytuacji prowadzą do nasilenia przemocy i ciągłego już nękania psychicznego. Ciągłe stany napięcia nerwowego
+          ofiary prowadzą ją do reakcji stresowych, zakłóceń koncentracji, stanów zwątpienia, zakłóceń snu, złego samopoczucia i
+          strachu przed pójściem do pracy.
+          </p>
+          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          Etap drugi to utrwalenie powstałych zachowań i negatywnej opinii o ofierze, jako osobie np. nadwrażliwej, konfliktowej
+          czy przemądrzałej. Zaczynają się niesprawiedliwe upomnienia, straszenie, degradacja pozycji w grupie poprzez przydzielanie
+          mało ważnych zadań. Ciągłe nieuzasadnione pretensje i oskarżenia, poczucie całkowitej bezsilności, mogą wywoływać
+          zachowania agresywne ofiary, pogrążając ją jeszcze bardziej. Praca w ciągłym napięciu i stresie prowadzi do popełniania
+          błędów, a te z kolei są powodem następnych przytyków i drwin. Skutki zdrowotne na tym etapie to różne dolegliwości
+          psychosomatyczne, wymagające interwencji lekarskiej np. choroby wrzodowe żołądka i dwunastnicy, zawał mięśnia sercowego,
+          udar mózgu czy astma oskrzelowa. Osoba mobbingowana coraz częściej przebywa na zwolnieniu chorobowym. Próba znalezienia
+          innej pracy kończy się przeważnie niepowodzeniem.   
+          </p>
+          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          W fazie trzeciej, bardzo zaawansowanych już działań psychicznego prześladowania, sytuacja ulega dramatycznemu zaostrzeniu.
+          Osoba poszkodowana nie potrafi już sprostać obowiązkom zawodowym. Jej stan fizyczny i psychiczny pogarsza się tak bardzo,
+          że wymaga pomocy medycznej i psychologicznej.
+          </p>
+          </article>
+
+          <article>
+          <h1 className="text-indigo-700 dark:text-indigo-400 font-bold font-mono text-2xl mb-4">
+          Ofiary mobbingu</h1>
+          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          Nie są to osoby wcześniej dotknięte jakąś patologią lub szczególnie słabe. Przeciwnie bardzo często zjawisko pojawia się,
+          gdy ofiara reaguje na autorytaryzm szefa i odmawia podporządkowania się. Jest wśród nich wiele osób skrupulatnych,
+          odznaczających się pracowitością, szczególnie zaangażowanych w pracy, przewyższających wykształceniem i kompetencjami
+          zwierzchników. Mobbing może dotykać także osoby różnej płci, rasy, religii, itp., posiadające coś, czego inni nie mają
+          np. młodość, urodę, bogactwo, komunikatywność itd. Celem działania sprawcy jest niszczenie opinii ofiary i szkodzenie aż
+          do jej usunięcia z zajmowanego miejsca. Stopniowo niszczy się więc jej reputację, zakłóca stosunki interpersonalne,
+          wpływa negatywnie na jakość wykonywanej pracy. Osoba mobbingowana odczuwa silny stres.
+          </p>
+          </article>
+
+          <article>  
+          <h1 className="text-indigo-700 dark:text-indigo-400 font-bold font-mono text-2xl mb-4">
+          Skutki zjawiska</h1>
+          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          Szkody indywidualne dotykają bezpośrednio ofiarę mobbingu. Podstawową konsekwencją tego zjawiska jest stres,
+          który pojawia się w wyniku jej kontaktu ze stresogennym otoczeniem.
+          </p>
+          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          M. Łoboda (7) wymienia siedem stresorów w organizacji, z których wystąpienie czterech pierwszych może prowadzić
+          do zaistnienia mobbingu. Są to:
+          </p>
+          
+          <ul className="list-disc">
+             <li className="text-slate-500 dark:text-slate-200">stresory związane z relacjami interpersonalnymi charakteryzującymi się brakiem zaufania, wzajemną niechęcią i obojętnością występującą w grupie pracowniczej oraz nieodpowiedni i nieefektywny styl kierowania</li>
+             <li className="text-slate-500 dark:text-slate-200">czynniki stresogenne związane z funkcjonowaniem jednostki jako elementu organizacji, przejawiające się w izolowaniu, pomijaniu, niedocenianiu, czy braku możliwości wyrażania swojej opinii</li>
+             <li className="text-slate-500 dark:text-slate-200">stresory związane głównie brakiem poczucia stałości zatrudnienia</li>
+             <li className="text-slate-500 dark:text-slate-200">złe fizyczne warunki pracy, wynikające z nieprzestrzegania zasad bezpieczeństwa i higieny pracy</li>
+             <li className="text-slate-500 dark:text-slate-200">czynniki stresogenne związane ze sposobem wykonywania pracy,</li>
+             <li className="text-slate-500 dark:text-slate-200">stresory związane z pełnieniem ról organizacyjnych</li>
+             <li className="text-slate-500 dark:text-slate-200">czynniki stresogenne związane z równoczesnym funkcjonowaniem w organizacji i poza nią</li>
+          </ul>     
+  
+            <p className="text-slate-500 dark:text-slate-200 mb-4">
+            Następuje obniżona samoocena w obszarze przydatności zawodowej i społecznej. Brak poczucia bezpieczeństwa,
+            poczucie bezradności i zwątpienie w pozytywne rozwiązanie problemu wpływa na poddanie się lub nie podejmowanie skutecznych
+            sposobów wybrnięcia z psychologicznie trudnej sytuacji. Skutki indywidualne mobbingu to obniżona motywacja, zaburzenia
+            emocjonalne oraz utrata zdolności do pracy. Następuje pogorszenie stanu zdrowia psychosomatycznego. Skutki psychiczne 
+            to zakłócenia koncentracji i trudności w przyswajaniu nowych treści, stany zwątpienia, lęku, załamania nerwowe,
+            depresje mogące prowadzić do prób samobójczych. Skutki somatyczne to bóle głowy, pleców i karku, zakłócenia pracy serca,
+            snu, oddechu, choroby skóry, choroby wrzodowe żołądka, dwunastnicy, zawał mięśnia sercowego, udar mózgu,
+            astma oskrzelowa. Te skutki składają się na schorzenia opisywane przez psychiatrów jako potraumatyczne stany lękowe
+            (PTSD -posttraumatic stress disorder) porównywane przez specjalistów do stanu, jaki opisywano u osób, które przeszły
+            doświadczenie obozu koncentracyjnego i obecnie głównie z powodu wytwarzania się takich samych objawów u ofiar
+            przemocy w pracy, osoby mobbingowane są zaliczane do grupy pacjentów, ofiar psychicznego terroru.
+            U ofiar mobbingu powstaje bariera psychologiczna powodująca nieumiejętność radzenia sobie w środowisku pracy,
+            a tym samym niemożność podjęcia pracy. Przełamanie jej jest procesem długotrwałym i trudnym, ponieważ mechanizm działań
+            mobbingowych powoduje, że osoba prześladowana przystosowuje się do roli ofiary i przestaje się bronić. Przeżyta przemoc,
+            mimo leczenia i rehabilitacji, zawsze pozostawia jakieś ślady w psychice człowieka, a w niektórych przypadkach głębokie,
+            trwałe urazy.
+            </p>
+            <p className="text-slate-500 dark:text-slate-200 mb-4">
+            Zostaje zakłócone funkcjonowanie rodziny. Przenoszone na środowisko rodzinne sytuacje z pracy powodują kryzys w utrzymaniu
+            prawidłowych relacji, stwarzając poczucie bezsilności i niezaradność wobec problemów, z którymi boryka się jeden z jej
+            członków. W sytuacji, gdy osoba mobbingowana traci pracę, a jest jedynym żywicielem rodziny, zagrożony jest byt całej
+            rodziny. Często następuje ucieczka w alkoholizm, narkomanię i lekomanię. Dochodzi do różnych konfliktów w trakcie,
+            których następują fakty przemocy domowej, co w dalszej konsekwencji prowadzi do jej rozpadu.
+            </p>
+            <p className="text-slate-500 dark:text-slate-200 mb-4">
+            Negatywne skutki mobbingu ponoszą pracodawcy i całe przedsiębiorstwa, z czego w większości nie z dają sobie sprawy i
+            nie próbują ich ocenić w kontekście strat. Jest to pogorszenie dobrej atmosfery w miejscu pracy, zanikanie motywacji i
+            chęci do pracy, zabijanie aktywności i kreatywności pracowników oraz ich zaangażowania na rzecz firmy i poczucia
+            odpowiedzialności za nią. Ponoszone koszty finansowe związane są ze zmniejszeniem wydajności pracy, pracodawca wypłaca
+            wynagrodzenie pracownikom, którzy nie świadczą pracy w ogóle albo nie wykonują jej z wymaganą dokładnością, ponoszą
+            koszty związane z pobytami na zwolnieniach chorobowych, z wypłatami odszkodowań dla ofiar mobbingu, z wydatkami
+            związanymi z administracją i rekrutacją pracowników ich szkoleniem oraz stratami wynikającymi z niższej jakości i
+            wydajności pracowników. Dla całego przedsiębiorstwa oznacza to spowolnienie tempa rozwoju, pogorszenie wizerunku firmy,
+            społeczny odbiór firmy i pracodawcy jako mobber kat, a wreszcie utratę wiarygodności jako solidnego pracodawcy.
+            </p>
+            <p className="text-slate-500 dark:text-slate-200 mb-4">
+            Mobbing działa destrukcyjne na całe społeczeństwo. Przejawia się to wzrostem napięć w stosunkach międzyludzkich.
+            Następuje powszechne niezadowolenie z sytuacji w pracy oraz wzrost agresji wobec władzy, która nie radzi sobie z
+            eliminacją problemu. Pojawia się zwiększone zapotrzebowane na programy prozdrowotne. Wzrastają koszty świadczeń
+            zdrowotnych i ubezpieczeń społecznych. Pogarsza się sytuacja budżetu państwa wywołana koniecznością wypłat rent i
+            wcześniejszych emerytur dla osób, które odeszły z pracy, bo utraciły zdrowie z powodu prześladowania.
+            </p>
+          </article>
+
+          <article>
+          <h1 className="text-indigo-700 dark:text-indigo-400 font-bold font-mono text-2xl mb-4">
+          Co może zrobić osoba mobbingowana ?</h1>
+
+          <ul className="list-decimal">
+             <li className="text-slate-500 dark:text-slate-200">Jeżeli ma poczucie, że naruszana jest jej godność i integralność psychiczna z powodu wrogiej postawy jednej lub wielu
+              osób należy reagować jak tylko można najszybciej, zanim zostanie się wciągniętym w sytuację, z której nie będzie innego
+              wyjścia jak tylko odejść z pracy.</li>
+              <li className="text-slate-500 dark:text-slate-200">Zapoznać się ze zjawiskiem mobbingu.</li>
+              <li className="text-slate-500 dark:text-slate-200">
+              Wstępnie zdiagnozować sytuację tj. zanalizować sytuację pod kątem elementów działań i zachowań, przy ich analizowaniu
+              posłużyć się kryterium Heinza Leymanna, które jest odpowiednikiem mobbingu polskiego. Określić częstotliwość, czasokres,
+              kto jest sprawcą tych działań. Jakie dolegliwości są odczuwane w związku z analizowaną sytuacją i jak często np. bóle i
+              zawroty głowy, omdlenia, zaburzenia pamięci i koncentracji uwagi, zaburzenia zasypiania, senność, wczesne wstawanie,
+              koszmary nocne, bóle brzucha/żołądka, wymioty, mdłości, rozwolnienie/zatwardzenie, osłabienie w nogach, brak apetytu,
+              bóle pleców, karku, mięśni, dreszcze, ucisk w gardle, ucisk w klatce piersiowej, potliwość, suchość w ustach,
+              kołatanie serca, trudności z oddychaniem, podenerwowanie, depresja/przygnębienie, apatia/brak inicjatywy, brak motywacji,
+              płacz, nieokreślona złość, nieokreślony strach, lekkie zniecierpliwienie, lekkie rozdrażnienie, niepokój ruchowy, agresja,
+              poczucie niepewności, osamotnienie. Jeśli dolegliwości te występują należy skonsultować je z lekarzem psychiatrą.</li>
+             <li className="text-slate-500 dark:text-slate-200">Notować wszelkie formy prowokacji i agresji, jak też sporządzać kserokopie wszystkiego, co mogłoby w takim czy innym
+              momencie posłużyć do obrony.</li>
+             <li className="text-slate-500 dark:text-slate-200">Zapewnić sobie świadków.</li>
+             <li className="text-slate-500 dark:text-slate-200">Niezależnie od odczuć odgrywać obojętność, zachować uśmiech, odpowiadać z humorem, nie podejmować agresywnej gry,
+              pozwolić wypowiedzieć się gnębicielowi, nie denerwować się, jednocześnie notując każdy fakt w celu przygotowania obrony.</li>
+             <li className="text-slate-500 dark:text-slate-200">Zakres swoich obowiązków wykonywać bez zarzutu.</li>
+             <li className="text-slate-500 dark:text-slate-200">Nie dać się sprowokować do uchybień w pracy.</li>
+             <li className="text-slate-500 dark:text-slate-200">Zachować zdrowy rozsądek, starać się nie słyszeć podtekstów, wszelkie komunikaty odbierać dosłownie, a w razie potrzeby
+              prosić o sprecyzowanie.</li>
+             <li className="text-slate-500 dark:text-slate-200">Nauczyć się zachowywać spokój.</li>
+             <li className="text-slate-500 dark:text-slate-200">Szukać pomocy na terenie firmy. Uzyskać wsparcie moralne, jeśli nie w swoim dziale to w innym, trafić na kogoś,
+              kto potrafi słuchać, po prostu wygadać się.</li>
+             <li className="text-slate-500 dark:text-slate-200">Zwrócić się o pomoc do komórki odpowiedzialnej za sprawy pracownicze, związków zawodowych, jeśli takie są na terenie
+              firmy.</li>
+             <li className="text-slate-500 dark:text-slate-200">Zwrócić się o pomoc do organizacji pozarządowej zajmującej się tym zjawiskiem.</li>
+             <li className="text-slate-500 dark:text-slate-200">Pisemnie powiadomić kierownictwo firmy, że zjawisko to ma miejsce i jakie negatywne skutki za sobą pociąga. Spróbować na
+              tej drodze je rozwiązać.</li>
+             <li className="text-slate-500 dark:text-slate-200">Szukać pomocy poprzez konsultację z psychiatrą lub psychoterapeutą po pierwszej fazie przemocy, gdy jest się zdezintegrowanym
+              psychicznie, aby odzyskać dobrą formę psychiczną do dalszej obrony. Łączy się to najczęściej z urlopem zdrowotnym lub
+              zwolnieniem lekarskim. Pracę należy podjąć wówczas, gdy się odzyska całkowicie siły.</li>
+             <li className="text-slate-500 dark:text-slate-200">Jeśli następuje sytuacja, że jedynym ratunkiem jest odejście z pracy należy walczyć o to, aby odejście odbyło się na jak
+              najlepszych warunkach.</li>
+             <li className="text-slate-500 dark:text-slate-200">Dochodzić swoich praw z wykorzystaniem uregulowań prawnych w różnych gałęziach prawa.</li>
+           </ul>    
+         </article>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          Co może zrobić pracodawca
+
+          Pracodawca może podjąć działania, aby zminimalizować mobbing lub nie dopuścić do powstania tego zjawiska:
+
+          dozór i badanie nastrojów wśród pracowników,
+          badanie zachowań pracowników,
+          monitorowanie pracowników, u których można dostrzec chęć mszczenia się na innych za swoje niepowodzenia,
+          rozwiązywanie w zarodku konfliktów,
+          wykrywanie ukrywanych problemów,
+          w relacji pracodawca pracownik umiejętnie zarządzać swoimi podwładnymi i kontrolować ich poczynania, poczuwać się do obowiązku utrzymywania pozytywnej atmosfery i dobrych stosunków pomiędzy pracownikami.
+
+          Bardzo ważną sprawą jest motywowanie pracowników. Nie trzeba prześladować pracowników, aby lepiej pracowali. Pieniądz jest jednym ze słabszych bodźców, ale aby inne bodźce mogły zadziałać ta motywacja powinna zaistnieć. Stosowanie bodźców oraz ich skuteczność zależy od tego, w jaki sposób układają się relacje przełożony - podwładny. Bodźce pozamaterialne związane z pracą to różnorodność zadań, nadawanie znaczenia każdej pracy, autonomia działania i ograniczenie kontroli, informowanie pracowników o wynikach ich pracy, całościowy charakter zadań, aby pracownik widział swoje miejsce w całości zadania, współudział w zarządzaniu, delegowanie uprawnień dające poczucie wpływu na to, co się dzieje w firmie. Bodźce pozamaterialne związane z osobowością pracownika to sprawiedliwa ocena pracy i pracownika, propagowanie pożądanych postaw i wzorców zachowań, awans stanowiskowy, system pochwał, wyróżnień i odznaczeń, współzawodnictwo, podziękowania i uwaga poświęcana pracownikom, jasne informacje dotyczące zagrożenie utratą pracy, sposoby wyrażenia dezaprobaty, system kar, nagan i upomnień.
+
+          Uregulowania prawne
+
+          Mobbing stał się przedmiotem regulacji prawnych w Europie. W wielu krajach prowadzone są badania, których zadaniem jest intensywne i w miarę możliwości szczegółowe poznanie tego terminu. Skala tego zjawiska, zdefiniowanie oraz chęć przeciwdziałania wymusza na ustawodawcy stworzenie uregulowań prawnych. W Polsce praca znajduje się pod ochroną Konstytucji RP i państwo kontroluje warunki wykonywania pracy, która musi odpowiadać standardom ustalonym w odrębnych przepisach.
+
+          Ustawa zasadnicza upatruje źródło praw i wolności człowieka i obywatela w jego godności:
+          Art. 30. Przyrodzona i niezbywalna godność człowieka stanowi źródło wolności i praw człowieka i obywatela. Jest ona nienaruszalna, a jej poszanowanie i ochrona jest obowiązkiem władz publicznych.
+          Konstytucja uznaje wolność człowieka za jedno z najwyżej cenionych jego dóbr:
+          Art. 31. 1. Wolność człowieka podlega ochronie prawnej.
+          Art. 31. 2. Każdy jest obowiązany szanować wolność i prawa innych. Nikogo nie wolno zmuszać do czynienia tego, czego prawo mu nie nakazuje.
+          Art. 47. Każdy ma prawo do ochrony prawnej życia prywatnego, rodzinnego, czci i dobrego imienia oraz do decydowania o swoim życiu osobistym.
+
+          Ustawa zasadnicza wprowadza również kontrolę państwa nad warunkami wykonywania pracy, która musi odpowiadać ustalonym standardom:
+          Art. 24. Praca znajduje się pod ochroną Rzeczypospolitej Polskiej. Państwo sprawuje nadzór nad warunkami wykonywania pracy.
+          Art. 66. 1. Każdy ma prawo do bezpiecznych i higienicznych warunków pracy. Sposób realizacji tego prawa oraz obowiązki pracodawcy określa ustawa.
+
+          Przepisy mogące posłużyć jako instrument zapobiegania prześladowaniom i ograniczenia jego skutków rozsiane są po wielu gałęziach prawa. Ogólnie można powiedzieć, że wchodzą w grę następujące gałęzie prawa:
+
+          prawo cywilne przepisy dotyczące ochrony dóbr osobistych oraz odpowiedzialności za czyny niedozwolone,
+          prawo pracy przepisy dotyczące dóbr osobistych pracownika oraz uznanie standardów w zakresie bezpiecznych i higienicznych warunków pracy,
+          prawo karne przestępstwa przeciwko zdrowiu, czci i godności osobistej oraz przestępstwa przeciwko prawom osób wykonujących pracę zarobkową,
+          procedury dyscyplinarne.
+          Zjawisko mobbingu ustawodawca zdefiniował w art. 943 § 2 kp :
+          "Mobbing oznacza działania lub zachowania dotyczące pracownika lub skierowane przeciwko pracownikowi, polegające na uporczywym i długotrwałym nękaniu lub zastraszaniu pracownika, wywołujące u niego zaniżoną ocenę przydatności zawodowej, powodujące lub mające na celu poniżenie lub ośmieszenie pracownika, izolowanie go lub wyeliminowanie z zespołu współpracowników."
+
+          Zaznaczyć należy, iż w definicji tej wiele zwrotów jest niedookreślonych np. uporczywe, długotrwałe nękanie, a ich doprecyzowanie cały czas następuje w orzecznictwie sądowym.
+          Zobowiązał też pracodawcę do przeciwdziałania zjawisku mobbingu w podległej mu jednostce organizacyjnej w art. 943 § 1 kp:
+          "Pracodawca jest obowiązany przeciwdziałać mobbingowi."
+
+          Oznacza to, że pracodawca nawet, jeśli sam nie mobbinguje, a jedynie ( przymyka oko) na zachowania innych pracowników, które mobbingują, odpowiada za złamanie obowiązków pracodawcy. Pracodawca musi w obecnej sytuacji aktywnie działać, aby takie zjawisko w danym zakładzie pracy nie powstawało. Nie może zasłaniać się on niewiedzą w tym temacie.
+
+          Ustawodawca określił też skutki prawne mobbingu dla pracodawcy - w art. 943 § 3 kp § 3:
+          "Pracownik, u którego mobbing wywołał rozstrój zdrowia, może dochodzić od pracodawcy odpowiedniej sumy tytułem zadośćuczynienia pieniężnego za doznaną krzywdę."
+          "Pracownik, który doznał mobbingu lub wskutek mobbingu rozwiązał umowę o pracę, ma prawo dochodzić od pracodawcy odszkodowania w wysokości nie niższej niż minimalne wynagrodzenie za pracę, ustalane na podstawie odrębnych przepisów."
+          "Oświadczenie pracownika o rozwiązaniu umowy o pracę powinno nastąpić na piśmie z podaniem przyczyny, o której mowa w § 2, uzasadniającej rozwiązanie umowy."
+
+          Tak więc finansowe konsekwencje mobbingu wobec pracownika ponosi pracodawca na drodze sądowej. Osobie poszkodowanej przysługuje:
+
+          zadośćuczynienie z tytułu rozstroju zdrowia,
+          odszkodowanie za rozwiązanie stosunku pracy wskutek mobbingu,
+          odszkodowanie z tytułu innych szkód pozostających w związku z mobbingu - w ramach tego odszkodowania wchodzą wszelkie szkody które można przeliczyć na wartość ekonomiczną, tzn. koszty leczenia, rehabilitacji o ile pozostają w adekwatnym związku przyczynowym ze szkodą tzn. z mobbingiem.
+          Zatem finansowe konsekwencje mobbingu wobec pracownika może ponieść pracodawca, nawet, jeśli był on zastraszany lub nękany przez współpracowników. Zgodnie z obecnie obowiązującym prawem pracodawca nie tylko nie powinien sam dopuszczać się mobbingu w stosunku do pracownika, ale jest też zobowiązany do jego przeciwdziałania stosowanemu przez innych pracowników lub osoby trzecie obecne w miejscu pracy.
+
+          Opracowanie Zarządu Ogólnopolskiego Stowarzyszenia Antymobbingowego OSA na podstawie poniższych publikacji i doświadczeń z własnej działalności:
+
+          L. Florek; Prawo pracy; Wydawnictwo Beck; 1999; Warszawa.
+          L. Glass; Toksyczni ludzie. 10 sposobów postępowania z ludźmi, którzy uprzykrzają ci życie; Dom Wydawniczy Rebis; 1997; Poznań.
+          M.F. Hirigoyen; Molestowanie moralne. Perwersyjna przemoc w życiu codziennym; Wydawnictwo Polskiej Prowincji Dominikanów W Drodze; 2002; Poznań.
+          K. Kmiecik-Baran, W. Cieślak; Bez przemocy w pracy i w szkole; Instytut Promocji Nauczycieli Solidarność; 2001; Gdańsk;
+          Kodeks Pracy; Wydawnictwo INFOR; 2004; Warszawa
+          M. Łoboda; Czynniki stresogenne w organizacji. W: Biela A. (red.) Stres w pracy zawodowej; Redakcja Wydawnictw KUL; 1990; Lublin.
+          C. Porebski; Czy etyka się opłaca? Zagadnienia etyki biznesu;Antykwa; 2000; Kluczbork.
+          M. Sidor Rządkowska; Człowiek człowiekowi katem (1). Mobbing w pracy definicje Sikor typologia zachowań; Personel i Zarządzanie, 1 31 lipca. 2003a;Warszawa.
+          S. P. Robbins; Zachowania w organizacji; PWE; 1998; Warszawa.
+          Z. Żarnoch; Etyka zarządzania zasobami ludzkimi w biznesie - praca licencjacka; 2003; Gdańsk.
+
+
+
           </div>
          
      
