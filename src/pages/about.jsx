@@ -50,7 +50,7 @@ const About = () => {
     <div className="basis-1/2">
    
       <p className="text-slate-500 my-4">
-        Ogólnopolskie Stowarzyszenie Antymobbingowe "OSA" powstało w odpowiedzi na zapotrzebowanie społeczne w zakresie pomocy prawnej i
+        <b>Ogólnopolskie Stowarzyszenie Antymobbingowe "OSA"</b>powstało w odpowiedzi na zapotrzebowanie społeczne w zakresie pomocy prawnej i
         psychologicznej osób pokrzywdzonych w miejscu pracy. Pomaga poszkodowanym odnaleźć się w takich trudnych sytuacjach i znaleźć rozwiązanie.
         Jest organizacją o statusie pożytku publicznego. Zakres przestrzenny działania obejmuje teren całej Polski. Swoją siedzibę ma w Gdańsku
         przy ul. Warzywniczej 10/C/7. Skupia w swoich szeregach członków i wolontariuszy, z których pierwsza część osobiście doświadczyła działań
