@@ -6,8 +6,6 @@ const Wiedza = () => {
        <>
 
       <div className="grid justify-center sm:mx-0 md:mx-0 lg:mx-20 xl:mx-40 2xl:mx-80">
-      {/* <div className="basis-1/4 "></div>
-      <div className="basis-1/2 "> */}
       
       <article >
         <h1 className="text-indigo-700 dark:text-indigo-400 font-bold font-mono text-2xl mb-4">Warto wiedzieć - charakterystyka zjawiska mobbingu.</h1>
@@ -581,7 +579,7 @@ const Wiedza = () => {
         zastraszany lub nękany przez współpracowników. Zgodnie z obecnie obowiązującym prawem pracodawca nie
         tylko nie powinien sam dopuszczać się mobbingu w stosunku do pracownika, ale jest też zobowiązany do
         jego przeciwdziałania stosowanemu przez innych pracowników lub osoby trzecie obecne w miejscu pracy.</p>
-
+        <hr className="my-5 h-0.5 border-t-0 bg-neutral-100 opacity-100 dark:opacity-50"/>
         <p className="text-slate-500 dark:text-slate-200 mb-4">
         Opracowanie Zarządu Ogólnopolskiego Stowarzyszenia Antymobbingowego OSA na podstawie poniższych publikacji
         i doświadczeń z własnej działalności:</p>

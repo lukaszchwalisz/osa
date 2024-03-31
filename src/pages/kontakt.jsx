@@ -3,9 +3,8 @@
 const Kontakt = () => {
   return (
     <>
-    <article className="flex flex-row">
-    <div className="basis-1/4"></div>
-    <div className="basis-1/2">
+    <div className="grid justify-center sm:mx-0 md:mx-0 lg:mx-20 xl:mx-40 2xl:mx-80">
+    <article>
        <h1 className="text-indigo-700 font-bold font-mono text-2xl mb-4">Kontakt</h1>
        <p className="text-slate-500">W Polsce stowarzyszenia antymobbingowe zaczęły powstawać od roku 2001. 
          Jako pierwsze powstało Ogólnopolskie Stowarzyszenie Antymobbingowe OSA z siedzibą w Gdańsku. 
@@ -20,8 +19,8 @@ const Kontakt = () => {
          z siedzibą w Gdańsku, Krajowe Stowarzyszenie Antymobbingowe z siedzibą we Wrocławiu, 
          Stowarzyszenie Centrum Antymobbingowe z siedzibą w Warszawie.
        </p>
-     </div>
      </article>
+     </div>
     </>
   )
 }
