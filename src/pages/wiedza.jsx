@@ -588,8 +588,8 @@ const Wiedza = () => {
           <li className="text-slate-500 dark:text-slate-200">L. Florek, <i>Prawo pracy</i>, Wydawnictwo Beck, 1999, Warszawa.</li>
           <li className="text-slate-500 dark:text-slate-200">L. Glass, <i>Toksyczni ludzie. 10 sposobów postępowania z ludźmi, którzy uprzykrzają ci życie</i>, Dom Wydawniczy Rebis, 1997, Poznań.</li>
           <li className="text-slate-500 dark:text-slate-200">M.F. Hirigoyen, <i>Molestowanie moralne. Perwersyjna przemoc w życiu codziennym</i>, Wydawnictwo Polskiej Prowincji Dominikanów W Drodze, 2002, Poznań.</li>
-          <li className="text-slate-500 dark:text-slate-200">K. Kmiecik-Baran, W. Cieślak, <i>Bez przemocy w pracy i w szkole</i>, Instytut Promocji Nauczycieli Solidarność, 2001, Gdańsk.
-      Kodeks Pracy; Wydawnictwo INFOR; 2004; Warszawa</li>
+          <li className="text-slate-500 dark:text-slate-200">K. Kmiecik-Baran, W. Cieślak, <i>Bez zgody na przemoc - w szkole i pracy</i>, Instytut Promocji Nauczycieli Solidarność, 2001, Gdańsk.
+          Kodeks Pracy; Wydawnictwo INFOR; 2004; Warszawa</li>
           <li className="text-slate-500 dark:text-slate-200">M. Łoboda, <i>Czynniki stresogenne w organizacji</i> W: Biela A. (red.) Stres w pracy zawodowej, Redakcja Wydawnictw KUL, 1990, Lublin.</li>
           <li className="text-slate-500 dark:text-slate-200">C. Porebski, <i>Czy etyka się opłaca? Zagadnienia etyki biznesu</i>, Antykwa, 2000, Kluczbork.</li>
           <li className="text-slate-500 dark:text-slate-200">M. Sidor Rządkowska, <i>Człowiek człowiekowi katem (1). Mobbing w pracy definicje Sikor typologia zachowań</i>, Personel i Zarządzanie, 2003, Warszawa.</li>
@@ -598,6 +598,53 @@ const Wiedza = () => {
         </ul>
 
       </article>
+
+      <article>
+
+      <p className="text-slate-500 dark:text-slate-200 mb-4">
+        <b>Literatura.</b></p>
+        <ul className="list-none">
+          <li className="text-slate-500 dark:text-slate-200">Edelmann R. J., <i>Konflikty w pracy</i>, Gdańskie Wydawnictwo Psychologiczne, 2002, Gdańsk.</li>
+          <li className="text-slate-500 dark:text-slate-200">L. Glass, <i>Toksyczni ludzie. 10 sposobów postępowania z ludźmi, którzy uprzykrzają ci życie</i>, Dom Wydawniczy Rebis, 1997, Poznań.</li>
+          <li className="text-slate-500 dark:text-slate-200">M.F. Hirigoyen, <i>Molestowanie moralne. Perwersyjna przemoc w życiu codziennym</i>, Wydawnictwo Polskiej Prowincji Dominikanów "W Drodze", 2002, Poznań.</li>
+          <li className="text-slate-500 dark:text-slate-200">K. Kmiecik-Baran, W. Cieślak, <i>Bez zgody na przemoc - w szkole i pracy</i>, Instytut Promocji Nauczycieli Solidarność, 2001, Gdańsk. Kodeks Pracy, Wydawnictwo INFOR, 2004, Warszawa.</li>
+          <li className="text-slate-500 dark:text-slate-200">K. Kmiecik-Baran, <i>Rozwiązywanie konfliktów. Mobbing - terror psychiczny w miejscu pracy</i>, 1999, Gdańsk.</li>
+          <li className="text-slate-500 dark:text-slate-200">Cave R., <i>Sztuka współpracy z trudnymi ludźmi</i>, Wydawnictwo Amber, Warszawa 2002.</li>
+          <li className="text-slate-500 dark:text-slate-200">Cloke K., Goldsmith J., <i>Jak rozwiązywać konflikty w pracy</i>, Wydawnictwo Amber, 2001, Warszawa.</li>
+          <li className="text-slate-500 dark:text-slate-200">Stephan W. G., Stephan C. W.: <i>Wywieranie wpływu przez grupy</i>, Gdańskie Wydawnictwo Psycholologiczne, 1999, Gdańsk.</li>
+          <li className="text-slate-500 dark:text-slate-200">Sikora J., <i>Zarządzanie konfliktem w zakładzie pracy</i>, TNOiK Oficyna Wydawnicza Ośrodka Postępu Organizacyjnego, 1998, Bydgoszcz.</li>
+          <li className="text-slate-500 dark:text-slate-200">Chełpa S., <i>Psychologia konfliktów. Praktyka radzenia sobie ze sporami</i>, Wydawnictwa Szkolne i Pedagogiczne, 1995, Warszawa.</li>
+          <li className="text-slate-500 dark:text-slate-200">Dana D., <i>Rozwiązywanie konfliktów</i>, PWE, 1993, Warszawa.</li>
+          <li className="text-slate-500 dark:text-slate-200">Girard R., <i>Kozioł ofiarny</i>, Wydawnictwo Łódzkie,, Łódź 1991.</li>
+          <li className="text-slate-500 dark:text-slate-200">Rummel-Syska Z., <i>Konflikty organizacyjne. Ujęcie mikrospołeczne</i>, PWN, 1990, Warszawa.</li>
+          <li className="text-slate-500 dark:text-slate-200">Agryle M., <i>Psychologia stosunków międzyludzkich</i>, 1990, Warszawa.</li>
+          <li className="text-slate-500 dark:text-slate-200"><i>Zachowanie człowieka w organizacji</i>, pr. zbiorowa pod red. Scotta W.E. i Cummingsa L. L., PWN, 1983, Warszawa.</li>
+          <li className="text-slate-500 dark:text-slate-200">Grzesiuk L., Trzebińska E., <i>Jak ludzie porozumiewają się</i>, Nasza Księgarnia, 1983, Warszawa.</li>
+          <li className="text-slate-500 dark:text-slate-200 mb-4">Brodski, <i>Nękany pracownik</i>, 1976.</li>
+        </ul>
+
+        <p className="text-slate-500 dark:text-slate-200 mb-4">
+        <b>Artykuły.</b></p>
+
+        <ul className="list-none">
+          <li className="text-slate-500 dark:text-slate-200">Szałkowski A., <i>Problem mobbingu w stosunkach pracy</i>, Praca i Zabezpieczenie Społeczne nr 9/2002</li>
+          <li className="text-slate-500 dark:text-slate-200">Szewczyk H., <i>Molestowanie seksualne i mobbing w miejscu pracy lub w związku z pracą - nowe wyzwanie dla polskiego prawa</i>, Praca i Zabezpieczenie Społeczne nr 6/2002</li>
+          <li className="text-slate-500 dark:text-slate-200">Kaczyńska-Maciejewska R., <i>Jak rozpoznać i zwalczać mobbing w firmie</i>, Personel i Zarządzanie nr 13/2002</li>
+          <li className="text-slate-500 dark:text-slate-200">Kaczyńska-Maciejowska R., <i>Koszmar w godzinach pracy</i>, Charaktery, nr 3/2002</li>
+          <li className="text-slate-500 dark:text-slate-200">Sołtys A., <i>Mobbing w organizacji-anatomia zjawiska</i>, Zeszyty Naukowe Wyższej Szkoły Humanistyczno-Ekonomicznej w Łodzi nr 4/2001</li>
+          <li className="text-slate-500 dark:text-slate-200">Wichrowska-Janikowska E., <i>Godność człowieka w stosunkach pracy</i>, Praca i Zabezpieczenie Społeczne nr 9/2001</li>
+          <li className="text-slate-500 dark:text-slate-200">Dyczkowski M., <i>W sprawie ochrony dóbr osobistych pracownika</i>, Praca i Zabezpieczenie Społeczne nr 5/2001</li>
+          <li className="text-slate-500 dark:text-slate-200">Doliniak B., <i>Pracownik pod presją. Jak zaradzić zjawisku mobbingu w miejscu pracy</i>, Personel i Zarządzanie nr 18/2001.</li>
+          <li className="text-slate-500 dark:text-slate-200">Aniszewska G., Gielnicka J., <i>Czarna owca. Mobbing jako patologia motywowania pracowników</i>, Personel i Zarządzanie nr 2/2000.</li>
+          <li className="text-slate-500 dark:text-slate-200">Chełpa S., <i>Termometr konfliktu</i>, Personel i Zarządzanie nr 2/2000.</li>
+          <li className="text-slate-500 dark:text-slate-200">Chełpa S., Witkowski T.: <i>Paradoks zgody, czyli zarządzanie w sytuacjach konfliktowych i zarządzanie poprzez konflikt</i>, Personel i Zarządzanie nr 10/1999</li>
+          <li className="text-slate-500 dark:text-slate-200 mb-4">Pietrzyk A., <i>Negocjacja i mediacja jako sposoby kierowania konfliktami</i>, Przegląd Psychologiczny nr 3-4 /1996</li>
+        </ul>
+
+      </article>
+
+
+
       </div>
          
      
