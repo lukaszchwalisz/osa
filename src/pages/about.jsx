@@ -36,41 +36,41 @@ const About = () => {
         </p>    
       </article>
 
-    <article>
+      <article>
 
-    <p className="text-slate-500 dark:text-slate-200 mb-4">
-      Misją Stowarzyszenia jest niesienie pomocy osobom poszkodowanym na skutek mobbingu oraz kształtowanie środowiska pracy wolnego od wszelkiej agresji,
-       przemocy psychicznej i fizycznej. W oparciu o nasze doświadczenie pragniemy przyczyniać się do rozwoju kapitału ludzkiego sprzyjającemu zanikowi zjawiska
-        mobbingu w miejscu pracy. Strategią Stowarzyszenia jest stworzenie sieci pomocowej na terenie całego kraju poprzez tzw. Punkty Konsultacyjne Zarządu OSA,
-         prowadzące działalność na swoim terenie. Punkty Konsultacyjne Zarządu OSA ściśle współpracują z Zarządem - są jego bezpośrednim poszerzeniem i reprezentacją
+        <p className="text-slate-500 dark:text-slate-200 mb-4">
+          Misją Stowarzyszenia jest niesienie pomocy osobom poszkodowanym na skutek mobbingu oraz kształtowanie środowiska pracy wolnego od wszelkiej agresji,
+          przemocy psychicznej i fizycznej. W oparciu o nasze doświadczenie pragniemy przyczyniać się do rozwoju kapitału ludzkiego sprzyjającemu zanikowi zjawiska
+          mobbingu w miejscu pracy. Strategią Stowarzyszenia jest stworzenie sieci pomocowej na terenie całego kraju poprzez tzw. Punkty Konsultacyjne Zarządu OSA,
+          prowadzące działalność na swoim terenie. Punkty Konsultacyjne Zarządu OSA ściśle współpracują z Zarządem - są jego bezpośrednim poszerzeniem i reprezentacją
           na danym terenie. Punkt prowadzony jest przez członka Stowarzyszenia, który spełnia warunki wstąpienia do Stowarzyszenia i chce podjąć się takiej funkcji.
-           Zarząd Stowarzyszenia w razie potrzeby koordynuje działanie punktów oraz monitoruje i kontroluje całość działalności. Utrzymuje też kontakt z osobami pokrzywdzonymi
-            z terenu całej Polski w formie korespondencji internetowej, pocztowej i telefonicznej.</p>
+          Zarząd Stowarzyszenia w razie potrzeby koordynuje działanie punktów oraz monitoruje i kontroluje całość działalności. Utrzymuje też kontakt z osobami pokrzywdzonymi
+          z terenu całej Polski w formie korespondencji internetowej, pocztowej i telefonicznej.</p>
 
-    </article>
+      </article>
 
-    <article>
+      <article>
 
-    <p className="text-slate-500 dark:text-slate-200 mb-4">
-    Stowarzyszenie opiera swoją działalność na nieodpłatnym świadczeniu pomocy przez członków stowarzyszenia i osoby współpracujące oraz na pracy wolontariuszy. 
-    Na swoją działalność pozyskuje środki finansowe ze składek członkowskich, darowizn, sponsoringu oraz dotacji z instytucji samorządowych, państwowych skierowanych
-     na konkretne programy pomocowe. Aspekt ten jest istotnym czynnikiem ograniczającym działalność stowarzyszenia z uwagi na niewielkie możliwości ich pozyskiwania.
-      Stowarzyszenie od początku swojego istnienia prowadzi nieodpłatną pomoc psychologiczno-prawną w formie informacji, edukacji, poradnictwa. Organizuje i prowadzi
-       samopomocowe grupy wsparcia dla osób pokrzywdzonych przemocą w pracy. W programach grup znajdują się elementy prawne mobbingu. Prowadzi badania grup pracowniczych
-        pod kątem występowania zjawiska mobbingu. Pomaga wielu osobom z całego kraju w pisaniu przez nich prac licencjackich, magisterskich, podyplomowych i doktoranckich
-         na temat mobbingu, udostępniając im materiał dotyczący rozwiązań poszczególnych przypadków. Prowadzi szkolenia, doradztwo dla pracodawców w zakresie przeciwdziałania
+        <p className="text-slate-500 dark:text-slate-200 mb-4">
+          Stowarzyszenie opiera swoją działalność na nieodpłatnym świadczeniu pomocy przez członków stowarzyszenia i osoby współpracujące oraz na pracy wolontariuszy. 
+          Na swoją działalność pozyskuje środki finansowe ze składek członkowskich, darowizn, sponsoringu oraz dotacji z instytucji samorządowych, państwowych skierowanych
+          na konkretne programy pomocowe. Aspekt ten jest istotnym czynnikiem ograniczającym działalność stowarzyszenia z uwagi na niewielkie możliwości ich pozyskiwania.
+          Stowarzyszenie od początku swojego istnienia prowadzi nieodpłatną pomoc psychologiczno-prawną w formie informacji, edukacji, poradnictwa. Organizuje i prowadzi
+          samopomocowe grupy wsparcia dla osób pokrzywdzonych przemocą w pracy. W programach grup znajdują się elementy prawne mobbingu. Prowadzi badania grup pracowniczych
+          pod kątem występowania zjawiska mobbingu. Pomaga wielu osobom z całego kraju w pisaniu przez nich prac licencjackich, magisterskich, podyplomowych i doktoranckich
+          na temat mobbingu, udostępniając im materiał dotyczący rozwiązań poszczególnych przypadków. Prowadzi szkolenia, doradztwo dla pracodawców w zakresie przeciwdziałania
           mobbingowi.</p>
       
-    </article>
+      </article>
 
-    <article>
+      <article>
 
-    <p className="text-slate-500 dark:text-slate-200 mb-4">
-    Świadomi niedoskonałości sposobów realizacji podstawowych regulacji prawnych, aktywnie uczestniczymy w procesie wpływania na uświadamianie praw i obowiązków zainteresowanych
-     stron zarówno w konkretnych sytuacjach (ocena interpretacji przepisów prawnych w trakcie sporów sądowych) jak i ciągłe sygnalizowanie (interwencje) odpowiedzialnym instytucjom
-      (organy ścigania, ministerstwa, inspekcje pracy, wojewodowie itp.) konieczności postępowania zgodnie z obowiązującym prawem.</p>
-     
-    </article>
+        <p className="text-slate-500 dark:text-slate-200 mb-4">
+          Świadomi niedoskonałości sposobów realizacji podstawowych regulacji prawnych, aktywnie uczestniczymy w procesie wpływania na uświadamianie praw i obowiązków zainteresowanych
+          stron zarówno w konkretnych sytuacjach (ocena interpretacji przepisów prawnych w trakcie sporów sądowych) jak i ciągłe sygnalizowanie (interwencje) odpowiedzialnym instytucjom
+          (organy ścigania, ministerstwa, inspekcje pracy, wojewodowie itp.) konieczności postępowania zgodnie z obowiązującym prawem.</p>
+      
+      </article>
 
     <article>
 
@@ -92,7 +92,7 @@ const About = () => {
 
     <article>
 
-      <h1 className="text-indigo-700 dark:text-indigo-400 font-bold font-mono text-2xl mb-4">Realizujemy poprzez:</h1>
+    <p className="text-slate-500 dark:text-slate-200 font-bold underline mb-4">Realizujemy poprzez:</p>
       <ul className="list-disc">
         <li className="text-slate-500 dark:text-slate-200">zrzeszanie w swoich szeregach specjainteresowanych identyfikacji i prewencji przypadków dyskryminacji i przemocy w miejscu pracy</li>
         <li className="text-slate-500 dark:text-slate-200">pomoc prawną, medyczną, psychologiczną</li>
@@ -216,10 +216,10 @@ const About = () => {
         </tbody>
       </table>
 
-
-    
     </div>
+
      </>
+
      );
   }
 
