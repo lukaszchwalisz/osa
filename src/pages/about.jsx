@@ -184,32 +184,32 @@ const About = () => {
         </tbody>
       </table>
 
-      <p className="text-slate-500 dark:text-slate-200 font-bold underline mb-4">Punkty konsultacyjne:</p>
+      <p className="text-slate-500 dark:text-slate-200 font-bold underline hover:text-indigo-400 mb-4"><Link to="/osa/kontakt">Punkty konsultacyjne:</Link></p>
       <table className="mb-4">
         <tbody>
  
           <tr>
-            <td className="text-left dark:text-slate-200 hover:underline hover:text-indigo-400"><b><Link to="/osa/kontakt">Gdańsk</Link></b></td>
+            <td className="text-left dark:text-slate-200 hover:underline hover:text-indigo-400"><b><a href="mailto:osa-poznan@wp.pl">Gdańsk</a></b></td>
             <td className="text-right dark:text-slate-200">Mariola Żarnoch</td>
           </tr>
           <tr>
-            <td className="text-left dark:text-slate-200 hover:underline hover:text-indigo-400"><b><Link to="/osa/kontakt">Lublin</Link></b></td>
+            <td className="text-left dark:text-slate-200 hover:underline hover:text-indigo-400"><b><a href="mailto:osa-lublin@wp.pl">Lublin</a></b></td>
             <td className="text-right dark:text-slate-200">Jadwiga Mucha</td>
           </tr>
           <tr>
-            <td className="text-left dark:text-slate-200 hover:underline hover:text-indigo-400"><b><Link to="/osa/kontakt">Jelenia Góra</Link></b></td>
+            <td className="text-left dark:text-slate-200 hover:underline hover:text-indigo-400"><b><a href="mailto:osa-jeleniagora@wp.pl">Jelenia Góra</a></b></td>
             <td className="text-right dark:text-slate-200">Lech Rębisz</td>
           </tr>
           <tr>
-            <td className="text-left dark:text-slate-200 hover:underline hover:text-indigo-400"><b><Link to="/osa/kontakt">Łęczyca</Link></b></td>
+            <td className="text-left dark:text-slate-200 hover:underline hover:text-indigo-400"><b><a href="mailto:osa-leczyca@wp.pl">Łęczyca</a></b></td>
             <td className="text-right dark:text-slate-200">Katarzyna Ratajczyk - Rusek</td>
           </tr>
           <tr>
-            <td className="text-left dark:text-slate-200 hover:underline hover:text-indigo-400"><b><Link to="/osa/kontakt">Lubań</Link></b></td>
+            <td className="text-left dark:text-slate-200 hover:underline hover:text-indigo-400"><b><a href="mailto:osa-luban@wp.pl">Lubań</a></b></td>
             <td className="text-right dark:text-slate-200">Katarzyna Urbaniak</td>
           </tr>
           <tr>
-            <td className="text-left dark:text-slate-200 hover:underline hover:text-indigo-400"><b><Link to="/osa/kontakt">Poznań</Link></b></td>
+            <td className="text-left dark:text-slate-200 hover:underline hover:text-indigo-400"><b><a href="mailto:osa-poznan@wp.pl">Poznań</a></b></td>
             <td className="text-right dark:text-slate-200">Łukasz Chwalisz</td>
           </tr>
 
