@@ -47,7 +47,7 @@ const Wiedza = () => {
       </article>
       
       <article>
-        <h1 className="text-indigo-700 dark:text-indigo-400 font-bold font-mono text-2xl mb-4">Bullying</h1>
+        <h1 className="text-indigo-700 dark:text-indigo-400 font-bold font-mono text-lg mb-4">Bullying</h1>
         <p className="text-slate-500 dark:text-slate-200 mb-4">
         Równolegle do teorii Heinza Leymanna, w Anglii rozwijało się pojęcie bullyingu.
         Bully, czyli obchodzenie się brutalnie, dręczenie, a nawet atakowanie słabszych.
@@ -61,7 +61,7 @@ const Wiedza = () => {
 
 
       <article>
-        <h1 className="text-indigo-700 dark:text-indigo-400 font-bold font-mono text-2xl mb-4">Harassment</h1>
+        <h1 className="text-indigo-700 dark:text-indigo-400 font-bold font-mono text-lg mb-4">Harassment</h1>
         <p className="text-slate-500 dark:text-slate-200 mb-4">
         W Stanach Zjednoczonych termin mobbing, określany jako harassment został wprowadzony w
         1990 roku po ukazaniu się artykułu Heinza Leymanna, w czasopiśmie Violence and Victims.
@@ -73,7 +73,7 @@ const Wiedza = () => {
       </article>
 
       <article>
-        <h1 className="text-indigo-700 dark:text-indigo-400 font-bold font-mono text-2xl mb-4">Whistleblowers</h1>
+        <h1 className="text-indigo-700 dark:text-indigo-400 font-bold font-mono text-lg mb-4">Whistleblowers</h1>
         <p className="text-slate-500 dark:text-slate-200 mb-4">
         W sensie dosłownym człowiekiem tym (whistleblowerem) jest ten, który bije na alarm lub zdradza
         spisek, przez co staje się ofiarą represji. Bierze na siebie uwrażliwienie opinii publicznej
@@ -85,7 +85,7 @@ const Wiedza = () => {
 
 
       <article>
-        <h1 className="text-indigo-700 dark:text-indigo-400 font-bold font-mono text-2xl mb-4">Ijime</h1>
+        <h1 className="text-indigo-700 dark:text-indigo-400 font-bold font-mono text-lg mb-4">Ijime</h1>
         <p className="text-slate-500 dark:text-slate-200 mb-4">
         Molestowanie moralne w Japonii jest zjawiskiem bardzo dawnym. Jak inne terminy, ijimme oznacza
         molestować i stosuje się go po to, aby opisać docinki i upokorzenia doznawane przez dzieci w szkole,
@@ -95,7 +95,7 @@ const Wiedza = () => {
       </article>
 
       <article>
-        <h1 className="text-indigo-700 dark:text-indigo-400 font-bold font-mono text-2xl mb-4">Molestowanie moralne</h1>
+        <h1 className="text-indigo-700 dark:text-indigo-400 font-bold font-mono text-lg mb-4">Molestowanie moralne</h1>
         <p className="text-slate-500 dark:text-slate-200 mb-4">
         Termin ten został użyty przez Marie-France Hirigoyen w opublikowanej we Francji 1998r. książce "Molestowanie moralne".
         Perwersyjna przemoc w życiu codziennym i Molestowanie w pracy ( w Polsce publikacje ukazały się w Polsce kolejno w 2002r i 2003r.
