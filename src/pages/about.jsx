@@ -189,7 +189,7 @@ const About = () => {
         <tbody>
  
           <tr>
-            <td className="text-left dark:text-slate-200 hover:underline hover:text-indigo-400"><b><a href="mailto:osa-poznan@wp.pl">Gdańsk</a></b></td>
+            <td className="text-left dark:text-slate-200 hover:underline hover:text-indigo-400"><b><a href="mailto:osa_stowarzyszenie@wp.pl">Gdańsk</a></b></td>
             <td className="text-right dark:text-slate-200">Mariola Żarnoch</td>
           </tr>
           <tr>
