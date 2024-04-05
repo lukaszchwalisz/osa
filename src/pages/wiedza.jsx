@@ -1,7 +1,7 @@
 
 /* eslint-disable react/no-unescaped-entities */
 
-import { Link } from "react-router-dom"
+// import { Link } from "react-router-dom"
 import { Tabs } from "flowbite-react"
 
 const Wiedza = () => {
