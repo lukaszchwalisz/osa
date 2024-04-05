@@ -1,124 +1,130 @@
 
 /* eslint-disable react/no-unescaped-entities */
 
+import { Link } from "react-router-dom"
+import { Tabs } from "flowbite-react"
+
 const Wiedza = () => {
   return (
        <>
-
       <div className="grid justify-center sm:mx-0 md:mx-0 lg:mx-20 xl:mx-40 2xl:mx-80">
       
-      <article >
-        <h1 className="text-indigo-700 dark:text-indigo-400 font-bold font-mono text-2xl mb-4">Warto wiedzieć - charakterystyka zjawiska mobbingu.</h1>
-        <p className="text-slate-500 dark:text-slate-200 mb-4">
-        Mobbing dotyczy głównie obszarów nękania psychicznego, dyskryminacji i prześladowania w miejscu pracy.
-        Ma wiele postaci może to być wyjątkowo zjadliwa krytyka, negowanie wartości wykonanej pracy,
-        przerywanie wypowiedzi lub niedopuszczanie do głosu. U podstaw mobbingu leży zawsze jakiś konflikt,
-        którego przyczyn upatruje się nie w sprzeczności interesów, ale w danej osobie.
-        Nie każdy konflikt jest mobbingiem. Różnica miedzy konfliktem a mobbingiem jest taka,
-        iż w konflikcie są dwie strony chętne do jego rozwiązania a w mobbingu takiej sytuacji nie ma.
-        Konflikt trwa krótko, może być sytuacją jednorazową. Mobbing trwa jakiś czas dotyczy jednej osoby
-        (ofiary), możliwość kompromisu nie wchodzi w grę i ma na celu wyeliminowanie jej z zespołu
-        pracowniczego. Należy zwrócić uwagę na możliwość fałszywego obwiniania o stosowanie mobbingu.
-        Zjawisko to może stać się furtką do nadużyć ze strony osób, którym po prostu nie chce się
-        pracować. Nie każdy przypadek krytykowania czy okazywania niechęci danej osobie jest przejawem
-        lobbingu.
-        </p>
+      <Tabs aria-label="Pills" style="pills">
+      <Tabs.Item title="Mobbing jako zjawisko społeczne">
+        <article >
+          <h1 className="text-indigo-700 dark:text-indigo-400 font-bold font-mono text-2xl mt-8 mb-4">Charakterystyka zjawiska mobbingu.</h1>
+          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          Mobbing dotyczy głównie obszarów nękania psychicznego, dyskryminacji i prześladowania w miejscu pracy.
+          Ma wiele postaci może to być wyjątkowo zjadliwa krytyka, negowanie wartości wykonanej pracy,
+          przerywanie wypowiedzi lub niedopuszczanie do głosu. U podstaw mobbingu leży zawsze jakiś konflikt,
+          którego przyczyn upatruje się nie w sprzeczności interesów, ale w danej osobie.
+          Nie każdy konflikt jest mobbingiem. Różnica miedzy konfliktem a mobbingiem jest taka,
+          iż w konflikcie są dwie strony chętne do jego rozwiązania a w mobbingu takiej sytuacji nie ma.
+          Konflikt trwa krótko, może być sytuacją jednorazową. Mobbing trwa jakiś czas dotyczy jednej osoby
+          (ofiary), możliwość kompromisu nie wchodzi w grę i ma na celu wyeliminowanie jej z zespołu
+          pracowniczego. Należy zwrócić uwagę na możliwość fałszywego obwiniania o stosowanie mobbingu.
+          Zjawisko to może stać się furtką do nadużyć ze strony osób, którym po prostu nie chce się
+          pracować. Nie każdy przypadek krytykowania czy okazywania niechęci danej osobie jest przejawem
+          lobbingu.
+          </p>
 
-        <p className="text-slate-500 dark:text-slate-200 mb-4">
-        Zjawisko mobbingu w miejscu pracy istnieje od dawna, ale dopiero na początku lat 80-tych XX wieku
-        zostało bliżej rozpoznane i zbadane przez mieszkającego w Szwecji doktora psychologii pracy Heinza
-        Leymanna, który wprowadza koncepcje mobbingu, aby opisać ciężkie postaci molestowania w
-        organizacjach. Termin ten, został po raz pierwszy użyty przez Konrada Lorenza w odniesieniu do
-        agresywnych zachowań grup zwierząt chcących przegnać intruza. Został w latach 60-tych
-        podchwycony przez szwedzkiego lekarza Petera Paula Heinemanna i wykorzystany do opisania
-        wrogich zachowań dzieci w szkołach. Termin mobbing pochodzi od angielskiego czasownika
-        to mob oznaczający: szarpać, atakować, źle się obchodzić, oblegać. Co do rzeczownika mob,
-        oznacza on tłum, zgraję. W języku angielskim Mob pisane dużą literą oznacza mafię.
-        Dla Heinza Leymanna mobbing polega na częstym i powtarzalnym wrogim działaniu w miejscu
-        pracy, wymierzanym systematycznie przeciwko jednej osobie. Jego zdaniem mobbing jest
-        skutkiem konfliktu, który z czasem degeneruje.
-        </p>
-        <p className="text-slate-500 dark:text-slate-200 mb-4">
-        W ujęciu socjologicznym ( psychologicznym ) mobbing jest określany jako terror psychiczny,
-        zaczepianie, izolowanie, obmawianie, nieprzyjazne wypowiedzi i zachowanie grupy osób albo osoby
-        w stosunku do innej osoby lub grupy zmierzające do wyłączenia danej osoby z zespołu zawodowego
-        lub koleżeńskiego.
-        </p>
-      </article>
-      
+          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          Zjawisko mobbingu w miejscu pracy istnieje od dawna, ale dopiero na początku lat 80-tych XX wieku
+          zostało bliżej rozpoznane i zbadane przez mieszkającego w Szwecji doktora psychologii pracy Heinza
+          Leymanna, który wprowadza koncepcje mobbingu, aby opisać ciężkie postaci molestowania w
+          organizacjach. Termin ten, został po raz pierwszy użyty przez Konrada Lorenza w odniesieniu do
+          agresywnych zachowań grup zwierząt chcących przegnać intruza. Został w latach 60-tych
+          podchwycony przez szwedzkiego lekarza Petera Paula Heinemanna i wykorzystany do opisania
+          wrogich zachowań dzieci w szkołach. Termin mobbing pochodzi od angielskiego czasownika
+          to mob oznaczający: szarpać, atakować, źle się obchodzić, oblegać. Co do rzeczownika mob,
+          oznacza on tłum, zgraję. W języku angielskim Mob pisane dużą literą oznacza mafię.
+          Dla Heinza Leymanna mobbing polega na częstym i powtarzalnym wrogim działaniu w miejscu
+          pracy, wymierzanym systematycznie przeciwko jednej osobie. Jego zdaniem mobbing jest
+          skutkiem konfliktu, który z czasem degeneruje.
+          </p>
+          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          W ujęciu socjologicznym ( psychologicznym ) mobbing jest określany jako terror psychiczny,
+          zaczepianie, izolowanie, obmawianie, nieprzyjazne wypowiedzi i zachowanie grupy osób albo osoby
+          w stosunku do innej osoby lub grupy zmierzające do wyłączenia danej osoby z zespołu zawodowego
+          lub koleżeńskiego.
+          </p>
+        </article>
+        
+        <article>
+          <h1 className="text-indigo-700 dark:text-indigo-400 font-bold font-mono text-lg mb-4">Bullying</h1>
+          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          Równolegle do teorii Heinza Leymanna, w Anglii rozwijało się pojęcie bullyingu.
+          Bully, czyli obchodzenie się brutalnie, dręczenie, a nawet atakowanie słabszych.
+          Termin ten początkowo nie dotyczył środowiska pracy. Używano go w sytuacjach opisywania szykan,
+          gróźb, które dzieci stosowały w stosunku do innych dzieci. Następnie termin ten służył do
+          opisywania napaści w armii, klubach sportowych, w życiu rodzinnym, zwłaszcza u osób starszych.
+          W 1984 roku R.S Lazarus wprowadził ten termin do psychologii pracy, gdzie zakwalifikował go
+          jako stres społeczny.
+          </p>
+        </article>
+
+
+        <article>
+          <h1 className="text-indigo-700 dark:text-indigo-400 font-bold font-mono text-lg mb-4">Harassment</h1>
+          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          W Stanach Zjednoczonych termin mobbing, określany jako harassment został wprowadzony w
+          1990 roku po ukazaniu się artykułu Heinza Leymanna, w czasopiśmie Violence and Victims.
+          Zjawisko zostało to jednak wcześniej opisane przez amerykańskiego psychiatrę dr Carrolla
+          Brodskya, w książce zatytułowanej The Harassed Worker. Jego zdaniem molestowanie polega
+          na powtarzalnych i uporczywych atakach jednej osoby wobec drugiej, wywołującej w niej niepokój,
+          frustracje.
+          </p>
+        </article>
+
+        <article>
+          <h1 className="text-indigo-700 dark:text-indigo-400 font-bold font-mono text-lg mb-4">Whistleblowers</h1>
+          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          W sensie dosłownym człowiekiem tym (whistleblowerem) jest ten, który bije na alarm lub zdradza
+          spisek, przez co staje się ofiarą represji. Bierze na siebie uwrażliwienie opinii publicznej
+          na malwersacje, akty korupcji, czy pogwałcenia prawa w jednostkach budżetowych i urzędach
+          administracji państwowej, w których pracuje. Dotychczas najbardziej narażone były dziedziny
+          związane z systemem lecznictwa i wojskiem.
+          </p>
+        </article>
+
+
+        <article>
+          <h1 className="text-indigo-700 dark:text-indigo-400 font-bold font-mono text-lg mb-4">Ijime</h1>
+          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          Molestowanie moralne w Japonii jest zjawiskiem bardzo dawnym. Jak inne terminy, ijimme oznacza
+          molestować i stosuje się go po to, aby opisać docinki i upokorzenia doznawane przez dzieci w szkole,
+          lecz także aby opisać presję grupy w przedsiębiorstwach japońskich mających na celu uformowanie
+          młodych rekrutów czy uspokojenie osób wprowadzających zamęt.
+          </p>
+        </article>
+
+        <article>
+          <h1 className="text-indigo-700 dark:text-indigo-400 font-bold font-mono text-lg mb-4">Molestowanie moralne</h1>
+          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          Termin ten został użyty przez Marie-France Hirigoyen w opublikowanej we Francji 1998r. książce "Molestowanie moralne".
+          Perwersyjna przemoc w życiu codziennym i Molestowanie w pracy ( w Polsce publikacje ukazały się w Polsce kolejno w 2002r i 2003r.
+          nakładem wydawnictwa W drodze ). Według autorki molestowaniem moralnym w pracy nazywa się wszelkie niewłaściwe postępowanie
+          ( gest, słowo, zachowanie, postawę...), które przez swą powtarzalność czy systematyczność narusza godność lub integralność psychiczną
+          bądź fizyczną osoby, narażając ją na utratę zatrudnienia lub pogarszając atmosferę pracy. ( Molestowanie w pracy str. 11 )
+          </p>
+          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          W ujęciu socjologicznym ( psychologicznym ) mobbing jest określany jako terror psychiczny, zaczepianie, izolowanie, obmawianie,
+          nieprzyjazne wypowiedzi i zachowanie grupy osób albo osoby w stosunku do innej osoby lub grupy, zmierzające do wyłączenia danej
+          osoby z zespołu zawodowego lub koleżeńskiego.
+          </p>
+          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          Na podstawie przeprowadzonych w Szwecji badań stwierdzono, że 3,5% pracowników jest ofiarami mobbingu. Zjawisko to zostało opublikowane
+          w raporcie w The National Board of Occupation Safety & Health in Stockholm dopiero w 1993. Problemem tym zainteresowały się także inne kraje.
+          Badania przeprowadzone dla Unii Europejskiej przez Fundację Dublińską wykazały, że w ciągu roku w różnych krajach Unii, mobbingowi zostało
+          poddanych około 12 mln osób. W samych Niemczech, według danych organizacji pracowniczych i związków zawodowych było ich około 1,5 mln.
+          Roczne straty niemieckiej gospodarki z tego tytułu szacowane są na 30 mld marek. Jest to, więc zjawisko bardzo kosztowne.
+          </p>
+        </article>
+    
+      </Tabs.Item>
+      <Tabs.Item title="Przyczyny">
       <article>
-        <h1 className="text-indigo-700 dark:text-indigo-400 font-bold font-mono text-lg mb-4">Bullying</h1>
-        <p className="text-slate-500 dark:text-slate-200 mb-4">
-        Równolegle do teorii Heinza Leymanna, w Anglii rozwijało się pojęcie bullyingu.
-        Bully, czyli obchodzenie się brutalnie, dręczenie, a nawet atakowanie słabszych.
-        Termin ten początkowo nie dotyczył środowiska pracy. Używano go w sytuacjach opisywania szykan,
-        gróźb, które dzieci stosowały w stosunku do innych dzieci. Następnie termin ten służył do
-        opisywania napaści w armii, klubach sportowych, w życiu rodzinnym, zwłaszcza u osób starszych.
-        W 1984 roku R.S Lazarus wprowadził ten termin do psychologii pracy, gdzie zakwalifikował go
-        jako stres społeczny.
-        </p>
-      </article>
-
-
-      <article>
-        <h1 className="text-indigo-700 dark:text-indigo-400 font-bold font-mono text-lg mb-4">Harassment</h1>
-        <p className="text-slate-500 dark:text-slate-200 mb-4">
-        W Stanach Zjednoczonych termin mobbing, określany jako harassment został wprowadzony w
-        1990 roku po ukazaniu się artykułu Heinza Leymanna, w czasopiśmie Violence and Victims.
-        Zjawisko zostało to jednak wcześniej opisane przez amerykańskiego psychiatrę dr Carrolla
-        Brodskya, w książce zatytułowanej The Harassed Worker. Jego zdaniem molestowanie polega
-        na powtarzalnych i uporczywych atakach jednej osoby wobec drugiej, wywołującej w niej niepokój,
-        frustracje.
-        </p>
-      </article>
-
-      <article>
-        <h1 className="text-indigo-700 dark:text-indigo-400 font-bold font-mono text-lg mb-4">Whistleblowers</h1>
-        <p className="text-slate-500 dark:text-slate-200 mb-4">
-        W sensie dosłownym człowiekiem tym (whistleblowerem) jest ten, który bije na alarm lub zdradza
-        spisek, przez co staje się ofiarą represji. Bierze na siebie uwrażliwienie opinii publicznej
-        na malwersacje, akty korupcji, czy pogwałcenia prawa w jednostkach budżetowych i urzędach
-        administracji państwowej, w których pracuje. Dotychczas najbardziej narażone były dziedziny
-        związane z systemem lecznictwa i wojskiem.
-        </p>
-      </article>
-
-
-      <article>
-        <h1 className="text-indigo-700 dark:text-indigo-400 font-bold font-mono text-lg mb-4">Ijime</h1>
-        <p className="text-slate-500 dark:text-slate-200 mb-4">
-        Molestowanie moralne w Japonii jest zjawiskiem bardzo dawnym. Jak inne terminy, ijimme oznacza
-        molestować i stosuje się go po to, aby opisać docinki i upokorzenia doznawane przez dzieci w szkole,
-        lecz także aby opisać presję grupy w przedsiębiorstwach japońskich mających na celu uformowanie
-        młodych rekrutów czy uspokojenie osób wprowadzających zamęt.
-        </p>
-      </article>
-
-      <article>
-        <h1 className="text-indigo-700 dark:text-indigo-400 font-bold font-mono text-lg mb-4">Molestowanie moralne</h1>
-        <p className="text-slate-500 dark:text-slate-200 mb-4">
-        Termin ten został użyty przez Marie-France Hirigoyen w opublikowanej we Francji 1998r. książce "Molestowanie moralne".
-        Perwersyjna przemoc w życiu codziennym i Molestowanie w pracy ( w Polsce publikacje ukazały się w Polsce kolejno w 2002r i 2003r.
-        nakładem wydawnictwa W drodze ). Według autorki molestowaniem moralnym w pracy nazywa się wszelkie niewłaściwe postępowanie
-        ( gest, słowo, zachowanie, postawę...), które przez swą powtarzalność czy systematyczność narusza godność lub integralność psychiczną
-        bądź fizyczną osoby, narażając ją na utratę zatrudnienia lub pogarszając atmosferę pracy. ( Molestowanie w pracy str. 11 )
-        </p>
-        <p className="text-slate-500 dark:text-slate-200 mb-4">
-        W ujęciu socjologicznym ( psychologicznym ) mobbing jest określany jako terror psychiczny, zaczepianie, izolowanie, obmawianie,
-        nieprzyjazne wypowiedzi i zachowanie grupy osób albo osoby w stosunku do innej osoby lub grupy, zmierzające do wyłączenia danej
-        osoby z zespołu zawodowego lub koleżeńskiego.
-        </p>
-        <p className="text-slate-500 dark:text-slate-200 mb-4">
-        Na podstawie przeprowadzonych w Szwecji badań stwierdzono, że 3,5% pracowników jest ofiarami mobbingu. Zjawisko to zostało opublikowane
-        w raporcie w The National Board of Occupation Safety & Health in Stockholm dopiero w 1993. Problemem tym zainteresowały się także inne kraje.
-        Badania przeprowadzone dla Unii Europejskiej przez Fundację Dublińską wykazały, że w ciągu roku w różnych krajach Unii, mobbingowi zostało
-        poddanych około 12 mln osób. W samych Niemczech, według danych organizacji pracowniczych i związków zawodowych było ich około 1,5 mln.
-        Roczne straty niemieckiej gospodarki z tego tytułu szacowane są na 30 mld marek. Jest to, więc zjawisko bardzo kosztowne.
-        </p>
-      </article>
-
-      <article>
-        <h1 className="text-indigo-700 dark:text-indigo-400 font-bold font-mono text-2xl mb-4">Przyczyny sprzyjające zaistnieniu mobbingu</h1>
+        <h1 className="text-indigo-700 dark:text-indigo-400 font-bold font-mono text-2xl mt-8 mb-4">Przyczyny sprzyjające zaistnieniu zjawiska mobbingu.</h1>
         <p className="text-slate-500 dark:text-slate-200 mb-4">
         Przyczyny społeczne wśród nich wymienia się bezrobocie, stałe zagrożenie utratą pracy i skłonności, świadomych tego
         faktu przełożonych, do wykorzystania takiej sytuacji w kontaktach z personelem. Sprzyjają temu też sztywne struktury
@@ -147,9 +153,10 @@ const Wiedza = () => {
         sposób wyróżniających się z grupy. Dążeniem grupy jest wtedy dyskryminacja takiej osoby i jej wyeliminowanie.
         </p>
       </article>
-
+      </Tabs.Item>
+      <Tabs.Item title="Typologie mobberów">
       <article>
-        <h1 className="text-indigo-700 dark:text-indigo-400 font-bold font-mono text-2xl mb-4">Typologie mobberów</h1>
+        <h1 className="text-indigo-700 dark:text-indigo-400 font-bold font-mono text-2xl mt-8 mb-4">Typologie mobberów</h1>
         <p className="text-slate-500 dark:text-slate-200 mb-4">
         G. Namie i R. Namie amerykańscy psychologowie, wyróżnili trzy typy prześladowców w firmie (Sidor Rządkowska, 2003):
         </p>
@@ -178,9 +185,26 @@ const Wiedza = () => {
     
         </ul>
       </article>
+      </Tabs.Item>
 
+      <Tabs.Item title="Typologia ofiar mobbingu">
       <article>
-      <h1 className="text-indigo-700 dark:text-indigo-400 font-bold font-mono text-2xl mb-4">Cechy mobbingu</h1>
+        <h1 className="text-indigo-700 dark:text-indigo-400 font-bold font-mono text-2xl mt-8 mb-4">
+        Ofiary mobbingu</h1>
+        <p className="text-slate-500 dark:text-slate-200 mb-4">
+        Nie są to osoby wcześniej dotknięte jakąś patologią lub szczególnie słabe. Przeciwnie bardzo często zjawisko pojawia się,
+        gdy ofiara reaguje na autorytaryzm szefa i odmawia podporządkowania się. Jest wśród nich wiele osób skrupulatnych,
+        odznaczających się pracowitością, szczególnie zaangażowanych w pracy, przewyższających wykształceniem i kompetencjami
+        zwierzchników. Mobbing może dotykać także osoby różnej płci, rasy, religii, itp., posiadające coś, czego inni nie mają
+        np. młodość, urodę, bogactwo, komunikatywność itd. Celem działania sprawcy jest niszczenie opinii ofiary i szkodzenie aż
+        do jej usunięcia z zajmowanego miejsca. Stopniowo niszczy się więc jej reputację, zakłóca stosunki interpersonalne,
+        wpływa negatywnie na jakość wykonywanej pracy. Osoba mobbingowana odczuwa silny stres.
+        </p>
+      </article>
+      </Tabs.Item>
+      <Tabs.Item title="Cechy">
+      <article>
+      <h1 className="text-indigo-700 dark:text-indigo-400 font-bold font-mono text-2xl mt-8 mb-4">Cechy mobbingu</h1>
       <p className="text-slate-500 dark:text-slate-200 mb-4">
       Na podstawie swoich badań Heinz Leymann, wyróżnił 45 aktywności mobbingowych. Według jego obserwacji mobbing można diagnozować w przypadku, gdy wobec ofiary stosowana jest, chociaż jedna z wymienionych niżej sytuacji:
       </p>
@@ -252,81 +276,41 @@ const Wiedza = () => {
         </ul>
 
       </article>
-
+      </Tabs.Item>
+      <Tabs.Item title="Płaszczyzny występowania">
       <article>
       
-        <h1 className="text-indigo-700 dark:text-indigo-400 font-bold font-mono text-2xl mb-4">
-        Płaszczyzny występowania zjawiska</h1>         
-        <p className="text-slate-500 dark:text-slate-200 mb-4">
-        Na płaszczyźnie współpracowników źródłem prześladowania może być osobista niechęć danych osób,
-        wynikająca z jakichś zdarzeń z przeszłości, próba pokazania się w lepszym świetle kosztem drugiej osoby,
-        zazdrość o coś, co posiadają inni np. uroda, młodość, umiejętności, wykształcenie. Nadmierne ingerowanie
-        zwierzchników w takie konflikty przynosi czasami zupełnie odwrotne efekty i dodatkowe posądzenia o
-        faworyzowanie danej osoby, czy podteksty seksualne. Jednak brak jakiejkolwiek interwencji jest jeszcze gorszy,
-        ponieważ oznacza przyzwolenie na stosowanie takich praktyk, rodzi poczucie bezkarności i rozprzestrzenianie się
-        nieetycznych zachowań. Większość kadry kierowniczej w firmach zazwyczaj nie posiada kompetencji menedżerskich i
-        chociaż ma dużą wiedzę zawodową, to nie wie jak się zachować w takich sytuacjach. Dlatego woli ich nie zauważać,
-        zamiast zdecydowanie zareagować. 
-        </p>
-        <p className="text-slate-500 dark:text-slate-200 mb-4">
-        W układzie podwładny zwierzchnik zdarza się, gdy przełożony przychodzi z zewnątrz firmy, zachowuje się i działa w
-        sposób nieakceptowany przez grupę i nic nie robi by przekonać do siebie zespół, którym kieruje. Inny przypadek,
-        gdy dawny kolega otrzymuje awans, na który w przekonaniu innych nie zasługuje. Jego polecenia mogą być wtedy z
-        rozmysłem błędnie interpretowane, wykonywane ślamazarnie czy wręcz bojkotowane.
-        </p>
-        <p className="text-slate-500 dark:text-slate-200 mb-4">
-        W układzie zwierzchnik podwładny jest najczęstszym przypadkiem mobbingu. W atmosferze obawy o swoje miejsce pracy
-        podwładny staje się łatwym przeciwnikiem. Zwierzchnik wykorzystuje swoją pozycję, nadużywa władzy, stosuje sposób
-        zarządzania przez zastraszanie. Ma to na celu odwrócenie uwagi od własnej niekompetencji albo dowartościowania się
-        szefów niższego szczebla, zawiedzionych w swoich ambicjach. Taki sposób zarządzania jest mało efektywny i nieskuteczny,
-        ale w błędnym przekonaniu niektórych zapewnia posłuszeństwo i maksymalną wydajność pracowników.
-        </p>
-      </article>
-
+      <h1 className="text-indigo-700 dark:text-indigo-400 font-bold font-mono text-2xl mt-8 mb-4">
+      Płaszczyzny występowania zjawiska</h1>         
+      <p className="text-slate-500 dark:text-slate-200 mb-4">
+      Na płaszczyźnie współpracowników źródłem prześladowania może być osobista niechęć danych osób,
+      wynikająca z jakichś zdarzeń z przeszłości, próba pokazania się w lepszym świetle kosztem drugiej osoby,
+      zazdrość o coś, co posiadają inni np. uroda, młodość, umiejętności, wykształcenie. Nadmierne ingerowanie
+      zwierzchników w takie konflikty przynosi czasami zupełnie odwrotne efekty i dodatkowe posądzenia o
+      faworyzowanie danej osoby, czy podteksty seksualne. Jednak brak jakiejkolwiek interwencji jest jeszcze gorszy,
+      ponieważ oznacza przyzwolenie na stosowanie takich praktyk, rodzi poczucie bezkarności i rozprzestrzenianie się
+      nieetycznych zachowań. Większość kadry kierowniczej w firmach zazwyczaj nie posiada kompetencji menedżerskich i
+      chociaż ma dużą wiedzę zawodową, to nie wie jak się zachować w takich sytuacjach. Dlatego woli ich nie zauważać,
+      zamiast zdecydowanie zareagować. 
+      </p>
+      <p className="text-slate-500 dark:text-slate-200 mb-4">
+      W układzie podwładny zwierzchnik zdarza się, gdy przełożony przychodzi z zewnątrz firmy, zachowuje się i działa w
+      sposób nieakceptowany przez grupę i nic nie robi by przekonać do siebie zespół, którym kieruje. Inny przypadek,
+      gdy dawny kolega otrzymuje awans, na który w przekonaniu innych nie zasługuje. Jego polecenia mogą być wtedy z
+      rozmysłem błędnie interpretowane, wykonywane ślamazarnie czy wręcz bojkotowane.
+      </p>
+      <p className="text-slate-500 dark:text-slate-200 mb-4">
+      W układzie zwierzchnik podwładny jest najczęstszym przypadkiem mobbingu. W atmosferze obawy o swoje miejsce pracy
+      podwładny staje się łatwym przeciwnikiem. Zwierzchnik wykorzystuje swoją pozycję, nadużywa władzy, stosuje sposób
+      zarządzania przez zastraszanie. Ma to na celu odwrócenie uwagi od własnej niekompetencji albo dowartościowania się
+      szefów niższego szczebla, zawiedzionych w swoich ambicjach. Taki sposób zarządzania jest mało efektywny i nieskuteczny,
+      ale w błędnym przekonaniu niektórych zapewnia posłuszeństwo i maksymalną wydajność pracowników.
+      </p>
+    </article>
+      </Tabs.Item>
+      <Tabs.Item title="Skutki">
       <article>  
-        <h1 className="text-indigo-700 dark:text-indigo-400 font-bold font-mono text-2xl mb-4">
-        Etapy przebiegu zjawiska</h1>
-        <p className="text-slate-500 dark:text-slate-200 mb-4">
-        W początkowym etapie osoba, która zaczyna być szykanowana nie zdaje jeszcze sobie z tego sprawy. Próbuje działać
-        racjonalnie, załagodzić lub rozwiązać sporadyczne konflikty, ale bezskutecznie. Podważa się jej wiedzę i umiejętności,
-        rozsiewa plotki i pomówienia, stopniowo prowadząc do jej wyobcowania z grupy i obniżenia samooceny. Kolejne próby
-        poprawienia sytuacji prowadzą do nasilenia przemocy i ciągłego już nękania psychicznego. Ciągłe stany napięcia nerwowego
-        ofiary prowadzą ją do reakcji stresowych, zakłóceń koncentracji, stanów zwątpienia, zakłóceń snu, złego samopoczucia i
-        strachu przed pójściem do pracy.
-        </p>
-        <p className="text-slate-500 dark:text-slate-200 mb-4">
-        Etap drugi to utrwalenie powstałych zachowań i negatywnej opinii o ofierze, jako osobie np. nadwrażliwej, konfliktowej
-        czy przemądrzałej. Zaczynają się niesprawiedliwe upomnienia, straszenie, degradacja pozycji w grupie poprzez przydzielanie
-        mało ważnych zadań. Ciągłe nieuzasadnione pretensje i oskarżenia, poczucie całkowitej bezsilności, mogą wywoływać
-        zachowania agresywne ofiary, pogrążając ją jeszcze bardziej. Praca w ciągłym napięciu i stresie prowadzi do popełniania
-        błędów, a te z kolei są powodem następnych przytyków i drwin. Skutki zdrowotne na tym etapie to różne dolegliwości
-        psychosomatyczne, wymagające interwencji lekarskiej np. choroby wrzodowe żołądka i dwunastnicy, zawał mięśnia sercowego,
-        udar mózgu czy astma oskrzelowa. Osoba mobbingowana coraz częściej przebywa na zwolnieniu chorobowym. Próba znalezienia
-        innej pracy kończy się przeważnie niepowodzeniem.   
-        </p>
-        <p className="text-slate-500 dark:text-slate-200 mb-4">
-        W fazie trzeciej, bardzo zaawansowanych już działań psychicznego prześladowania, sytuacja ulega dramatycznemu zaostrzeniu.
-        Osoba poszkodowana nie potrafi już sprostać obowiązkom zawodowym. Jej stan fizyczny i psychiczny pogarsza się tak bardzo,
-        że wymaga pomocy medycznej i psychologicznej.
-        </p>
-      </article>
-
-      <article>
-        <h1 className="text-indigo-700 dark:text-indigo-400 font-bold font-mono text-2xl mb-4">
-        Ofiary mobbingu</h1>
-        <p className="text-slate-500 dark:text-slate-200 mb-4">
-        Nie są to osoby wcześniej dotknięte jakąś patologią lub szczególnie słabe. Przeciwnie bardzo często zjawisko pojawia się,
-        gdy ofiara reaguje na autorytaryzm szefa i odmawia podporządkowania się. Jest wśród nich wiele osób skrupulatnych,
-        odznaczających się pracowitością, szczególnie zaangażowanych w pracy, przewyższających wykształceniem i kompetencjami
-        zwierzchników. Mobbing może dotykać także osoby różnej płci, rasy, religii, itp., posiadające coś, czego inni nie mają
-        np. młodość, urodę, bogactwo, komunikatywność itd. Celem działania sprawcy jest niszczenie opinii ofiary i szkodzenie aż
-        do jej usunięcia z zajmowanego miejsca. Stopniowo niszczy się więc jej reputację, zakłóca stosunki interpersonalne,
-        wpływa negatywnie na jakość wykonywanej pracy. Osoba mobbingowana odczuwa silny stres.
-        </p>
-      </article>
-
-      <article>  
-        <h1 className="text-indigo-700 dark:text-indigo-400 font-bold font-mono text-2xl mb-4">
+        <h1 className="text-indigo-700 dark:text-indigo-400 font-bold font-mono text-2xl mt-8 mb-4">
         Skutki zjawiska</h1>
         <p className="text-slate-500 dark:text-slate-200 mb-4">
         Szkody indywidualne dotykają bezpośrednio ofiarę mobbingu. Podstawową konsekwencją tego zjawiska jest stres,
@@ -392,9 +376,75 @@ const Wiedza = () => {
           </p>
       </article>
 
+      </Tabs.Item>
+      <Tabs.Item title="Etapy">
+      <article>  
+        <h1 className="text-indigo-700 dark:text-indigo-400 font-bold font-mono text-2xl mt-8 mb-4">
+        Etapy przebiegu zjawiska</h1>
+        <p className="text-slate-500 dark:text-slate-200 mb-4">
+        W początkowym etapie osoba, która zaczyna być szykanowana nie zdaje jeszcze sobie z tego sprawy. Próbuje działać
+        racjonalnie, załagodzić lub rozwiązać sporadyczne konflikty, ale bezskutecznie. Podważa się jej wiedzę i umiejętności,
+        rozsiewa plotki i pomówienia, stopniowo prowadząc do jej wyobcowania z grupy i obniżenia samooceny. Kolejne próby
+        poprawienia sytuacji prowadzą do nasilenia przemocy i ciągłego już nękania psychicznego. Ciągłe stany napięcia nerwowego
+        ofiary prowadzą ją do reakcji stresowych, zakłóceń koncentracji, stanów zwątpienia, zakłóceń snu, złego samopoczucia i
+        strachu przed pójściem do pracy.
+        </p>
+        <p className="text-slate-500 dark:text-slate-200 mb-4">
+        Etap drugi to utrwalenie powstałych zachowań i negatywnej opinii o ofierze, jako osobie np. nadwrażliwej, konfliktowej
+        czy przemądrzałej. Zaczynają się niesprawiedliwe upomnienia, straszenie, degradacja pozycji w grupie poprzez przydzielanie
+        mało ważnych zadań. Ciągłe nieuzasadnione pretensje i oskarżenia, poczucie całkowitej bezsilności, mogą wywoływać
+        zachowania agresywne ofiary, pogrążając ją jeszcze bardziej. Praca w ciągłym napięciu i stresie prowadzi do popełniania
+        błędów, a te z kolei są powodem następnych przytyków i drwin. Skutki zdrowotne na tym etapie to różne dolegliwości
+        psychosomatyczne, wymagające interwencji lekarskiej np. choroby wrzodowe żołądka i dwunastnicy, zawał mięśnia sercowego,
+        udar mózgu czy astma oskrzelowa. Osoba mobbingowana coraz częściej przebywa na zwolnieniu chorobowym. Próba znalezienia
+        innej pracy kończy się przeważnie niepowodzeniem.   
+        </p>
+        <p className="text-slate-500 dark:text-slate-200 mb-4">
+        W fazie trzeciej, bardzo zaawansowanych już działań psychicznego prześladowania, sytuacja ulega dramatycznemu zaostrzeniu.
+        Osoba poszkodowana nie potrafi już sprostać obowiązkom zawodowym. Jej stan fizyczny i psychiczny pogarsza się tak bardzo,
+        że wymaga pomocy medycznej i psychologicznej.
+        </p>
+      </article>
+      </Tabs.Item>
+      <Tabs.Item title="Jak przeciwdziałać mobbingowi (pracodawcy) ?">
       <article>
-        <h1 className="text-indigo-700 dark:text-indigo-400 font-bold font-mono text-2xl mb-4">
-        Co może zrobić osoba mobbingowana ?</h1>
+        <h1 className="text-indigo-700 dark:text-indigo-400 font-bold font-mono text-2xl mt-8 mb-4">
+        Jak przeciwdziałać mobbingowi (pracowdawcy) ?</h1>
+        <p className="text-slate-500 dark:text-slate-200 mb-4">
+        Pracodawca może podjąć działania, aby zminimalizować mobbing lub nie dopuścić do powstania tego zjawiska:
+        </p>
+        <ul className="list-disc">
+          <li className="text-slate-500 dark:text-slate-200">dozór i badanie nastrojów wśród pracowników</li>
+          <li className="text-slate-500 dark:text-slate-200">badanie zachowań pracowników</li>
+          <li className="text-slate-500 dark:text-slate-200">monitorowanie pracowników, u których można dostrzec chęć mszczenia się na innych za swoje niepowodzenia</li>
+          <li className="text-slate-500 dark:text-slate-200">rozwiązywanie w zarodku konfliktów</li>
+          <li className="text-slate-500 dark:text-slate-200">wykrywanie ukrywanych problemów</li>
+          <li className="text-slate-500 dark:text-slate-200 mb-4">w relacji pracodawca - pracownik umiejętnie zarządzać swoimi podwładnymi i kontrolować ich poczynania, 
+          poczuwać się do obowiązku utrzymywania pozytywnej atmosfery i dobrych stosunków pomiędzy pracownikami</li>
+         
+        </ul>
+
+        <p className="text-slate-500 dark:text-slate-200 mb-4">
+        Bardzo ważną sprawą jest motywowanie pracowników. Nie trzeba prześladować pracowników,
+        aby lepiej pracowali. Pieniądz jest jednym ze słabszych bodźców, ale aby inne bodźce mogły zadziałać ta
+        motywacja powinna zaistnieć. Stosowanie bodźców oraz ich skuteczność zależy od tego, w jaki sposób
+        układają się relacje przełożony - podwładny. Bodźce pozamaterialne związane z pracą to różnorodność
+        zadań, nadawanie znaczenia każdej pracy, autonomia działania i ograniczenie kontroli, informowanie
+        pracowników o wynikach ich pracy, całościowy charakter zadań, aby pracownik widział swoje miejsce w
+        całości zadania, współudział w zarządzaniu, delegowanie uprawnień dające poczucie wpływu na to,
+        co się dzieje w firmie. Bodźce pozamaterialne związane z osobowością pracownika to sprawiedliwa
+        ocena pracy i pracownika, propagowanie pożądanych postaw i wzorców zachowań, awans stanowiskowy,
+        system pochwał, wyróżnień i odznaczeń, współzawodnictwo, podziękowania i uwaga poświęcana
+        pracownikom, jasne informacje dotyczące zagrożenie utratą pracy, sposoby wyrażenia dezaprobaty,
+        system kar, nagan i upomnień.
+        </p>
+      </article>
+      </Tabs.Item>
+
+      <Tabs.Item title="Jak przeciwdziałać mobbingowi (pracownicy) ?">
+      <article>
+        <h1 className="text-indigo-700 dark:text-indigo-400 font-bold font-mono text-2xl mt-8 mb-4">
+        Co może zrobić osoba doświadczejące zjawiska mobbingu ?</h1>
 
         <ul className="list-decimal">
           <li className="text-slate-500 dark:text-slate-200">Jeżeli ma poczucie, że naruszana jest jej godność i integralność psychiczna z powodu wrogiej postawy jednej lub wielu
@@ -436,42 +486,13 @@ const Wiedza = () => {
           <li className="text-slate-500 dark:text-slate-200 mb-4">Dochodzić swoich praw z wykorzystaniem uregulowań prawnych w różnych gałęziach prawa.</li>
         </ul>    
       </article>
+      </Tabs.Item>
 
+
+      <Tabs.Item title="Uregulowania prawne">
+       
       <article>
-        <h1 className="text-indigo-700 dark:text-indigo-400 font-bold font-mono text-2xl mb-4">
-        Co może zrobić pracodawca ?</h1>
-        <p className="text-slate-500 dark:text-slate-200 mb-4">
-        Pracodawca może podjąć działania, aby zminimalizować mobbing lub nie dopuścić do powstania tego zjawiska:
-        </p>
-        <ul className="list-disc">
-          <li className="text-slate-500 dark:text-slate-200">dozór i badanie nastrojów wśród pracowników</li>
-          <li className="text-slate-500 dark:text-slate-200">badanie zachowań pracowników</li>
-          <li className="text-slate-500 dark:text-slate-200">monitorowanie pracowników, u których można dostrzec chęć mszczenia się na innych za swoje niepowodzenia</li>
-          <li className="text-slate-500 dark:text-slate-200">rozwiązywanie w zarodku konfliktów</li>
-          <li className="text-slate-500 dark:text-slate-200">wykrywanie ukrywanych problemów</li>
-          <li className="text-slate-500 dark:text-slate-200 mb-4">w relacji pracodawca - pracownik umiejętnie zarządzać swoimi podwładnymi i kontrolować ich poczynania, 
-          poczuwać się do obowiązku utrzymywania pozytywnej atmosfery i dobrych stosunków pomiędzy pracownikami</li>
-         
-        </ul>
-
-        <p className="text-slate-500 dark:text-slate-200 mb-4">
-        Bardzo ważną sprawą jest motywowanie pracowników. Nie trzeba prześladować pracowników,
-        aby lepiej pracowali. Pieniądz jest jednym ze słabszych bodźców, ale aby inne bodźce mogły zadziałać ta
-        motywacja powinna zaistnieć. Stosowanie bodźców oraz ich skuteczność zależy od tego, w jaki sposób
-        układają się relacje przełożony - podwładny. Bodźce pozamaterialne związane z pracą to różnorodność
-        zadań, nadawanie znaczenia każdej pracy, autonomia działania i ograniczenie kontroli, informowanie
-        pracowników o wynikach ich pracy, całościowy charakter zadań, aby pracownik widział swoje miejsce w
-        całości zadania, współudział w zarządzaniu, delegowanie uprawnień dające poczucie wpływu na to,
-        co się dzieje w firmie. Bodźce pozamaterialne związane z osobowością pracownika to sprawiedliwa
-        ocena pracy i pracownika, propagowanie pożądanych postaw i wzorców zachowań, awans stanowiskowy,
-        system pochwał, wyróżnień i odznaczeń, współzawodnictwo, podziękowania i uwaga poświęcana
-        pracownikom, jasne informacje dotyczące zagrożenie utratą pracy, sposoby wyrażenia dezaprobaty,
-        system kar, nagan i upomnień.
-        </p>
-      </article>
-
-      <article>
-        <h1 className="text-indigo-700 dark:text-indigo-400 font-bold font-mono text-2xl mb-4">
+        <h1 className="text-indigo-700 dark:text-indigo-400 font-bold font-mono text-2xl mt-8 mb-4">
         Uregulowania prawne</h1>
         <p className="text-slate-500 dark:text-slate-200 mb-4">
         Mobbing stał się przedmiotem regulacji prawnych w Europie. W wielu krajach prowadzone są badania,
@@ -579,28 +600,10 @@ const Wiedza = () => {
         zastraszany lub nękany przez współpracowników. Zgodnie z obecnie obowiązującym prawem pracodawca nie
         tylko nie powinien sam dopuszczać się mobbingu w stosunku do pracownika, ale jest też zobowiązany do
         jego przeciwdziałania stosowanemu przez innych pracowników lub osoby trzecie obecne w miejscu pracy.</p>
-        <hr className="my-5 h-0.5 border-t-0 bg-neutral-100 opacity-100 dark:opacity-50"/>
-        <p className="text-slate-500 dark:text-slate-200 mb-4">
-        Opracowanie Zarządu Ogólnopolskiego Stowarzyszenia Antymobbingowego OSA na podstawie poniższych publikacji
-        i doświadczeń z własnej działalności:</p>
-
-        <ul className="list-none">
-          <li className="text-slate-500 dark:text-slate-200">L. Florek, <i>Prawo pracy</i>, Wydawnictwo Beck, 1999, Warszawa.</li>
-          <li className="text-slate-500 dark:text-slate-200">L. Glass, <i>Toksyczni ludzie. 10 sposobów postępowania z ludźmi, którzy uprzykrzają ci życie</i>, Dom Wydawniczy Rebis, 1997, Poznań.</li>
-          <li className="text-slate-500 dark:text-slate-200">M.F. Hirigoyen, <i>Molestowanie moralne. Perwersyjna przemoc w życiu codziennym</i>, Wydawnictwo Polskiej Prowincji Dominikanów W Drodze, 2002, Poznań.</li>
-          <li className="text-slate-500 dark:text-slate-200">K. Kmiecik-Baran, W. Cieślak, <i>Bez zgody na przemoc - w szkole i pracy</i>, Instytut Promocji Nauczycieli Solidarność, 2001, Gdańsk.
-          Kodeks Pracy; Wydawnictwo INFOR; 2004; Warszawa</li>
-          <li className="text-slate-500 dark:text-slate-200">M. Łoboda, <i>Czynniki stresogenne w organizacji</i> W: Biela A. (red.) Stres w pracy zawodowej, Redakcja Wydawnictw KUL, 1990, Lublin.</li>
-          <li className="text-slate-500 dark:text-slate-200">C. Porebski, <i>Czy etyka się opłaca? Zagadnienia etyki biznesu</i>, Antykwa, 2000, Kluczbork.</li>
-          <li className="text-slate-500 dark:text-slate-200">M. Sidor Rządkowska, <i>Człowiek człowiekowi katem (1). Mobbing w pracy definicje Sikor typologia zachowań</i>, Personel i Zarządzanie, 2003, Warszawa.</li>
-          <li className="text-slate-500 dark:text-slate-200">S. P. Robbins, <i>Zachowania w organizacji</i>, PWE, 1998, Warszawa.</li>
-          <li className="text-slate-500 dark:text-slate-200 mb-4">M. Żarnoch, <i>Etyka zarządzania zasobami ludzkimi w biznesie - praca licencjacka</i>, 2003, Gdańsk.</li>
-        </ul>
-
-      </article>
-
+        </article>
+      </Tabs.Item>
+      <Tabs.Item title="Literatura">
       <article>
-
       <p className="text-slate-500 dark:text-slate-200 mb-4">
         <b>Literatura.</b></p>
         <ul className="list-none">
@@ -640,10 +643,27 @@ const Wiedza = () => {
           <li className="text-slate-500 dark:text-slate-200">Chełpa S., Witkowski T.: <i>Paradoks zgody, czyli zarządzanie w sytuacjach konfliktowych i zarządzanie poprzez konflikt</i>, Personel i Zarządzanie nr 10/1999</li>
           <li className="text-slate-500 dark:text-slate-200 mb-4">Pietrzyk A., <i>Negocjacja i mediacja jako sposoby kierowania konfliktami</i>, Przegląd Psychologiczny nr 3-4 /1996</li>
         </ul>
+        <p className="text-slate-500 dark:text-slate-200 mb-4">
+        Opracowanie Zarządu Ogólnopolskiego Stowarzyszenia Antymobbingowego OSA na podstawie poniższych publikacji
+        i doświadczeń z własnej działalności:</p>
+
+        <ul className="list-none">
+          <li className="text-slate-500 dark:text-slate-200">L. Florek, <i>Prawo pracy</i>, Wydawnictwo Beck, 1999, Warszawa.</li>
+          <li className="text-slate-500 dark:text-slate-200">L. Glass, <i>Toksyczni ludzie. 10 sposobów postępowania z ludźmi, którzy uprzykrzają ci życie</i>, Dom Wydawniczy Rebis, 1997, Poznań.</li>
+          <li className="text-slate-500 dark:text-slate-200">M.F. Hirigoyen, <i>Molestowanie moralne. Perwersyjna przemoc w życiu codziennym</i>, Wydawnictwo Polskiej Prowincji Dominikanów W Drodze, 2002, Poznań.</li>
+          <li className="text-slate-500 dark:text-slate-200">K. Kmiecik-Baran, W. Cieślak, <i>Bez zgody na przemoc - w szkole i pracy</i>, Instytut Promocji Nauczycieli Solidarność, 2001, Gdańsk.
+          Kodeks Pracy; Wydawnictwo INFOR; 2004; Warszawa</li>
+          <li className="text-slate-500 dark:text-slate-200">M. Łoboda, <i>Czynniki stresogenne w organizacji</i> W: Biela A. (red.) Stres w pracy zawodowej, Redakcja Wydawnictw KUL, 1990, Lublin.</li>
+          <li className="text-slate-500 dark:text-slate-200">C. Porebski, <i>Czy etyka się opłaca? Zagadnienia etyki biznesu</i>, Antykwa, 2000, Kluczbork.</li>
+          <li className="text-slate-500 dark:text-slate-200">M. Sidor Rządkowska, <i>Człowiek człowiekowi katem (1). Mobbing w pracy definicje Sikor typologia zachowań</i>, Personel i Zarządzanie, 2003, Warszawa.</li>
+          <li className="text-slate-500 dark:text-slate-200">S. P. Robbins, <i>Zachowania w organizacji</i>, PWE, 1998, Warszawa.</li>
+          <li className="text-slate-500 dark:text-slate-200 mb-4">M. Żarnoch, <i>Etyka zarządzania zasobami ludzkimi w biznesie - praca licencjacka</i>, 2003, Gdańsk.</li>
+        </ul>
 
       </article>
+      </Tabs.Item>
 
-
+    </Tabs>
 
       </div>
          
