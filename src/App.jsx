@@ -1,10 +1,14 @@
 import { Route, Routes } from "react-router-dom";
-import Home from "./pages/home";
-import About from "./pages/about";
+
 import { Header } from "./components/header";
 import { Foooter } from "./components/footer";
+
+import Home from "./pages/home";
+import About from "./pages/about";
+import Actions from "./pages/actions";
 import Wiedza from "./pages/wiedza";
 import Kontakt from "./pages/kontakt";
+
 
 function App() {
 
@@ -15,6 +19,7 @@ function App() {
       <Routes>
         <Route path="/osa" element={<Home/>} />
         <Route path="/osa/about" element={<About/>} />
+        <Route path="/osa/działania" element={<Actions/>} />
         <Route path="/osa/wiedza" element={<Wiedza/>} />
         <Route path="/osa/kontakt" element={<Kontakt/>} />
       </Routes>
