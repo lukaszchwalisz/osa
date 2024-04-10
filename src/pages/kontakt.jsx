@@ -15,7 +15,7 @@ const Kontakt = () => {
           <li className="text-slate-500 dark:text-slate-200">tel.: (058) 301 98 72</li>
           <li className="text-slate-500 dark:text-slate-200">kom.: 795 159 795</li>
           <li className="text-slate-500 dark:text-slate-200">email: <a href="mailto:osa_stowarzyszenie@wp.pl">osa_stowarzyszenie@wp.pl</a></li>
-          
+          <li className="text-slate-500 dark:text-slate-200">www: <a href="http://www.osastowarzyszenie.pl/start.html">http://www.osastowarzyszenie.pl/</a></li>
       </ul>
       </p>
 
