@@ -10,143 +10,213 @@ const Actions = () => {
       <Tabs.Item active title="Programy">
 
       <article >
-          <h1 className="text-indigo-700 dark:text-indigo-400 font-bold font-mono text-2xl mt-8 mb-4">Realizowany program.</h1>
-          <p className="text-slate-500 dark:text-slate-200 mb-4">
-          Od dnia 10 stycznia 2023r. realizujemy nieodpłatną pomoc prawno - psychologiczną skierowaną do mieszkańców biorących udział w procesie pracy,
-          osób zagrożonych i dotkniętych zjawiskiem mobbingu oraz dyskryminacji, opartą na przesłankach takich jak: bezpłatność, bezstronność, otwartość
-          dla wszystkich, poufność, niezależność, aktualność i rzetelność. Finansowaną ze środków własnych stowarzyszenia oraz dofinansowania ze środków
-          Miasta Gdańsk w ramach Gdańskiego Funduszu Równości 2023.
-          </p>
+      <h1 className="text-indigo-700 bg-slate-50 p-4 text-center dark:text-indigo-400 font-bold font-mono text-2xl mt-8 mb-4">PROGRAMY</h1>
+        <p className="text-slate-500 dark:text-slate-200 mb-4">
+        Od dnia 10 stycznia 2023r. realizujemy nieodpłatną pomoc prawno - psychologiczną skierowaną do mieszkańców biorących udział w procesie pracy,
+        osób zagrożonych i dotkniętych zjawiskiem mobbingu oraz dyskryminacji, opartą na przesłankach takich jak: bezpłatność, bezstronność, otwartość
+        dla wszystkich, poufność, niezależność, aktualność i rzetelność. Finansowaną ze środków własnych stowarzyszenia oraz dofinansowania ze środków
+        Miasta Gdańsk w ramach Gdańskiego Funduszu Równości 2023.
+        </p>
 
-          <ul className="list-decimal">
+        <ul className="list-decimal">
+          <li className="text-slate-500 dark:text-slate-200 mb-4">
+          <b>Pomoc prawna polega na wyjaśnianiu wątpliwości prawnych osoby zgłaszającej się w przedstawionej przez nią sprawie:</b>
+          </li>
+
+          <ul className="list-disc">
             <li className="text-slate-500 dark:text-slate-200 mb-4">
-            <b>Pomoc prawna polega na wyjaśnianiu wątpliwości prawnych osoby zgłaszającej się w przedstawionej przez nią sprawie:</b>
+            udzieleniu odpowiedzi na pytania związane z obowiązującym prawem w zakresie wiążącym się ze
+            sprawą tj. udzieleniu informacji i edukacji o treści obowiązującego prawa, o prawach i 
+            obowiązkach wynikających z obowiązujących uregulowań prawnych oraz instytucjach właściwych dla
+            załatwienia sprawy a także o trybie postępowania
+            </li>
+            <li className="text-slate-500 dark:text-slate-200">
+            wskazaniu możliwych prawnie dróg postępowania
+            </li>
+            <p className="text-slate-500 dark:text-slate-200">
+            Pomoc udzielana jest w kontakcie bezpośrednim, telefonicznie,
+            pocztą internetową oraz pocztą tradycyjną poprzez:
+            </p>
+            <li className="text-slate-500 dark:text-slate-200">
+            udzielanie indywidualnych konsultacji osobom zwracającym się o pomoc
+            </li>
+            <li className="text-slate-500 dark:text-slate-200">
+            ocenę faktów związanych z przemocą w pracy z uwzględnieniem kwalifikacji prawnej problemów
+            </li>
+            <li className="text-slate-500 dark:text-slate-200">
+            ocenę realnych szans powodzenia postępowań sądowych w sprawach z zakresu mobbingu i dyskryminacji (ocena mocy dowodów
+            </li>
+            <li className="text-slate-500 dark:text-slate-200">
+            pomoc w formułowaniu treści dokumentów
+            </li>
+            <li className="text-slate-500 dark:text-slate-200 mb-4">
+            w razie potrzeby w postępowaniu sądowym prawnik funkcjonuje jako pełnomocnik Stowarzyszenia, organizacji społecznej broniącej praw człowieka,
+            jeśli problem zostanie zakwalifikowany do tego typu pomocy
+            </li>
+            <p className="text-slate-500 dark:text-slate-200 mb-4">
+            Pomoc prowadzi Konsultant Krajowy Stowarzyszenia, pani mgr Jadwiga Mucha.
+            </p>
+
+            <ul className="list-none">
+              <li className="text-slate-500 dark:text-slate-200">
+              tel.: 504 659 911 (w dni powszednie w godzinach 18.00 - 20.00)
+              </li>
+              <li className="text-slate-500 dark:text-slate-200 mb-4">
+              <a href="mailto:osa-lublin@wp.pl">email.: osa-lublin@wp.pl</a>
+              </li>
+            </ul>
+            </ul>
+            
+            <li className="text-slate-500 dark:text-slate-200 mb-4">
+            <b>Pomoc psychologiczna realizowana w formie społecznego wsparcia grupowego w otwartej grupie wsparcia prowadzonej przez psychologów mgr Barbarę Jabłońską - Komar i mgr Paulinę Pers,
+            gdzie realizowany jest program psychoprofilaktyczny "Pracuję bez lęku" o tematyce zajęć dostosowanej do zapotrzebowania uczestników t.j.:</b>
             </li>
 
             <ul className="list-disc">
-              <li className="text-slate-500 dark:text-slate-200 mb-4">
-              udzieleniu odpowiedzi na pytania związane z obowiązującym prawem w zakresie wiążącym się ze
-              sprawą tj. udzieleniu informacji i edukacji o treści obowiązującego prawa, o prawach i 
-              obowiązkach wynikających z obowiązujących uregulowań prawnych oraz instytucjach właściwych dla
-              załatwienia sprawy a także o trybie postępowania
+              <li className="text-slate-500 dark:text-slate-200">
+              podstawowe informacje o mobbingu i dyskryminacji. Czym jest dyskryminacja i mobbing, różnice? Czynniki występowania dyskryminacji i mobbingu. Fazy mobbingu.
               </li>
               <li className="text-slate-500 dark:text-slate-200">
-              wskazaniu możliwych prawnie dróg postępowania
-              </li>
-              <p className="text-slate-500 dark:text-slate-200">
-              Pomoc udzielana jest w kontakcie bezpośrednim, telefonicznie,
-              pocztą internetową oraz pocztą tradycyjną poprzez:
-              </p>
-              <li className="text-slate-500 dark:text-slate-200">
-              udzielanie indywidualnych konsultacji osobom zwracającym się o pomoc
+              skutki w/w zjawisk: zdrowotne (nerwobóle, choroba wrzodowa itd.);psychologiczne (stres w pracy); motywacyjne(wypalenie zawodowe)
               </li>
               <li className="text-slate-500 dark:text-slate-200">
-              ocenę faktów związanych z przemocą w pracy z uwzględnieniem kwalifikacji prawnej problemów
+              diagnoza sytuacji dyskryminacyjnej i mobbingowej: relacja pracodawca/przełożony (analiza transakcyjna); konflikt w pracy; komunikacja w pracy
               </li>
               <li className="text-slate-500 dark:text-slate-200">
-              ocenę realnych szans powodzenia postępowań sądowych w sprawach z zakresu mobbingu i dyskryminacji (ocena mocy dowodów
-              </li>
-              <li className="text-slate-500 dark:text-slate-200">
-              pomoc w formułowaniu treści dokumentów
+              moja postawa wobec dyskryminacji i mobbingu: postawa agresywna; postawa uległa; postawa asertywna; pozytywne praktyczne wzorce
               </li>
               <li className="text-slate-500 dark:text-slate-200 mb-4">
-              w razie potrzeby w postępowaniu sądowym prawnik funkcjonuje jako pełnomocnik Stowarzyszenia, organizacji społecznej broniącej praw człowieka,
-              jeśli problem zostanie zakwalifikowany do tego typu pomocy
+              skuteczne sposoby walki z dyskryminacją i mobbingiem: autoprezentacja; poczucie własnej wartości; negocjacje/ mediacje; konflikt; radzenie sobie ze stresem; zarządzanie czasem
               </li>
-              <p className="text-slate-500 dark:text-slate-200 mb-4">
-              Pomoc prowadzi Konsultant Krajowy Stowarzyszenia, pani mgr Jadwiga Mucha.
-              </p>
-
-              <ul className="list-none">
-                <li className="text-slate-500 dark:text-slate-200">
-                tel.: 504 659 911 (w dni powszednie w godzinach 18.00 - 20.00)
-                </li>
-                <li className="text-slate-500 dark:text-slate-200 mb-4">
-                <a href="mailto:osa-lublin@wp.pl">email.: osa-lublin@wp.pl</a>
-                </li>
-              </ul>
-              </ul>
-              
+            </ul>
+            <p className="text-slate-500 dark:text-slate-200 mb-4">
+            W trakcie zajęć można:
+            </p>
+            <ul className="list-disc">
+              <li className="text-slate-500 dark:text-slate-200">
+              otrzymać wsparcie i pomoc od osób rozumiejących ten problem
+              </li>
+              <li className="text-slate-500 dark:text-slate-200">
+              spotkać osoby o podobnym doświadczeniu
+              </li>
+              <li className="text-slate-500 dark:text-slate-200">
+              uzyskać wiedzę o mechanizmach, konsekwencjach przemocy w pracy
+              </li>
+              <li className="text-slate-500 dark:text-slate-200">
+              uzyskać diagnozę sytuacji
+              </li>
+              <li className="text-slate-500 dark:text-slate-200">
+              uzyskać pomoc w rozwiązywaniu problemów emocjonalnych
+              </li>
+              <li className="text-slate-500 dark:text-slate-200">
+              uzyskać pomoc w odzyskaniu utraconych praw
+              </li>
               <li className="text-slate-500 dark:text-slate-200 mb-4">
-              <b>Pomoc psychologiczna realizowana w formie społecznego wsparcia grupowego w otwartej grupie wsparcia prowadzonej przez psychologów mgr Barbarę Jabłońską - Komar i mgr Paulinę Pers,
-              gdzie realizowany jest program psychoprofilaktyczny "Pracuję bez lęku" o tematyce zajęć dostosowanej do zapotrzebowania uczestników t.j.:</b>
+              uzyskać motywację do aktywnego uczestnictwa w grupie i udzielanie wzajemnego wsparcia z 
+              wykorzystaniem własnej wiedzy i umiejętności
               </li>
+            </ul>
 
-              <ul className="list-disc">
-                <li className="text-slate-500 dark:text-slate-200">
-                podstawowe informacje o mobbingu i dyskryminacji. Czym jest dyskryminacja i mobbing, różnice? Czynniki występowania dyskryminacji i mobbingu. Fazy mobbingu.
-                </li>
-                <li className="text-slate-500 dark:text-slate-200">
-                skutki w/w zjawisk: zdrowotne (nerwobóle, choroba wrzodowa itd.);psychologiczne (stres w pracy); motywacyjne(wypalenie zawodowe)
-                </li>
-                <li className="text-slate-500 dark:text-slate-200">
-                diagnoza sytuacji dyskryminacyjnej i mobbingowej: relacja pracodawca/przełożony (analiza transakcyjna); konflikt w pracy; komunikacja w pracy
-                </li>
-                <li className="text-slate-500 dark:text-slate-200">
-                moja postawa wobec dyskryminacji i mobbingu: postawa agresywna; postawa uległa; postawa asertywna; pozytywne praktyczne wzorce
-                </li>
-                <li className="text-slate-500 dark:text-slate-200 mb-4">
-                skuteczne sposoby walki z dyskryminacją i mobbingiem: autoprezentacja; poczucie własnej wartości; negocjacje/ mediacje; konflikt; radzenie sobie ze stresem; zarządzanie czasem
-                </li>
-              </ul>
-              <p className="text-slate-500 dark:text-slate-200 mb-4">
-              W trakcie zajęć można:
-              </p>
-              <ul className="list-disc">
-                <li className="text-slate-500 dark:text-slate-200">
-                otrzymać wsparcie i pomoc od osób rozumiejących ten problem
-                </li>
-                <li className="text-slate-500 dark:text-slate-200">
-                spotkać osoby o podobnym doświadczeniu
-                </li>
-                <li className="text-slate-500 dark:text-slate-200">
-                uzyskać wiedzę o mechanizmach, konsekwencjach przemocy w pracy
-                </li>
-                <li className="text-slate-500 dark:text-slate-200">
-                uzyskać diagnozę sytuacji
-                </li>
-                <li className="text-slate-500 dark:text-slate-200">
-                uzyskać pomoc w rozwiązywaniu problemów emocjonalnych
-                </li>
-                <li className="text-slate-500 dark:text-slate-200">
-                uzyskać pomoc w odzyskaniu utraconych praw
-                </li>
-                <li className="text-slate-500 dark:text-slate-200 mb-4">
-                uzyskać motywację do aktywnego uczestnictwa w grupie i udzielanie wzajemnego wsparcia z 
-                wykorzystaniem własnej wiedzy i umiejętności
-                </li>
-              </ul>
-
-              <p className="text-slate-500 dark:text-slate-200 mb-4">
-              Zajęcia odbywają się we wtorki od 10 stycznia 2023r w godzinach od 17.00 do 19.00 w pomieszczeniach
-              użyczonych odpłatnie przez Towarzystwo Przyjaciół Gdańska w Gdańsku przy ul. Warzywniczej 10.
-              </p>
-              <p className="text-slate-500 dark:text-slate-200 mb-4">
-              W okresie od 1 czerwca do 8 grudnia 2023r. zajęcia odbywają się dzięki dofinansowaniu ze środków Miasta Gdańsk
-              w ramach Gdańskiego Funduszu Równości 2023.
-              </p>
-              <p className="text-slate-500 dark:text-slate-200 mb-4">
-              Serdecznie zapraszamy do uczestnictwa :)
-              </p>
-              <p className="text-slate-500 dark:text-slate-200 mb-4">
-              Konsultacje indywidualne w Punkcie Konsultacyjnym Zarządu Stowarzyszenia w Gdańsku mieszczącym się w Gdańsku przy ul. Warzywniczej 10A
-              (domofon nr 6) odbywają się we wtorki od godz. 16.00 po uprzednim koniecznym umówieniu się telefonicznym: 795 159 795.
-              </p>
+            <p className="text-slate-500 dark:text-slate-200 mb-4">
+            Zajęcia odbywają się we wtorki od 10 stycznia 2023r w godzinach od 17.00 do 19.00 w pomieszczeniach
+            użyczonych odpłatnie przez Towarzystwo Przyjaciół Gdańska w Gdańsku przy ul. Warzywniczej 10.
+            </p>
+            <p className="text-slate-500 dark:text-slate-200 mb-4">
+            W okresie od 1 czerwca do 8 grudnia 2023r. zajęcia odbywają się dzięki dofinansowaniu ze środków Miasta Gdańsk
+            w ramach Gdańskiego Funduszu Równości 2023.
+            </p>
+            <p className="text-slate-500 dark:text-slate-200 mb-4">
+            Serdecznie zapraszamy do uczestnictwa :)
+            </p>
+            <p className="text-slate-500 dark:text-slate-200 mb-4">
+            Konsultacje indywidualne w Punkcie Konsultacyjnym Zarządu Stowarzyszenia w Gdańsku mieszczącym się w Gdańsku przy ul. Warzywniczej 10A
+            (domofon nr 6) odbywają się we wtorki od godz. 16.00 po uprzednim koniecznym umówieniu się telefonicznym: 795 159 795.
+            </p>
           </ul>
-
       </article>
 
       
       </Tabs.Item>
       <Tabs.Item title="Komunikaty">
-        <p className="text-sm text-gray-500 dark:text-gray-400">Content 2</p>
+      
+          <h1 className="text-indigo-700 bg-slate-50 p-4 text-center dark:text-indigo-400 font-bold font-mono text-2xl mt-8 mb-4">KOMUNIKATY</h1>
+          
+          <article className="box-border border-2 shadow-md p-4 mt-4">
+          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          <b>KOMUNIKAT 2</b>
+          </p>
+          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          Problematyka mobbingu w świetle orzecznictwa sądowego zebrana przez mgr Tomasza Juraszka - <b>szczegóły (pdf link)</b>
+          </p>
+          </article>
+
+          <article className="box-border border-2 shadow-md p-4 mt-4">
+          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          <b>KOMUNIKAT 1</b>
+          </p>
+          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          W dniu 29 października 2008r. nasze Stowarzyszenie zostało zaproszone do uczestniczenia w pracach Zespołu ds. przeciwdziałania mobbingowi,
+          powołanego przez Pełnomocnika ds. Równego Traktowania Kancelarii Prezesa Rady Ministrów. W piśmie z dnia 20.11.2008r.przedstawiliśmy konkretne
+          propozycje zmian legislacyjnych i wykonawczych, a także w zakresie diagnozowania zjawiska mobbingu:
+          </p>
+          <ul className="list-decimal">
+            <li className="text-slate-500 dark:text-slate-200 p-2 m-3">
+            Pomoc prawna polega na wyjaśnianiu wątpliwości prawnych osoby zgłaszającej się w przedstawionej przez nią sprawie:W Kodeksie Pracy w art. 15 kp, 283 § 2kp , art. 94³ kp ,100 § 2 kp zapewnienia pracownikom bezpieczne i higieniczne warunki pracy rozumiane też jako bezpieczeństwo i higiena psychiczna:
+            </li>
+
+            <ul className="list-disc">
+              <li className="text-slate-500 dark:text-slate-200 m-3">
+              wprowadzenia do przepisów regulujących obowiązki pracownika obowiązku powstrzymywania się od stosowania mobbingu w miejscy pracy
+              </li>
+              <li className="text-slate-500 dark:text-slate-200 m-3">
+              wprowadzenia obowiązku ustalania w regulaminie przepisów przeciwdziałających mobbingowi oraz sankcji karnych za ich nieprzestrzeganie przez pracodawców stosujących regulamin prawa pracy oraz obowiązku tworzenia odpowiednich instrukcji przez pracodawców, którzy zatrudniają mniej niż 20 pracowników
+              </li>
+              <li className="text-slate-500 dark:text-slate-200 m-3">
+              wprowadzenia delegacji dla Ministra Pracy i Polityki Socjalnej do określenia, w drodze rozporządzenia szczegółowych wytycznych (zasad) tworzenia przez pracodawcę procedur przeciwdziałania mobbingowi (przepisy wykonawcze do zmiany proponowanej w art. 94³ kp §3)
+              </li>
+              <li className="text-slate-500 dark:text-slate-200 m-3">
+              wprowadzenia obligatoryjnego powoływania komisji pojednawczych w sprawach mobbingu na wniosek pracownika lub pracodawcy
+              </li>
+            </ul>
+
+            <li className="text-slate-500 dark:text-slate-200 p-2 m-3">
+            W Kodeksie Karnym w art. 218 kk lub art. 207 kk wprowadzenia zapisów dotyczących ukarania sprawcy i osoby odpowiedzialnej za przeciwdziałanie przemocy w pracy – mobbingu.
+            </li>
+            <li className="text-slate-500 dark:text-slate-200 p-2 m-3">
+            W zakresie regulacji dotyczących przeciwdziałania mobbingowi w grupach zawodowych, których stosunek pracy jest regulowany w odrębnych przepisach niż prawo pracy - służby mundurowe – w ustawach w dziale odpowiedzialność dyscyplinarna i karna.
+            </li>
+            <li className="text-slate-500 dark:text-slate-200 p-2 m-3">
+            W zakresie ogólnopolskiego ujednolicenia diagnozowania zjawiska w postępowaniach przedsądowych i w postępowaniach przygotowawczych w ramach kpk i procesach sądowych. Stworzenia w ramach wymiaru sprawiedliwości wewnętrznej procedury postępowania, które wskazywałyby cechy zjawiska mobbingu,
+            ułatwiając rozpoznanie zjawiska, będącego przedmiotem tych postępowań.
+            </li>
+          </ul>
+          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          <b>Więcej szczegółów (pdflink)</b>
+          </p>
+          </article>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       </Tabs.Item>
 
       <Tabs.Item title="Wydarzenia">
        
      
         <article >
-          <h1 className="text-indigo-700 dark:text-indigo-400 font-bold font-mono text-2xl mt-8 mb-4">Wydarzenia.</h1>
+        <h1 className="text-indigo-700 bg-slate-50 p-4 text-center dark:text-indigo-400 font-bold font-mono text-2xl mt-8 mb-4">WYDARZENIA</h1>
          
           <ul className="list-disc">
             <li className="text-slate-500 dark:text-slate-200">
@@ -226,7 +296,7 @@ const Actions = () => {
 
 
       <Tabs.Item title="Archiwum">
-        <p className="text-sm text-gray-500 dark:text-gray-400">Content 4</p>
+      <h1 className="text-indigo-700 bg-slate-50 p-4 text-center dark:text-indigo-400 font-bold font-mono text-2xl mt-8 mb-4">ARCHIWUM</h1>
       </Tabs.Item>
     </Tabs>
 
