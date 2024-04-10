@@ -139,8 +139,201 @@ const Actions = () => {
       </Tabs.Item>
       <Tabs.Item title="Komunikaty">
       
-          <h1 className="text-indigo-700 bg-slate-50 p-4 text-center dark:text-indigo-400 font-bold font-mono text-2xl mt-8 mb-4">KOMUNIKATY</h1>
+        <h1 className="text-indigo-700 bg-slate-50 p-4 text-center dark:text-indigo-400 font-bold font-mono text-2xl mt-8 mb-4">KOMUNIKATY</h1>
+
+        <article className="box-border border-2 shadow-md p-4 mt-4">
+          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          <b>KOMUNIKAT 9</b>
+          </p>
+          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          Nowelizacja kodeksu pracy, która weszła do obrotu prawnego 7 września 2019 r. objęła swym zakresem zmiany odnoszące się do problematyki mobbingu. 
+          Poniżej krótkie wyjaśnienie przygotowane przez konsultanta stowarzyszenia mgr Tomasza Juraszka.
+          </p>
+          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          Do kodeksu pracy wprowadzono nowy środek ochrony prawnej - odszkodowanie za mobbing. Dotychczas odszkodowanie przysługiwało wyłącznie wówczas gdy
+          osoba doświadczona mobbingiem rozwiązała stosunek pracy - i z tego tytułu przysługiwało odszkodowanie. Obecnie ten środek ochrony prawnej został
+          rozszerzony poprzez zmianę art. 94(3) § 4 k.p. Oznacza to, że obecnie odszkodowanie to przysługuje także wtedy, gdy osoba uprawniona poniosła szkodę
+          poprzez mobbing i która jest inna niż rozwiązanie stosunku pracy. Potrzeba czasu aby praktyka sądowa ukształtowana standard linii orzeczniczej.
+          Niemniej należy zaznaczyć, że w ramach tego odszkodowania wchodzą wszelkie szkody które można przeliczyć na wartość ekonomiczną, tzn. koszty leczenia,
+          rehabilitacji o ile pozostają w adekwatnym związku przyczynowym ze szkodą tzn. z mobbingiem. Należy zatem zbierać wszelkie rachunki, faktury jako dowody,
+          które należy załączyć do pozwu. Roszczenia tego nie należy mylić z zadośćuczynieniem, które jest odrębnym środkiem ochrony prawnej.
+          </p>
+          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          Obecnie zatem osobie poszkodowanej przez mobbing przysługuje: zadośćuczynienie z tytułu rozstroju zdrowia, odszkodowanie za rozwiązanie stosunku pracy wskutek mobbingu
+          oraz odszkodowanie z tytułu innych szkód pozostających w związku ze zjawiskiem mobbingu. Roszczenia przedawnia się po upływie trzech lat od chwili wymagalności.
+          </p>   
+        </article>
+
+        <article className="box-border border-2 shadow-md p-4 mt-4">
+          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          <b>KOMUNIKAT 8</b>
+          </p>
+          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          <b>Stowarzyszenie udziela nieodpłatnie pomoc psychologiczną</b> w otwartej grupie wsparcia prowadzonej przez psycholog mgr Paulinę Pers,
+          gdzie realizowany jest program psychoprofilaktyczny pt. „Pracuję bez lęku” o tematyce zajęć dostosowanej do zapotrzebowania uczestników tj:
+          </p>
+          <ul className="list-disc">
+            <li className="text-slate-500 dark:text-slate-200 m-3">
+            podstawowe informacje o mobbingu i dyskryminacji. Czym jest dyskryminacja i mobbing, różnice? Czynniki występowania dyskryminacji i mobbingu. Fazy mobbingu.
+            </li>
+            <li className="text-slate-500 dark:text-slate-200 m-3">
+            skutki w/w zjawisk: zdrowotne (nerwobóle, choroba wrzodowa itd.), psychologiczne (stres w pracy), motywacyjne(wypalenie zawodowe)
+            </li>
+            <li className="text-slate-500 dark:text-slate-200 m-3">
+            moja postawa wobec dyskryminacji i mobbingu: postawa agresywna, postawa uległa, postawa asertywna, pozytywne praktyczne wzorce
+            </li>
+            <li className="text-slate-500 dark:text-slate-200 m-3">
+            skuteczne sposoby walki z dyskryminacją i mobbingiem: autoprezentacja, poczucie własnej wartości, negocjacje/ mediacje, konflikt, radzenie sobie ze stresem, zarządzanie czasem
+            </li>
+            <p className="text-slate-500 dark:text-slate-200 mb-4">
+            W trakcie zajęć można:
+            </p>
+            <li className="text-slate-500 dark:text-slate-200 m-3">
+            otrzymać wsparcie i pomoc od osób rozumiejących ten problem
+            </li>
+            <li className="text-slate-500 dark:text-slate-200 m-3">
+            spotkać osoby o podobnym doświadczeniu
+            </li>
+            <li className="text-slate-500 dark:text-slate-200 m-3">
+            uzyskać wiedzę o mechanizmach, konsekwencjach przemocy w pracy
+            </li>
+            <li className="text-slate-500 dark:text-slate-200 m-3">
+            uzyskać diagnozę sytuacji
+            </li>
+            <li className="text-slate-500 dark:text-slate-200 m-3">
+            uzyskać pomoc w rozwiązywaniu problemów emocjonalnych
+            </li>
+            <li className="text-slate-500 dark:text-slate-200 m-3">
+            uzyskać pomoc w odzyskaniu utraconych praw
+            </li>
+            <li className="text-slate-500 dark:text-slate-200 m-3">
+            uzyskać motywację do aktywnego uczestnictwa w grupie i udzielanie wzajemnego wsparcia z wykorzystaniem własnej wiedzy i umiejętności
+            </li>
+            <p className="text-slate-500 dark:text-slate-200 mb-4">
+            Zajęcia odbywają się we wtorki od 10 stycznia 2023r w godzinach od 17.00 do 19.00 w pomieszczeniach użyczonych przez Towarzystwo Przyjaciół Gdańska w Gdańsku przy ul. Warzywniczej 10.
+            </p>
+            <p className="text-slate-500 dark:text-slate-200 mb-4">
+            W okresie od 1 czerwca do 8 grudnia 2023r. zajęcia odbywają się dzięki dofinansowaniu ze środków Miasta Gdańsk w ramach Gdańskiego Funduszu Równości 2023.
+            </p>
+            <p className="text-slate-500 dark:text-slate-200 mb-4">
+            Serdecznie zapraszamy do uczestnictwa.
+            </p>
+            <p className="text-slate-500 dark:text-slate-200 mb-4">
+            Osobom zwracającym się o pomoc udzielamy indywidualnej konsultacji. W razie potrzeby prawnik Stowarzyszenia funkcjonuje, jako pełnomocnik OSA w postępowaniu sądowym.
+            </p>
+            <p className="text-slate-500 dark:text-slate-200 mb-4">
+            Pomoc prowadzi Konsultant Krajowy Stowarzyszenia mgr Jadwiga Mucha
+            </p>
+            <p className="text-slate-500 dark:text-slate-200 mb-4">
+            Kontakt telefoniczy: kom.504 659 911 w dni powszednie w godzinach 18.00 – 20.00
+            </p>
+            <p className="text-slate-500 dark:text-slate-200 mb-4">
+            Kontakt mailowy: <a href="mailto:osa-lublin@wp.pl">osa-lublin@wp.pl</a>
+            </p>
+
+          </ul>
+   
+        </article>
+
+
+        <article className="box-border border-2 shadow-md p-4 mt-4">
+          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          <b>KOMUNIKAT 7</b>
+          </p>
+          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          Ogólnopolskie Stowarzyszenie Antymobbingowe OSA Punkt Konsultacyjny w Poznaniu oraz Gabinet Psychologiczny Łukasz Chwalisz w reakcji na stan zagrożenia
+          epidemiologicznego proponuje bezpłatną pomoc psychologiczną dla osób potrzebujących wsparcia. <b>Szczegóły w linku</b>
+          </p>
+        </article>
+
+        <article className="box-border border-2 shadow-md p-4 mt-4">
+          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          <b>KOMUNIKAT 6</b>
+          </p>
+          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          Czynnik finansowy ogranicza w znacznym stopniu nasze działania, ponieważ sama problematyka zjawiska,, jakim się zajmujemy ogranicza możliwości
+          pozyskiwania funduszy w kraju. Dofinansowywanie naszych działań jest niezbędne, aby ilościowo i jakościowo pomoc była lepsza. Prosimy wszystkie
+          osoby, które mogą choć drobnymi kwotami wesprzeć naszą pomoc udzielaną osobom pokrzywdzonym przemocą w pracy o przekazywanie pieniędzy w formie
+           darowizn na konto Stowarzyszenia:
+          </p>
+          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          <b>PKO BP S.A. II O/Gdańsk 88 1020 1811 0000 0102 0099 8427</b>
+          </p>
+          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          Od roku 2012 jesteśmy organizacją pożytku publicznego. Zachęcamy do przekazywania 1,5% podatku na rzecz Stowarzyszenia <b>KRS 00000 88951</b>,
+          jednocześnie dziękujemy wszystkim osobom, które do tej pory wsparły Stowarzyszenie 1,5% swojego podatku.
+          </p>
+          </article>
+
+        <article className="box-border border-2 shadow-md p-4 mt-4">
           
+          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          <b>KOMUNIKAT 5</b>
+          </p>
+          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          W ramach wspierania pracodawców w przeciwdziałaniu mobbingowi Stowarzyszenie:
+          </p>
+              <ul className="list-decimal">
+                  <li className="text-slate-500 dark:text-slate-200 m-3">
+                  Realizuje program pt. "Mobbing się nie opłaca" w formie spotkania szkoleniowego, uczestnicy otrzymują komplet materiałów szkoleniowych oraz zaświadczenia o uczestnictwie.
+                  </li>
+                  <li className="text-slate-500 dark:text-slate-200 m-3">
+                  Realizuje program badawczy środowisk pracowniczych:
+                  </li>
+                  <ul className="list-disc">
+                    <li className="text-slate-500 dark:text-slate-200 m-3">
+                    diagnozuje zjawisko mobbingu
+                    </li>
+                    <li className="text-slate-500 dark:text-slate-200 m-3">
+                    określa stopień występowania
+                    </li>
+                    <li className="text-slate-500 dark:text-slate-200 m-3">
+                    określa obraz mobbera i mobbingowanego
+                    </li>
+                    <li className="text-slate-500 dark:text-slate-200 m-3">
+                    diagnozuje rodzaj stosowanych działań i zachowań mobbingowych (z analizy materiału badawczego sporządzany jest raport z podsumowaniem i zaleceniami mającymi spowodować pozytywną zmianę w środowisku pracowniczym)
+                    </li>
+                  </ul>
+
+                  <li className="text-slate-500 dark:text-slate-200 m-3">
+                  Wykonuje ocenę czynności pracodawców w zakresie przeciwdziałania mobbingowi na podstawie nadesłanych materiałów.
+                  </li>
+              </ul>
+            
+          </article>
+
+          <article className="box-border border-2 shadow-md p-4 mt-4">
+
+          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          <b>KOMUNIKAT 4</b>
+          </p>
+          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          Bezpłatną pomoc świadczymy w Punktach Konsultacyjnych Zarządu za pośrednictwem przedstawicieli mających odpowiednie pełnomocnictwa do reprezentowania Stowarzyszenia tj.:
+          </p>
+          <ul className="list-none">
+              <li className="text-slate-500 dark:text-slate-200 m-3">
+              w Gdańsku- członków Zarządu OSA,
+              </li>
+              <li className="text-slate-500 dark:text-slate-200 m-3">
+              w Jeleniej Górze - Lecha Rębisza,
+              </li>
+              <li className="text-slate-500 dark:text-slate-200 m-3">
+              w Lublinie - Jadwigi Muchy,
+              </li>
+              <li className="text-slate-500 dark:text-slate-200 m-3">
+              w Łęczycy - Katarzyny Ratajczyk-Rusek,
+              </li>
+              <li className="text-slate-500 dark:text-slate-200 m-3">
+              w Lubaniu - Katarzyny Urbaniak,
+              </li>
+              <li className="text-slate-500 dark:text-slate-200 m-3">
+              w Poznaniu - Łukasza Chwalisza.
+              </li>
+            </ul>
+
+          </article>
+
+
           <article className="box-border border-2 shadow-md p-4 mt-4">
           <p className="text-slate-500 dark:text-slate-200 mb-4">
           <b>KOMUNIKAT 3</b>
