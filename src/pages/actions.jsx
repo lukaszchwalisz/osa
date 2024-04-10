@@ -143,6 +143,188 @@ const Actions = () => {
           
           <article className="box-border border-2 shadow-md p-4 mt-4">
           <p className="text-slate-500 dark:text-slate-200 mb-4">
+          <b>KOMUNIKAT 3</b>
+          </p>
+
+          <p className="text-slate-500 text-center dark:text-slate-200 mb-4">
+          STANOWISKO OGÓLNOPOLSKIEGO STOWARZYSZENIA ANTYMOBBINGOWEGO "OSA"
+          </p>
+          <p className="text-slate-500 text-center dark:text-slate-200 mb-4">
+          UWAGA PRACOWNICY I PRACODAWCY!!!
+          </p>
+          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          Uważamy, iż każdy pracownik, niezależnie od zajmowanej funkcji, ma prawo mieć wiedzę i możliwości wyboru sposobu rozpatrzenia jego problemu w zakresie działań
+          i zachowań mobbingowych. Przestrzegamy przed powoływaniem komisji nazywanych antymobbingowymi, które nie mają umocowania w prawie polskim. Działania tych komisji
+          mogą być podważane i nie stanowić dowodu przeciwdziałania zjawisku mobbingu w procesie sądowym. Określenie "antymobbing" dotyczy ruchu społecznego. 
+          Prawnym określeniem, zgodnie z art. 94³ Kodeksu Pracy jest "przeciwdziałanie mobbingowi".
+          </p>
+          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          Poniżej przedstawiamy stanowisko Stowarzyszenia w tej sprawie.
+          </p>
+          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          Z informacji wpływających do naszego stowarzyszenia z całego kraju, w dalszym ciągu w ramach przeciwdziałania mobbingowi tworzone są wewnątrzzakładowe przepisy
+          pt. Wewnętrzna Polityka Antymobbingowa oraz tworzone są Komisje Antymobbingowe. Praktyka pokazuje, że zapisy te pogłębiają konflikty, a nie przeciwdziałają mobbingowi np.:
+          </p>
+            <ul className="list-disc">
+              <li className="text-slate-500 dark:text-slate-200 m-3">
+              przesłuchiwani pracownicy są nagrywani
+              </li>
+              <li className="text-slate-500 dark:text-slate-200 m-3">
+              treść dokumentów tworzonych przez członków komisji jest wykorzystywana przeciwko pracownikom
+              </li>
+              <li className="text-slate-500 dark:text-slate-200 m-3">
+              powoływane komisje są dodatkowym elementem do zastraszania pracowników
+              </li>
+              <li className="text-slate-500 dark:text-slate-200 m-3">
+              przewodniczącym komisji jest osoba zajmująca się sprawami pracowniczymi będąca mobberem
+              </li>
+            </ul>
+          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          Aby można było porównać, poniżej cytujemy jedyny obowiązujący w polskim prawie przepis dotyczący mobbingu, w którym ustawodawca nie daje przyzwolenia do tworzenia tzw. 
+          wewnętrznej polityki antymobbingowej oraz tzw. komisji antymobbingowych. Ustawodawca zobowiązując pracodawcę do przeciwdziałania mobbingowi nie określił jego sposobu.
+          Pracodawca może tworzyć sposoby regulacji różnych problemów ale powinny one być zgodne z obowiązującym prawem aby efekt działania miał wartość prawną. Nie trzeba być
+          prawnikiem, aby to zrozumieć, wystarczy przeczytać.  
+          </p>
+          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          Art. 94³ Kodeksu Pracy:
+          </p>
+          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          §1.Pracodawca jest obowiązany przeciwdziałać mobbingowi.
+          </p>
+          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          § 2. Mobbing oznacza działania lub zachowania dotyczące pracownika lub skierowane przeciwko pracownikowi, polegające na uporczywym i długotrwałym nękaniu lub zastraszaniu pracownika,
+          wywołujące u niego zaniżoną ocenę przydatności zawodowej, powodujące lub mające na celu poniżenie lub ośmieszenie pracownika, izolowanie go lub wyeliminowanie z zespołu współpracowników.
+          </p>
+          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          § 3. Pracownik, u którego mobbing wywołał rozstrój zdrowia, może dochodzić od pracodawcy odpowiedniej sumy tytułem zadośćuczynienia pieniężnego za doznaną krzywdę.
+          </p>
+          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          § 4. Pracownik, który wskutek mobbingu rozwiązał umowę o pracę, ma prawo dochodzić od pracodawcy odszkodowania w wysokości nie niższej niż minimalne wynagrodzenie za pracę, 
+          ustalane na podstawie odrębnych przepisów.
+          </p>
+          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          § 5. Oświadczenie pracownika o rozwiązaniu umowy o pracę powinno nastąpić na piśmie z podaniem przyczyny, o której mowa w § 2, uzasadniającej rozwiązanie umowy.
+          </p>
+          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          Wewnętrzna Polityka Antymobbingowa ma wady prawne:
+          </p>
+          Wobec braku przepisów wykonawczych do § 1. art. 94³ Kodeksu Pracy ( Pracodawca jest obowiązany przeciwdziałać mobbingowi) zamieszczamy poniżej dwa wzory procedur, opracowane przez prawników naszego stowarzyszenia na podstawie obowiązującego prawa pracy, których zastosowanie da efekt mający wartość prawną:
+          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          <b>Poniżej dodatkowo zamieszczamy komentarz naszych konsultantów z zakresu prawa pracy i mobbingu:</b>
+          </p>
+          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          Wprowadzony przez ustawodawcę w art.94³ Kodeksu Pracy obowiązek dla pracodawcy przeciwdziałania mobbingowi nałożył na wszystkich pracodawców obowiązek podejmowania działań /oczywiście prawem przewidzianych/, które będą stwarzały w miejscu pracy pracodawcy bezpieczne i higieniczne
+          warunki pracy pozbawione przemocy i wolne od negatywnego stresu. Stosowana przemoc /fizyczna czy psychiczna/ w czasie trwania stosunku pracy w stosunku do pracownika jest zachowaniem i działaniem mobbingowym i dlatego ustawodawca czyniąc pracodawcę odpowiedzialnym za takie zjawiska
+          nakazał mu temu przeciwdziałać. Obowiązek ten jest skierowany do pracodawcy a to oznacza, że tylko ten, tzn. pracodawca, ma podejmować działania, które mają na celu zapobieganie powstawaniu takim zjawiskom. Pracodawcy tworzą regulaminy, szkolą pracowników, ale i powołują tzw. Komisje
+          Antymobbingowe, którym określają różny zakres swojego działania. I czynią tym samym bezprawie. Żaden przepis prawny w Polsce nie usankcjonował takich komisji. Jeśli zatem ustawodawca nie powołał do życia takich komisji to ciekawym jest, na jakiej podstawie pracodawcy to czynią.
+          I nie tylko pracodawcy dopuszczają się takich poczynań - bardzo zastanawiające jest to, że Państwowa Inspekcja Pracy, której działalność jest usankcjonowana przepisami prawa, także popiera takie praktyki, ba nawet na swoich stronach internetowych wskazuje przykłady ich tworzenia.
+          Komisje Antymobbingowe działają - znane jest to nawet z praktyki. Pracodawcy wydają zarządzenia, mocą, których powołują do życia i określają ich zakres działania. Bardzo często w takich zarządzeniach pracodawcy określają Komisje Antymobbingowe, jako organy kolegialne, powoływane
+          przez pracodawcę. Skoro tak, to nasuwa się pytanie, na jakiej podstawie prawnej organ kolegialny jest wyposażony w decyzyjność. A jest on decyzyjny, bo wielu pracodawców wyposaża ich w taką funkcję - komisje antymobbingowe zwołują posiedzenia, przesłuchują pracowników i wydają decyzję,
+          którą następnie przekazują pracodawcy: "tak w stosunku do pracownika... był i jest stosowany mobbing" lub: " w stosunku do pracownika... nie stosowano i nie stosuje się zjawiska mobbingu". Takie decyzje podjęte przez nieuprawniony prawem organ są następnie dla pracodawców/takie wyrażają
+          stanowiska przed sądem pracy/ pewnego rodzaju "wyrocznią" i uważają, że zdejmują z siebie odpowiedzialność prawną za stosowane działania mobbingowe w miejscu pracy. Działalność takich komisji jest oczywistym bezprawiem na terenie zakładu pracy - dlaczego? Ustawodawca nie wprowadził w życie
+          Komisji Antymobbingowych. Owszem działają w polskim prawie, ale Komisje Pojednawcze, których tryb działania, sposób powoływania jest znany i pracodawcom i pracownikom a niestety obydwie strony stosunku pracy bardzo rzadko z nich korzystają. Te prawnie działające Komisje Pojednawcze są
+          specjalnym organem ochrony prawnej powołanym do ugodowego załatwienia sporów ze stosunku pracy. Mobbing i roszczenia z nim związane także są sporami ze stosunku pracy i to właśnie te Komisje powinny zajmować się takimi sprawami. Powołanie u pracodawcy Komisji Pojednawczej jest fakultatywne
+          a warunkiem jej powołania jest zgodna wola pracodawcy i załogi. Skoro taka - prawnie usankcjonowana komisja jest organem zgodnej woli obydwu stron stosunku pracy to, jakie prawo upoważnia pracodawcę do powołania komisji antymobbingowych, które nie mając nadanych przez ustawodawcę uprawnień
+          do funkcjonowania, podejmują decyzje, które to następnie są uważane przez pracodawcę, jako ich działania do uwolnienia od odpowiedzialności prawnej, o której mówi ustawodawca w art. 94³ Kodeksu Pracy."
+          </p>
+          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          <b>mgr Jadwiga Mucha</b>
+          </p>
+          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          <b>Postępowanie pojednawcze, jako alternatywa dla procesu sądowego.</b>
+          </p>
+          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          Sprawy o mobbing należą do niezwykle skomplikowanych, zarówno pod względem prawa materialnego jak i procesowego. Dlatego też warto rozważyć możliwość uzyskania środków kompensacyjnych za pomocą alternatywnych metod rozwiązywania sporów pracowniczych. Jedną z nich jest postępowanie pojednawcze.
+          Należy zaznaczyć, że postępowanie pojednawcze – uregulowane w art. 244 – 258 kp. - toczy się przed komisjami pojednawczymi. Rozwiązanie to umożliwia szybsze zakończenie sporu (co do zasady prace komisji pojednawczej trwają 14 dni od dnia złożenia wniosku), bez konieczności kierowania sprawy
+          na drogę postępowania sądowego. Istotny przy tym jest fakt, że komisja pojednawcza zostaje powołana nie przez samego pracodawcę, ale wespół z reprezentantem pracowników, np. w postaci zakładowej organizacji związkowej. Jeżeli jednak takowa nie występuje na terenie zakładu pracy to wymagane
+          jest zasięgnięcie aprobaty wśród pracowników. Sprawy odnoszące się do zagrożeń psychospołecznych takich jak mobbing mogą z powodzeniem zostać przedmiotem postępowania pojednawczego albowiem zakres przedmiotowy ich funkcjonowania zawiera wszelkie kwestie sporne należące do właściwości sądów pracy.
+          Postępowanie pojednawcze zgodnie z obowiązującym prawem jest inicjowane przez pracownika. Przedkładając to na problematykę mobbingu należy zaznaczyć, że jedynie pracownik może korzystać ze środków ochrony prawnej z tytułu mobbingu. Ustawodawca nie przewidział w kodeksie pracy sytuacji, w której to
+          pracodawca byłby ofiarą mobbingu. Istota funkcjonowania komisji pojednawczych sprowadza się – jak wskazuje sama jej nazwa - do pojednania stron sporu poprzez zawarcie ugody (kończące postępowanie przed komisją). Ugoda powinna być zgodna z przepisami prawa oraz zasadami współżycia społecznego.
+          Jeżeli jednak pośrednictwo członków komisji pojednawczej nie przedkłada się na zawarcie ugody to postępowanie pojednawcze dobiega końca. Z perspektywy ofiary mobbingu istotnym jest także fakt, że postępowanie przed komisją pojednawczą nie zamyka drogi sądowej. Jeżeli zatem nie dojdzie do zawarcia
+          ugody sprawa zostaje przekazana do sądu pracy. Przy czym pamiętać należy, że tego rodzaju przekazanie nie następuje automatycznie, zaś będzie dokonane wyłącznie na żądanie poszkodowanego przez mobbing pracownika.
+          </p>
+
+          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          Wobec braku przepisów wykonawczych do § 1. art. 94³ Kodeksu Pracy ( Pracodawca jest obowiązany przeciwdziałać mobbingowi) zamieszczamy poniżej dwa wzory procedur, opracowane przez prawników naszego stowarzyszenia na podstawie obowiązującego prawa pracy, których zastosowanie da efekt mający wartość prawną:
+          </p>
+          <ul className="list-none">
+            <li className="text-slate-500 dark:text-slate-200 m-3">
+            I. Procedura przeciwdziałania mobbingowi w formie zarządzenia pracodawcy.
+            </li>
+              <p className="text-slate-500 dark:text-slate-200 m-3">
+              WZÓR I
+              </p>
+              <p className="text-slate-500 dark:text-slate-200 m-3">
+              WZÓR II
+              </p>            
+            <li className="text-slate-500 dark:text-slate-200 m-3">
+            II. Procedura rozpatrywania skargi pracownika w związku ze stosowanymi wobec niego zachowaniami i działaniami mobbingowymi , opracowana przez prawników stowarzyszenia na podstawie zapisów w dziale XII Kodeksu Pracy ( rozpatrywanie sporów o roszczenia ze stosunku pracy, rozdział II postępowanie pojednawcze art. 244 § 1 i dalsze ):
+            </li>
+                <ul className="list-decimal p-2 m-3">
+                  <li className="text-slate-500 dark:text-slate-200 m-3">
+                  Pracodawca po otrzymaniu od pracownika skargi/pisma związanej ze stosowaniem wobec niego zjawiska mobbingu dekretuje skargę do wyjaśnienia przez powołany przez niego zespół/komisję opiniodawczą.
+                  </li>
+                  <li className="text-slate-500 dark:text-slate-200 m-3">
+                  Przewodniczący takiego zespołu/ komisji po otrzymaniu pisma/skargi rejestruje ją w prowadzonej dla tego typu spraw teczce rzeczowej, zgodnie z obowiązującym u pracodawcy Jednolitym Rzeczowym Wykazem Akt(JRWA).
+                  </li>
+                  <li className="text-slate-500 dark:text-slate-200 m-3">
+                  Przewodniczący wyznacza niezwłocznie termin posiedzenia, na którym członkowie takiego zespołu/komisji szczegółowo zapoznają się z treścią skatgi/pisma, sporządzając na tę okoliczność protokół z posiedzenia.
+                  </li>
+                  <li className="text-slate-500 dark:text-slate-200 m-3">
+                  W przypadku zaistnienia konieczności uzupełnienia skargi/pisma, wydaje się postanowienie o zobowiązaniu pracownika do uzupełnienia, zgodnie z postanowieniem np. dodatkowych dokumentów, wyjaśnień na piśmie, zakreślając pracownikowi określony termin ( np. 3 dniowy).
+                  </li>
+                  <li className="text-slate-500 dark:text-slate-200 m-3">
+                  Przewodniczący wyznacza termin posiedzenia, na który wzywa pracownika.
+                  </li>
+                  <li className="text-slate-500 dark:text-slate-200 m-3">
+                  Na pierwszym posiedzeniu należy ustalić i w protokole zamieścić stosowną informację, czy pracownik w tym postępowaniu występuje samodzielnie, czy z reprezentantem ( np. przedstawiciel związków zawodowych). Jeśli pracownik zdecyduje się na zgłoszenie reprezentanta, 
+                  przewodniczący odracza posiedzenie i ustala następny termin, na który wzywa także reprezentanta pracownika. Pracownik o terminie jest powiadomiony na tym posiedzeniu, a tę okoliczność zamieszcza się w protokole.
+                  </li>
+                  <li className="text-slate-500 dark:text-slate-200 m-3">
+                  Na posiedzeniu z udziałem pracownika i jego reprezentanta wysłuchuje się pracownika a następnie reprezentanta i sporządza na tę okoliczność protokół. Na tym posiedzeniu prosi się pracownika o wskazanie dowodów. Jeśli pracownik będzie składał dokumenty,
+                  każdy z nich należy przyjąć, dołączając do akt, opisując każdy dokument w protokole ( np. Skarżący składa do akt dokumenty: 1) pismo z dnia... kierowane do ... w sprawie...).
+                  </li>
+                  <li className="text-slate-500 dark:text-slate-200 m-3">
+                  Pracownik skarżący przedkłada dokumenty w oryginale, zatrzymuje się do akt kopie potwierdzone za zgodność z oryginałem prze przewodniczącego.
+                  </li>
+                  <li className="text-slate-500 dark:text-slate-200 m-3">
+                  Jeśli pracownik wskaże osoby, które mogą potwierdzić zaistnienie podanych przez niego zachowań i działań mobbingowych, należy dopuścić te dowody. Fakt ten zamieszcza się w protokole z posiedzenia.
+                  </li>
+                  <li className="text-slate-500 dark:text-slate-200 m-3">
+                  Wysłuchanie zgłoszonych osób odbywa się w taki sam sposób jak skarżącego się pracownika, z tym że wysłuchanie świadka odbywa się przy udziale pracownika i jego reprezentanta.
+                  </li>
+                  <li className="text-slate-500 dark:text-slate-200 m-3">
+                  Należy wysłuchać także osobę, w stosunku do której pracownik wysuwa roszczenia związane ze stosowaniem przez nią zachowań i działań mobbingowych.
+                  </li>
+                  <li className="text-slate-500 dark:text-slate-200 m-3">
+                  Posiedzenia zespołu/komisji są objęte tajemnicą służbową, nikt z biorących w nich udział nie może ujawniać jego przebiegu.
+                  </li>
+                  <li className="text-slate-500 dark:text-slate-200 m-3">
+                  Po wysłuchaniu wskazanych osób, przewodniczący zamyka posiedzenie i bez udziału stron zespół/komisja analizuje zgromadzone dowody osobowe oraz dokumenty.
+                  </li>
+                  <li className="text-slate-500 dark:text-slate-200 m-3">
+                  Członkowie zespołu/komisji biorący udział w postępowaniu wyjaśniającym podpisują się pod wspólnie uzgodnioną opinią. Można mieć zdanie odrębne, ale ten fakt musi być ujawniony w przedstawionej opinii.
+                  </li>
+                  <li className="text-slate-500 dark:text-slate-200 m-3">
+                  Organ wyjaśniający problem po przeanalizowaniu całości wydaje opinię w sprawie przeprowadzonego postępowania i po spisaniu jej, w formie papierowej przedkłada pracodawcy, który podejmuje decyzję w jaki
+                  sposób rozstrzygnąć spór. Należy pamiętać, że zespół/komisja nie może wydawać żadnych rozstrzygnięć. Ustawodawca dał uprawnienia do podejmowania działań zmierzających do zaprzestania mobbingu tylko pracodawcy.
+                  </li>
+                </ul>
+          </ul>
+
+          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          Zachęcamy do zmiany już przyjętych przepisów pt. "Wewnętrzna Polityka Antymobbingowa" oraz tzw." Komisje Antymobbingowe" na "Wewnętrzna Polityka Przeciwdziałająca Mobbingowi" i "Zespoły/Komisje Przeciwdziałające Mobbingowi".
+          </p>
+
+          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          <b>mgr Tomasz Juraszek</b>
+          </p>
+
+
+          </article>
+
+          <article className="box-border border-2 shadow-md p-4 mt-4">
+          <p className="text-slate-500 dark:text-slate-200 mb-4">
           <b>KOMUNIKAT 2</b>
           </p>
           <p className="text-slate-500 dark:text-slate-200 mb-4">
@@ -194,22 +376,6 @@ const Actions = () => {
           <b>Więcej szczegółów (pdflink)</b>
           </p>
           </article>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
       </Tabs.Item>
 
       <Tabs.Item title="Wydarzenia">
