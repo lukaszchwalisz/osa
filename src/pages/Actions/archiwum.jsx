@@ -10,8 +10,8 @@ const Archiwum = () => {
     
     <ul className="list-disc">
             
-      <li className="text-slate-500 dark:text-slate-200 m-3"><a href="/osa/public/pdf/programy.pdf" target="_blank">Programy</a></li>
-      <li className="text-slate-500 dark:text-slate-200 m-3"><a href="/osa/public/pdf/projekty.pdf" target="_blank">Projekty</a></li>
+      <li className="text-slate-500 dark:text-slate-200 m-3"><a href="/osa/pdf/programy.pdf" target="_blank">Programy</a></li>
+      <li className="text-slate-500 dark:text-slate-200 m-3"><a href="/osa/pdf/projekty.pdf" target="_blank">Projekty</a></li>
     </ul>
     
     
