@@ -10,11 +10,11 @@ const Archiwum = () => {
     
     <ul className="list-disc">
             
-      <li className="text-slate-500 dark:text-slate-200 m-3"><a href="/osa/pdf/programy.pdf" target="_blank">Programy</a></li>
-      <li className="text-slate-500 dark:text-slate-200 m-3"><a href="/osa/pdf/projekty.pdf" target="_blank">Projekty</a></li>
+      <li className="text-slate-500 dark:text-slate-200 m-3"><a href="/osa/pdf/programy.pdf" type="application/pdf" target="_blank">Programy</a></li>
+      <li className="text-slate-500 dark:text-slate-200 m-3"><a href="/osa/pdf/projekty.pdf" type="application/pdf"target="_blank">Projekty</a></li>
     </ul>
     
-    
+    <iframe src="/osa/pdf/projekty.pdf" width="100%" height="750px"></iframe>
     </article>
   )
 }
