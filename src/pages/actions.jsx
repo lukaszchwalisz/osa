@@ -658,8 +658,8 @@ const Actions = () => {
       
       <ul className="list-disc">
               
-        <li className="text-slate-500 dark:text-slate-200 m-3"><a href="https://github.com/lukaszchwalisz/osa/blob/main/src/assets/pdf/programy.pdf" target="_blank">Projekty</a></li>
-              
+        <li className="text-slate-500 dark:text-slate-200 m-3"><a href="/osa/src/assets/pdf/programy.pdf" target="_blank">Programy</a></li>
+        <li className="text-slate-500 dark:text-slate-200 m-3"><a href="/osa/src/assets/pdf/projekty.pdf" target="_blank">Projekty</a></li>
       </ul>
       
       
