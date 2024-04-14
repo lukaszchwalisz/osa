@@ -7,7 +7,7 @@ const Komunikaty = () => {
         <h1 className="text-indigo-700 bg-slate-50 p-4 text-center dark:text-indigo-400 font-bold font-mono text-2xl mt-8 mb-4">KOMUNIKATY</h1>
 
         <article className="box-border border-2 shadow-md p-4 mt-4">
-          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          <p className="text-slate-500 text-center dark:text-slate-200 mb-4">
           <b>KOMUNIKAT 9</b>
           </p>
           <p className="text-slate-500 dark:text-slate-200 mb-4">
@@ -30,7 +30,7 @@ const Komunikaty = () => {
         </article>
 
         <article className="box-border border-2 shadow-md p-4 mt-4">
-          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          <p className="text-slate-500 text-center dark:text-slate-200 mb-4">
           <b>KOMUNIKAT 8</b>
           </p>
           <p className="text-slate-500 dark:text-slate-200 mb-4">
@@ -99,7 +99,7 @@ const Komunikaty = () => {
         </article>
 
         <article className="box-border border-2 shadow-md p-4 mt-4">
-          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          <p className="text-slate-500 text-center dark:text-slate-200 mb-4">
           <b>KOMUNIKAT 7</b>
           </p>
           <p className="text-slate-500 dark:text-slate-200 mb-4">
@@ -107,14 +107,17 @@ const Komunikaty = () => {
           epidemiologicznego proponuje bezpłatną pomoc psychologiczną dla osób potrzebujących wsparcia.
           </p>
           <p className="text-slate-500 dark:text-slate-200 mb-4">
-          <a href="/osa/pdf/poznan_covid.pdf" type="application/pdf"target="_blank"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6">
-          <path strokeLinecap="round" strokeLinejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
-          </svg></a>
+          <a href="/osa/pdf/poznan_covid.pdf" type="application/pdf"target="_blank" className="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none
+             focus:ring-gray-100 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700">
+              Czytaj dalej<svg className="w-3 h-3 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+              <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+            </svg>
+          </a>
           </p>
         </article>
 
         <article className="box-border border-2 shadow-md p-4 mt-4">
-          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          <p className="text-slate-500 text-center dark:text-slate-200 mb-4">
           <b>KOMUNIKAT 6</b>
           </p>
           <p className="text-slate-500 dark:text-slate-200 mb-4">
@@ -134,7 +137,7 @@ const Komunikaty = () => {
 
         <article className="box-border border-2 shadow-md p-4 mt-4">
           
-          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          <p className="text-slate-500 text-center dark:text-slate-200 mb-4">
           <b>KOMUNIKAT 5</b>
           </p>
           <p className="text-slate-500 dark:text-slate-200 mb-4">
@@ -169,7 +172,7 @@ const Komunikaty = () => {
           </article>
 
           <article className="box-border border-2 shadow-md p-4 mt-4">
-          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          <p className="text-slate-500 text-center dark:text-slate-200 mb-4">
           <b>KOMUNIKAT 4</b>
           </p>
           <p className="text-slate-500 dark:text-slate-200 mb-4">
@@ -198,7 +201,7 @@ const Komunikaty = () => {
           </article>
 
           <article className="box-border border-2 shadow-md p-4 mt-4">
-          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          <p className="text-slate-500 text-center dark:text-slate-200 mb-4">
           <b>KOMUNIKAT 3</b>
           </p>
           <b> 
@@ -400,21 +403,24 @@ const Komunikaty = () => {
           </article>
 
           <article className="box-border border-2 shadow-md p-4 mt-4">
-          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          <p className="text-slate-500 text-center dark:text-slate-200 mb-4">
           <b>KOMUNIKAT 2</b>
           </p>
           <p className="text-slate-500 dark:text-slate-200 mb-4">
           Problematyka mobbingu w świetle orzecznictwa sądowego zebrana przez mgr Tomasza Juraszka.
           </p>
           <p className="text-slate-500 dark:text-slate-200 mb-4">
-          <a href="/osa/pdf/orzecznictwo_2014.pdf" type="application/pdf"target="_blank"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6">
-          <path strokeLinecap="round" strokeLinejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
-          </svg></a>
+            <a href="/osa/pdf/orzecznictwo_2014.pdf" type="application/pdf"target="_blank" className="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none
+             focus:ring-gray-100 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700">
+              Czytaj dalej<svg className="w-3 h-3 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+              <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+            </svg>
+            </a>
           </p>
           </article>
 
           <article className="box-border border-2 shadow-md p-4 mt-4">
-          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          <p className="text-slate-500 text-center dark:text-slate-200 mb-4">
           <b>KOMUNIKAT 1</b>
           </p>
           <p className="text-slate-500 dark:text-slate-200 mb-4">
@@ -454,10 +460,13 @@ const Komunikaty = () => {
             </li>
           </ul>
           <p className="text-slate-500 dark:text-slate-200 mb-4">
-          <a href="/osa/pdf/zmiany_prawne_2008.pdf" type="application/pdf"target="_blank"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6">
-          <path strokeLinecap="round" strokeLinejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
-          </svg></a>
-          </p>
+            <a href="/osa/pdf/zmiany_prawne_2008.pdf" type="application/pdf"target="_blank" className="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none
+             focus:ring-gray-100 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700">
+              Czytaj dalej<svg className="w-3 h-3 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+              <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+            </svg>
+            </a>
+            </p>
           </article>
     </div>
   )
