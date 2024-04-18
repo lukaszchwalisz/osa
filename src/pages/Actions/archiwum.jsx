@@ -8,12 +8,12 @@ const Archiwum = () => {
     Programy i projekty stworzone i zrealizowane przez Ogólnopolskie Stowarzyszenie Antymobbingowe OSA (pliki pdf):
     </p>
     
-    <ul className="list-disc">    
-      <li className="text-slate-500 dark:text-slate-200 m-3"><a href="/osa/pdf/programy.pdf" type="application/pdf" target="_blank">programy (2003 - 2018)</a></li>
+      
+      <p className="text-slate-500 font-semibold dark:text-slate-200 m-3"><a href="/osa/pdf/programy.pdf" type="application/pdf" target="_blank">Programy realizowane w latach 2003 r. - 2018 r.</a></p>
       <iframe src="/osa/pdf/programy.pdf" width="100%" height="750px"></iframe>
-      <li className="text-slate-500 dark:text-slate-200 m-3"><a href="/osa/pdf/projekty.pdf" type="application/pdf"target="_blank">projekty (2003 - 2022)</a></li>
+      <p className="text-slate-500 font-semibold dark:text-slate-200 m-3"><a href="/osa/pdf/projekty.pdf" type="application/pdf"target="_blank">Programy realizowane w latach 2003 r. - 2022 r.</a></p>
       <iframe src="/osa/pdf/projekty.pdf" width="100%" height="750px"></iframe>
-    </ul>
+    
     
     
     </article>
