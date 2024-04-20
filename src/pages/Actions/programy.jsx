@@ -15,7 +15,7 @@ const Programy = () => {
           <List ordered className="text-slate-500 dark:text-slate-200 mb-4">
             <List.Item><b>Pomoc prawna polega na wyjaśnianiu wątpliwości prawnych osoby zgłaszającej się w przedstawionej przez nią sprawie:</b></List.Item>
 
-              <List className="text-slate-500 dark:text-slate-200 mb-4">
+              <List nested className="text-slate-500 dark:text-slate-200 mb-4">
                 <List.Item>udzieleniu odpowiedzi na pytania związane z obowiązującym prawem w zakresie wiążącym się ze
                   sprawą tj. udzieleniu informacji i edukacji o treści obowiązującego prawa, o prawach i 
                   obowiązkach wynikających z obowiązujących uregulowań prawnych oraz instytucjach właściwych dla
@@ -23,10 +23,10 @@ const Programy = () => {
                 <List.Item>wskazaniu możliwych prawnie dróg postępowania</List.Item>
               </List>
 
-              <p className="text-slate-500 dark:text-slate-200 mb-4">Pomoc udzielana jest w kontakcie bezpośrednim, 
+            <p className="text-slate-500 dark:text-slate-200 mb-4">Pomoc udzielana jest w kontakcie bezpośrednim, 
                   telefonicznie, pocztą internetową oraz pocztą tradycyjną poprzez:</p>
 
-              <List className="text-slate-500 dark:text-slate-200 mb-4"> 
+              <List  nested className="text-slate-500 dark:text-slate-200 mb-4"> 
                 <List.Item>udzielanie indywidualnych konsultacji osobom zwracającym się o pomoc</List.Item>
                 <List.Item>ocenę faktów związanych z przemocą w pracy z uwzględnieniem kwalifikacji prawnej problemów</List.Item>
                 <List.Item>ocenę realnych szans powodzenia postępowań sądowych w sprawach z zakresu mobbingu i dyskryminacji (ocena mocy dowodów)</List.Item>
@@ -34,34 +34,36 @@ const Programy = () => {
                 <List.Item>w razie potrzeby w postępowaniu sądowym prawnik funkcjonuje jako pełnomocnik Stowarzyszenia, organizacji społecznej broniącej praw człowieka, 
                           jeśli problem zostanie zakwalifikowany do tego typu pomocy</List.Item>
               </List>
-              <div  className="p-4">
-              <p className="text-slate-500 dark:text-slate-200"> 
+
+              
+              <p className="text-slate-500 pt-4 dark:text-slate-200"> 
                 Pomoc prowadzi Konsultant Krajowy Stowarzyszenia, pani mgr Jadwiga Mucha.</p>
               <p className="text-slate-500 dark:text-slate-200"> 
                tel.: 504 659 911 (w dni powszednie w godzinach 18.00 - 20.00)</p>
                <p className="text-slate-500 dark:text-slate-200"> 
                 <a href="mailto:osa-lublin@wp.pl">email.: osa-lublin@wp.pl</a>         
               </p>
-              </div>
+              
+              
 
-              <List.Item><b>Pomoc psychologiczna realizowana w formie społecznego wsparcia grupowego w otwartej grupie wsparcia prowadzonej przez psychologów mgr Barbarę Jabłońską - Komar i mgr Paulinę Pers,
-                gdzie realizowany jest program psychoprofilaktyczny "Pracuję bez lęku" o tematyce zajęć dostosowanej do zapotrzebowania uczestników t.j.:</b></List.Item>
-              </List>
+            <List.Item className="pt-4"><b>Pomoc psychologiczna realizowana w formie społecznego wsparcia grupowego w otwartej grupie wsparcia prowadzonej przez psychologów mgr Barbarę Jabłońską - Komar i mgr Paulinę Pers,
+              gdzie realizowany jest program psychoprofilaktyczny "Pracuję bez lęku" o tematyce zajęć dostosowanej do zapotrzebowania uczestników t.j.:</b></List.Item>
+            </List>
 
-              <List className="text-slate-500 dark:text-slate-200 mb-4"> 
-              <List.Item className="text-slate-500 dark:text-slate-200">
+            <List nested className="text-slate-500 dark:text-slate-200 mb-4"> 
+              <List.Item>
               podstawowe informacje o mobbingu i dyskryminacji. Czym jest dyskryminacja i mobbing, różnice? Czynniki występowania dyskryminacji i mobbingu. Fazy mobbingu.
               </List.Item>
-              <List.Item className="text-slate-500 dark:text-slate-200">
+              <List.Item className="">
               skutki w/w zjawisk: zdrowotne (nerwobóle, choroba wrzodowa itd.);psychologiczne (stres w pracy); motywacyjne(wypalenie zawodowe)
               </List.Item>
-              <List.Item className="text-slate-500 dark:text-slate-200">
+              <List.Item className="">
               diagnoza sytuacji dyskryminacyjnej i mobbingowej: relacja pracodawca/przełożony (analiza transakcyjna); konflikt w pracy; komunikacja w pracy
               </List.Item>
-              <List.Item className="text-slate-500 dark:text-slate-200">
+              <List.Item className="">
               moja postawa wobec dyskryminacji i mobbingu: postawa agresywna; postawa uległa; postawa asertywna; pozytywne praktyczne wzorce
               </List.Item>
-              <List.Item className="text-slate-500 dark:text-slate-200 mb-4">
+              <List.Item className="mb-4">
               skuteczne sposoby walki z dyskryminacją i mobbingiem: autoprezentacja; poczucie własnej wartości; negocjacje/ mediacje; konflikt; radzenie sobie ze stresem; zarządzanie czasem
               </List.Item>
             </List>
@@ -70,26 +72,26 @@ const Programy = () => {
             W trakcie zajęć można:
             </p>
 
-            <List className="text-slate-500 dark:text-slate-200 mb-4"> 
-              <List.Item className="text-slate-500 dark:text-slate-200">
+            <List nested className="text-slate-500 dark:text-slate-200 mb-4"> 
+              <List.Item className="">
               otrzymać wsparcie i pomoc od osób rozumiejących ten problem
               </List.Item>
-              <List.Item className="text-slate-500 dark:text-slate-200">
+              <List.Item className="">
               spotkać osoby o podobnym doświadczeniu
               </List.Item>
-              <List.Item className="text-slate-500 dark:text-slate-200">
+              <List.Item className="">
               uzyskać wiedzę o mechanizmach, konsekwencjach przemocy w pracy
               </List.Item>
-              <List.Item className="text-slate-500 dark:text-slate-200">
+              <List.Item className="">
               uzyskać diagnozę sytuacji
               </List.Item>
-              <List.Item className="text-slate-500 dark:text-slate-200">
+              <List.Item className="">
               uzyskać pomoc w rozwiązywaniu problemów emocjonalnych
               </List.Item>
-              <List.Item className="text-slate-500 dark:text-slate-200">
+              <List.Item className="">
               uzyskać pomoc w odzyskaniu utraconych praw
               </List.Item>
-              <List.Item className="text-slate-500 dark:text-slate-200 mb-4">
+              <List.Item className="">
               uzyskać motywację do aktywnego uczestnictwa w grupie i udzielanie wzajemnego wsparcia z 
               wykorzystaniem własnej wiedzy i umiejętności
               </List.Item>

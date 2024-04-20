@@ -1,4 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
+import { List } from "flowbite-react"
 
 const Komunikaty = () => {
   return (  
@@ -37,65 +38,82 @@ const Komunikaty = () => {
           <b>Stowarzyszenie udziela nieodpłatnie pomoc psychologiczną</b> w otwartej grupie wsparcia prowadzonej przez psycholog mgr Paulinę Pers,
           gdzie realizowany jest program psychoprofilaktyczny pt. „Pracuję bez lęku” o tematyce zajęć dostosowanej do zapotrzebowania uczestników tj:
           </p>
-          <ul className="list-disc">
-            <li className="text-slate-500 dark:text-slate-200 m-3">
+
+          <List className="text-slate-500 dark:text-slate-200 mb-4"> 
+            <List.Item className="">
             podstawowe informacje o mobbingu i dyskryminacji. Czym jest dyskryminacja i mobbing, różnice? Czynniki występowania dyskryminacji i mobbingu. Fazy mobbingu.
-            </li>
-            <li className="text-slate-500 dark:text-slate-200 m-3">
+            </List.Item>
+            <List.Item className="">
             skutki w/w zjawisk: zdrowotne (nerwobóle, choroba wrzodowa itd.), psychologiczne (stres w pracy), motywacyjne(wypalenie zawodowe)
-            </li>
-            <li className="text-slate-500 dark:text-slate-200 m-3">
+            </List.Item>
+            <List.Item className="">
             moja postawa wobec dyskryminacji i mobbingu: postawa agresywna, postawa uległa, postawa asertywna, pozytywne praktyczne wzorce
-            </li>
-            <li className="text-slate-500 dark:text-slate-200 m-3">
+            </List.Item>
+            <List.Item className="">
             skuteczne sposoby walki z dyskryminacją i mobbingiem: autoprezentacja, poczucie własnej wartości, negocjacje/ mediacje, konflikt, radzenie sobie ze stresem, zarządzanie czasem
-            </li>
+          </List.Item>
+
+          </List>
+
             <p className="text-slate-500 dark:text-slate-200 mb-4">
             W trakcie zajęć można:
             </p>
-            <li className="text-slate-500 dark:text-slate-200 m-3">
+
+          <List className="text-slate-500 dark:text-slate-200 mb-4"> 
+            <List.Item className="">
             otrzymać wsparcie i pomoc od osób rozumiejących ten problem
-            </li>
-            <li className="text-slate-500 dark:text-slate-200 m-3">
+            </List.Item>
+            <List.Item className="">
             spotkać osoby o podobnym doświadczeniu
-            </li>
-            <li className="text-slate-500 dark:text-slate-200 m-3">
+            </List.Item>
+            <List.Item className="">
             uzyskać wiedzę o mechanizmach, konsekwencjach przemocy w pracy
-            </li>
-            <li className="text-slate-500 dark:text-slate-200 m-3">
+            </List.Item>
+            <List.Item className="">
             uzyskać diagnozę sytuacji
-            </li>
-            <li className="text-slate-500 dark:text-slate-200 m-3">
+            </List.Item>
+            <List.Item className="">
             uzyskać pomoc w rozwiązywaniu problemów emocjonalnych
-            </li>
-            <li className="text-slate-500 dark:text-slate-200 m-3">
+            </List.Item>
+            <List.Item className="">
             uzyskać pomoc w odzyskaniu utraconych praw
-            </li>
-            <li className="text-slate-500 dark:text-slate-200 m-3">
-            uzyskać motywację do aktywnego uczestnictwa w grupie i udzielanie wzajemnego wsparcia z wykorzystaniem własnej wiedzy i umiejętności
-            </li>
-            <p className="text-slate-500 dark:text-slate-200 mb-4">
-            Zajęcia odbywają się we wtorki od 10 stycznia 2023r w godzinach od 17.00 do 19.00 w pomieszczeniach użyczonych przez Towarzystwo Przyjaciół Gdańska w Gdańsku przy ul. Warzywniczej 10.
-            </p>
-            <p className="text-slate-500 dark:text-slate-200 mb-4">
-            W okresie od 1 czerwca do 8 grudnia 2023r. zajęcia odbywają się dzięki dofinansowaniu ze środków Miasta Gdańsk w ramach Gdańskiego Funduszu Równości 2023.
-            </p>
-            <p className="text-slate-500 dark:text-slate-200 mb-4">
-            Serdecznie zapraszamy do uczestnictwa.
-            </p>
-            <p className="text-slate-500 dark:text-slate-200 mb-4">
-            Osobom zwracającym się o pomoc udzielamy indywidualnej konsultacji. W razie potrzeby prawnik Stowarzyszenia funkcjonuje, jako pełnomocnik OSA w postępowaniu sądowym.
-            </p>
-            <p className="text-slate-500 dark:text-slate-200 mb-4">
-            Pomoc prowadzi Konsultant Krajowy Stowarzyszenia mgr Jadwiga Mucha
-            </p>
-            <p className="text-slate-500 dark:text-slate-200 mb-4">
-            Kontakt telefoniczy: kom.504 659 911 w dni powszednie w godzinach 18.00 – 20.00
-            </p>
-            <p className="text-slate-500 dark:text-slate-200 mb-4">
-            Kontakt mailowy: <a href="mailto:osa-lublin@wp.pl">osa-lublin@wp.pl</a>
-            </p>
-          </ul>
+            </List.Item>
+            <List.Item className="">
+            uzyskać motywację do aktywnego uczestnictwa w grupie i
+              udzielanie wzajemnego wsparcia z wykorzystaniem własnej wiedzy i umiejętności
+          </List.Item>
+
+          </List>
+
+
+          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          Zajęcia odbywają się we wtorki od 10 stycznia 2023r w godzinach od 17.00 do 19.00 w pomieszczeniach użyczonych przez Towarzystwo Przyjaciół Gdańska w Gdańsku przy ul. Warzywniczej 10.
+          </p>
+
+          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          W okresie od 1 czerwca do 8 grudnia 2023r. zajęcia odbywają się dzięki dofinansowaniu ze środków Miasta Gdańsk w ramach Gdańskiego Funduszu Równości 2023.
+          </p>
+
+          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          Serdecznie zapraszamy do uczestnictwa.
+          </p>
+
+          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          Osobom zwracającym się o pomoc udzielamy indywidualnej konsultacji. W razie potrzeby prawnik Stowarzyszenia funkcjonuje, jako pełnomocnik OSA w postępowaniu sądowym.
+          </p>
+
+          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          Pomoc prowadzi Konsultant Krajowy Stowarzyszenia mgr Jadwiga Mucha
+          </p>
+
+          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          Kontakt telefoniczy: kom.504 659 911 w dni powszednie w godzinach 18.00 – 20.00
+          </p>
+
+          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          Kontakt mailowy: <a href="mailto:osa-lublin@wp.pl">osa-lublin@wp.pl</a>
+          </p>
+
         </article>
 
         <article className="box-border border-2 shadow-md p-4 mt-4">
@@ -143,31 +161,37 @@ const Komunikaty = () => {
           <p className="text-slate-500 dark:text-slate-200 mb-4">
           W ramach wspierania pracodawców w przeciwdziałaniu mobbingowi Stowarzyszenie:
           </p>
-            <ul className="list-decimal">
-              <li className="text-slate-500 dark:text-slate-200 m-3">
-              Realizuje program pt. "Mobbing się nie opłaca" w formie spotkania szkoleniowego, uczestnicy otrzymują komplet materiałów szkoleniowych oraz zaświadczenia o uczestnictwie.
-              </li>
-              <li className="text-slate-500 dark:text-slate-200 m-3">
-              Realizuje program badawczy środowisk pracowniczych:
-              </li>
-              <ul className="list-disc">
-                <li className="text-slate-500 dark:text-slate-200 m-3">
-                diagnozuje zjawisko mobbingu
-                </li>
-                <li className="text-slate-500 dark:text-slate-200 m-3">
-                określa stopień występowania
-                </li>
-                <li className="text-slate-500 dark:text-slate-200 m-3">
-                określa obraz mobbera i mobbingowanego
-                </li>
-                <li className="text-slate-500 dark:text-slate-200 m-3">
-                diagnozuje rodzaj stosowanych działań i zachowań mobbingowych (z analizy materiału badawczego sporządzany jest raport z podsumowaniem i zaleceniami mającymi spowodować pozytywną zmianę w środowisku pracowniczym)
-                </li>
-              </ul>
-              <li className="text-slate-500 dark:text-slate-200 m-3">
-              Wykonuje ocenę czynności pracodawców w zakresie przeciwdziałania mobbingowi na podstawie nadesłanych materiałów.
-              </li>
-           </ul>
+          <List ordered className="text-slate-500 dark:text-slate-200 mb-4"> 
+            <List.Item className="">
+            Realizuje program pt. "Mobbing się nie opłaca" w formie spotkania szkoleniowego,
+            uczestnicy otrzymują komplet materiałów szkoleniowych oraz zaświadczenia o uczestnictwie.
+            </List.Item>
+            <List.Item className="">
+            Realizuje program badawczy środowisk pracowniczych:
+            </List.Item>
+
+          <List nested className="text-slate-500 dark:text-slate-200 mb-4">
+
+            <List.Item className="">
+            diagnozuje zjawisko mobbingu
+            </List.Item>
+            <List.Item className="">
+            określa stopień występowania
+            </List.Item>
+            <List.Item className="">
+            określa obraz mobbera i mobbingowanego
+            </List.Item>
+            <List.Item className="">
+            diagnozuje rodzaj stosowanych działań i zachowań mobbingowych (z analizy materiału badawczego
+            sporządzany jest raport z podsumowaniem i zaleceniami mającymi spowodować pozytywną zmianę w środowisku pracowniczym)
+            </List.Item>
+            </List>
+
+            <List.Item className="">
+            Wykonuje ocenę czynności pracodawców w zakresie przeciwdziałania mobbingowi na podstawie nadesłanych materiałów.
+            </List.Item>
+
+          </List>  
             
           </article>
 
@@ -225,20 +249,23 @@ const Komunikaty = () => {
           Z informacji wpływających do naszego stowarzyszenia z całego kraju, w dalszym ciągu w ramach przeciwdziałania mobbingowi tworzone są wewnątrzzakładowe przepisy
           pt. Wewnętrzna Polityka Antymobbingowa oraz tworzone są Komisje Antymobbingowe. Praktyka pokazuje, że zapisy te pogłębiają konflikty, a nie przeciwdziałają mobbingowi np.:
           </p>
-            <ul className="list-disc">
-              <li className="text-slate-500 dark:text-slate-200 m-3">
-              przesłuchiwani pracownicy są nagrywani
-              </li>
-              <li className="text-slate-500 dark:text-slate-200 m-3">
-              treść dokumentów tworzonych przez członków komisji jest wykorzystywana przeciwko pracownikom
-              </li>
-              <li className="text-slate-500 dark:text-slate-200 m-3">
-              powoływane komisje są dodatkowym elementem do zastraszania pracowników
-              </li>
-              <li className="text-slate-500 dark:text-slate-200 m-3">
-              przewodniczącym komisji jest osoba zajmująca się sprawami pracowniczymi będąca mobberem
-              </li>
-            </ul>
+
+          <List nested className="text-slate-500 dark:text-slate-200 mb-4">
+
+            <List.Item className="">
+            przesłuchiwani pracownicy są nagrywani
+            </List.Item>
+            <List.Item className="">
+            treść dokumentów tworzonych przez członków komisji jest wykorzystywana przeciwko pracownikom
+            </List.Item>
+            <List.Item className="">
+            powoływane komisje są dodatkowym elementem do zastraszania pracowników
+            </List.Item>
+            <List.Item className="">
+            przewodniczącym komisji jest osoba zajmująca się sprawami pracowniczymi będąca mobberem
+            </List.Item>
+          </List>
+
           <p className="text-slate-500 dark:text-slate-200 mb-4">
           Aby można było porównać, poniżej cytujemy jedyny obowiązujący w polskim prawie przepis dotyczący mobbingu, w którym ustawodawca nie daje przyzwolenia do tworzenia tzw. 
           wewnętrznej polityki antymobbingowej oraz tzw. komisji antymobbingowych. Ustawodawca zobowiązując pracodawcę do przeciwdziałania mobbingowi nie określił jego sposobu.
@@ -327,70 +354,77 @@ const Komunikaty = () => {
           Wobec braku przepisów wykonawczych do § 1. art. 94³ Kodeksu Pracy ( Pracodawca jest obowiązany przeciwdziałać mobbingowi) zamieszczamy poniżej dwa wzory procedur, opracowane przez prawników naszego stowarzyszenia na podstawie obowiązującego prawa pracy, których zastosowanie da efekt mający wartość prawną.
           </p>
 
-          <ul className="list-none">
-            <li className="text-slate-500 dark:text-slate-200 m-3">
-            I. Procedura przeciwdziałania mobbingowi w formie zarządzenia pracodawcy.
-            </li>
+          <List unstyled className="text-slate-500 dark:text-slate-200 mb-4">
 
-            <div className="flex">
-            <p className=" text-slate-500 underline dark:text-slate-200 m-3  hover:text-indigo-400 hover:font-bold"><a href="/osa/pdf/wzor1.pdf" type="application/pdf"target="_blank">WZÓR I</a></p>   
-            <p className="text-slate-500 underline dark:text-slate-200 m-3 hover:text-indigo-400 hover:font-bold"><a href="/osa/pdf/wzor2.pdf" type="application/pdf"target="_blank">WZÓR II</a></p>
-            </div>
+            <List.Item className="">
+            I. Procedura przeciwdziałania mobbingowi w formie zarządzenia pracodawcy.
+            </List.Item>
+              <div className="flex">
+              <p className=" text-slate-500 underline dark:text-slate-200 m-3  hover:text-indigo-400 hover:font-bold"><a href="/osa/pdf/wzor1.pdf" type="application/pdf"target="_blank">WZÓR I</a></p>   
+              <p className="text-slate-500 underline dark:text-slate-200 m-3 hover:text-indigo-400 hover:font-bold"><a href="/osa/pdf/wzor2.pdf" type="application/pdf"target="_blank">WZÓR II</a></p>
+              </div>
         
-            <li className="text-slate-500 dark:text-slate-200 m-3">
-            II. Procedura rozpatrywania skargi pracownika w związku ze stosowanymi wobec niego zachowaniami i działaniami mobbingowymi , opracowana przez prawników stowarzyszenia na podstawie zapisów w dziale XII Kodeksu Pracy ( rozpatrywanie sporów o roszczenia ze stosunku pracy, rozdział II postępowanie pojednawcze art. 244 § 1 i dalsze ):
-            </li>
-              <ul className="list-decimal p-2 m-3">
-                <li className="text-slate-500 dark:text-slate-200 m-3">
-                Pracodawca po otrzymaniu od pracownika skargi/pisma związanej ze stosowaniem wobec niego zjawiska mobbingu dekretuje skargę do wyjaśnienia przez powołany przez niego zespół/komisję opiniodawczą.
-                </li>
-                <li className="text-slate-500 dark:text-slate-200 m-3">
-                Przewodniczący takiego zespołu/ komisji po otrzymaniu pisma/skargi rejestruje ją w prowadzonej dla tego typu spraw teczce rzeczowej, zgodnie z obowiązującym u pracodawcy Jednolitym Rzeczowym Wykazem Akt(JRWA).
-                </li>
-                <li className="text-slate-500 dark:text-slate-200 m-3">
-                Przewodniczący wyznacza niezwłocznie termin posiedzenia, na którym członkowie takiego zespołu/komisji szczegółowo zapoznają się z treścią skatgi/pisma, sporządzając na tę okoliczność protokół z posiedzenia.
-                </li>
-                <li className="text-slate-500 dark:text-slate-200 m-3">
-                W przypadku zaistnienia konieczności uzupełnienia skargi/pisma, wydaje się postanowienie o zobowiązaniu pracownika do uzupełnienia, zgodnie z postanowieniem np. dodatkowych dokumentów, wyjaśnień na piśmie, zakreślając pracownikowi określony termin ( np. 3 dniowy).
-                </li>
-                <li className="text-slate-500 dark:text-slate-200 m-3">
-                Przewodniczący wyznacza termin posiedzenia, na który wzywa pracownika.
-                </li>
-                <li className="text-slate-500 dark:text-slate-200 m-3">
-                Na pierwszym posiedzeniu należy ustalić i w protokole zamieścić stosowną informację, czy pracownik w tym postępowaniu występuje samodzielnie, czy z reprezentantem ( np. przedstawiciel związków zawodowych). Jeśli pracownik zdecyduje się na zgłoszenie reprezentanta, 
-                przewodniczący odracza posiedzenie i ustala następny termin, na który wzywa także reprezentanta pracownika. Pracownik o terminie jest powiadomiony na tym posiedzeniu, a tę okoliczność zamieszcza się w protokole.
-                </li>
-                <li className="text-slate-500 dark:text-slate-200 m-3">
-                Na posiedzeniu z udziałem pracownika i jego reprezentanta wysłuchuje się pracownika a następnie reprezentanta i sporządza na tę okoliczność protokół. Na tym posiedzeniu prosi się pracownika o wskazanie dowodów. Jeśli pracownik będzie składał dokumenty,
-                każdy z nich należy przyjąć, dołączając do akt, opisując każdy dokument w protokole ( np. Skarżący składa do akt dokumenty: 1) pismo z dnia... kierowane do ... w sprawie...).
-                </li>
-                <li className="text-slate-500 dark:text-slate-200 m-3">
-                Pracownik skarżący przedkłada dokumenty w oryginale, zatrzymuje się do akt kopie potwierdzone za zgodność z oryginałem prze przewodniczącego.
-                </li>
-                <li className="text-slate-500 dark:text-slate-200 m-3">
-                Jeśli pracownik wskaże osoby, które mogą potwierdzić zaistnienie podanych przez niego zachowań i działań mobbingowych, należy dopuścić te dowody. Fakt ten zamieszcza się w protokole z posiedzenia.
-                </li>
-                <li className="text-slate-500 dark:text-slate-200 m-3">
-                Wysłuchanie zgłoszonych osób odbywa się w taki sam sposób jak skarżącego się pracownika, z tym że wysłuchanie świadka odbywa się przy udziale pracownika i jego reprezentanta.
-                </li>
-                <li className="text-slate-500 dark:text-slate-200 m-3">
-                Należy wysłuchać także osobę, w stosunku do której pracownik wysuwa roszczenia związane ze stosowaniem przez nią zachowań i działań mobbingowych.
-                </li>
-                <li className="text-slate-500 dark:text-slate-200 m-3">
-                Posiedzenia zespołu/komisji są objęte tajemnicą służbową, nikt z biorących w nich udział nie może ujawniać jego przebiegu.
-                </li>
-                <li className="text-slate-500 dark:text-slate-200 m-3">
-                Po wysłuchaniu wskazanych osób, przewodniczący zamyka posiedzenie i bez udziału stron zespół/komisja analizuje zgromadzone dowody osobowe oraz dokumenty.
-                </li>
-                <li className="text-slate-500 dark:text-slate-200 m-3">
-                Członkowie zespołu/komisji biorący udział w postępowaniu wyjaśniającym podpisują się pod wspólnie uzgodnioną opinią. Można mieć zdanie odrębne, ale ten fakt musi być ujawniony w przedstawionej opinii.
-                </li>
-                <li className="text-slate-500 dark:text-slate-200 m-3">
-                Organ wyjaśniający problem po przeanalizowaniu całości wydaje opinię w sprawie przeprowadzonego postępowania i po spisaniu jej, w formie papierowej przedkłada pracodawcy, który podejmuje decyzję w jaki
-                sposób rozstrzygnąć spór. Należy pamiętać, że zespół/komisja nie może wydawać żadnych rozstrzygnięć. Ustawodawca dał uprawnienia do podejmowania działań zmierzających do zaprzestania mobbingu tylko pracodawcy.
-                </li>
-              </ul>
-          </ul>
+            <List.Item className="">
+            II. Procedura rozpatrywania skargi pracownika w związku ze stosowanymi wobec niego zachowaniami i działaniami mobbingowymi,
+            opracowana przez prawników stowarzyszenia na podstawie zapisów w dziale XII Kodeksu Pracy ( rozpatrywanie sporów o roszczenia ze stosunku pracy, rozdział II postępowanie pojednawcze art. 244 § 1 i dalsze ):
+            </List.Item>
+            <List nested ordered className="text-slate-500 dark:text-slate-200 mt-4 mb-4">
+
+              <List.Item className="mt-4">
+              Pracodawca po otrzymaniu od pracownika skargi/pisma związanej ze stosowaniem wobec niego zjawiska mobbingu dekretuje skargę do wyjaśnienia przez powołany przez niego zespół/komisję opiniodawczą.
+              </List.Item>
+              <List.Item className="">
+              Przewodniczący takiego zespołu/ komisji po otrzymaniu pisma/skargi rejestruje ją w prowadzonej dla tego typu spraw teczce rzeczowej, zgodnie z obowiązującym u pracodawcy Jednolitym Rzeczowym Wykazem Akt(JRWA).
+              </List.Item>
+              <List.Item className="">
+              Przewodniczący wyznacza niezwłocznie termin posiedzenia, na którym członkowie takiego zespołu/komisji szczegółowo zapoznają się z treścią skatgi/pisma, sporządzając na tę okoliczność protokół z posiedzenia.
+              </List.Item>
+              <List.Item className="">
+              W przypadku zaistnienia konieczności uzupełnienia skargi/pisma, wydaje się postanowienie o zobowiązaniu pracownika do uzupełnienia, zgodnie z postanowieniem np. dodatkowych dokumentów, wyjaśnień na piśmie, zakreślając pracownikowi określony termin ( np. 3 dniowy).
+              </List.Item>
+              <List.Item className="">
+              Przewodniczący wyznacza termin posiedzenia, na który wzywa pracownika.
+              </List.Item>
+              <List.Item className="">
+              Na pierwszym posiedzeniu należy ustalić i w protokole zamieścić stosowną informację, czy pracownik w tym postępowaniu występuje samodzielnie, czy z reprezentantem ( np. przedstawiciel związków zawodowych).
+              Jeśli pracownik zdecyduje się na zgłoszenie reprezentanta, przewodniczący odracza posiedzenie i ustala następny termin, na który wzywa także reprezentanta pracownika. Pracownik o terminie jest powiadomiony na tym posiedzeniu, a tę okoliczność zamieszcza się w protokole.
+              </List.Item>
+              <List.Item className="">
+              Na posiedzeniu z udziałem pracownika i jego reprezentanta wysłuchuje się pracownika a następnie reprezentanta i sporządza na tę okoliczność protokół. Na tym posiedzeniu prosi się pracownika o wskazanie dowodów. Jeśli pracownik będzie składał dokumenty, każdy z nich należy przyjąć,
+              dołączając do akt, opisując każdy dokument w protokole ( np. Skarżący składa do akt dokumenty: 1) pismo z dnia... kierowane do ... w sprawie...).
+              </List.Item>
+              <List.Item className="">
+              Pracownik skarżący przedkłada dokumenty w oryginale, zatrzymuje się do akt kopie potwierdzone za zgodność z oryginałem prze przewodniczącego.
+              </List.Item>
+              <List.Item className="">
+              Jeśli pracownik wskaże osoby, które mogą potwierdzić zaistnienie podanych przez niego zachowań i działań mobbingowych, należy dopuścić te dowody. Fakt ten zamieszcza się w protokole z posiedzenia
+              </List.Item>
+              <List.Item className="">
+              Wysłuchanie zgłoszonych osób odbywa się w taki sam sposób jak skarżącego się pracownika, z tym że wysłuchanie świadka odbywa się przy udziale pracownika i jego reprezentanta.
+              </List.Item>
+              <List.Item className="">
+              Należy wysłuchać także osobę, w stosunku do której pracownik wysuwa roszczenia związane ze stosowaniem przez nią zachowań i działań mobbingowych.
+              </List.Item>
+              <List.Item className="">
+              Posiedzenia zespołu/komisji są objęte tajemnicą służbową, nikt z biorących w nich udział nie może ujawniać jego przebiegu.
+              </List.Item>
+              <List.Item className="">
+              Po wysłuchaniu wskazanych osób, przewodniczący zamyka posiedzenie i bez udziału stron zespół/komisja analizuje zgromadzone dowody osobowe oraz dokumenty.
+              </List.Item>
+              <List.Item className="">
+              Członkowie zespołu/komisji biorący udział w postępowaniu wyjaśniającym podpisują się pod wspólnie uzgodnioną opinią. Można mieć zdanie odrębne, ale ten fakt musi być ujawniony w przedstawionej opinii.
+              </List.Item>
+              <List.Item className="">
+              Organ wyjaśniający problem po przeanalizowaniu całości wydaje opinię w sprawie przeprowadzonego postępowania i po spisaniu jej, w formie papierowej przedkłada pracodawcy,
+              który podejmuje decyzję w jaki sposób rozstrzygnąć spór. Należy pamiętać, że zespół/komisja nie może wydawać żadnych rozstrzygnięć. Ustawodawca dał uprawnienia do podejmowania działań zmierzających do zaprzestania mobbingu tylko pracodawcy.
+              </List.Item>
+
+            </List>
+
+        
+          </List>
+
+
 
           <p className="text-slate-500 dark:text-slate-200 mb-4">
           Zachęcamy do zmiany już przyjętych przepisów pt. "Wewnętrzna Polityka Antymobbingowa" oraz tzw." Komisje Antymobbingowe" na "Wewnętrzna Polityka Przeciwdziałająca Mobbingowi" i "Zespoły/Komisje Przeciwdziałające Mobbingowi".
@@ -428,37 +462,43 @@ const Komunikaty = () => {
           powołanego przez Pełnomocnika ds. Równego Traktowania Kancelarii Prezesa Rady Ministrów. W piśmie z dnia 20.11.2008r.przedstawiliśmy konkretne
           propozycje zmian legislacyjnych i wykonawczych, a także w zakresie diagnozowania zjawiska mobbingu:
           </p>
-          <ul className="list-decimal">
-            <li className="text-slate-500 dark:text-slate-200 p-2 m-3">
-            Pomoc prawna polega na wyjaśnianiu wątpliwości prawnych osoby zgłaszającej się w przedstawionej przez nią sprawie:W Kodeksie Pracy w art. 15 kp, 283 § 2kp , art. 94³ kp ,100 § 2 kp zapewnienia pracownikom bezpieczne i higieniczne warunki pracy rozumiane też jako bezpieczeństwo i higiena psychiczna:
-            </li>
 
-            <ul className="list-disc">
-              <li className="text-slate-500 dark:text-slate-200 m-3">
-              wprowadzenia do przepisów regulujących obowiązki pracownika obowiązku powstrzymywania się od stosowania mobbingu w miejscy pracy
-              </li>
-              <li className="text-slate-500 dark:text-slate-200 m-3">
-              wprowadzenia obowiązku ustalania w regulaminie przepisów przeciwdziałających mobbingowi oraz sankcji karnych za ich nieprzestrzeganie przez pracodawców stosujących regulamin prawa pracy oraz obowiązku tworzenia odpowiednich instrukcji przez pracodawców, którzy zatrudniają mniej niż 20 pracowników
-              </li>
-              <li className="text-slate-500 dark:text-slate-200 m-3">
-              wprowadzenia delegacji dla Ministra Pracy i Polityki Socjalnej do określenia, w drodze rozporządzenia szczegółowych wytycznych (zasad) tworzenia przez pracodawcę procedur przeciwdziałania mobbingowi (przepisy wykonawcze do zmiany proponowanej w art. 94³ kp §3)
-              </li>
-              <li className="text-slate-500 dark:text-slate-200 m-3">
-              wprowadzenia obligatoryjnego powoływania komisji pojednawczych w sprawach mobbingu na wniosek pracownika lub pracodawcy
-              </li>
-            </ul>
+          <List ordered className="text-slate-500 dark:text-slate-200 mb-4">
+          
+            <List.Item className="">
+            Pomoc prawna polega na wyjaśnianiu wątpliwości prawnych osoby zgłaszającej się w przedstawionej przez nią sprawie:W Kodeksie Pracy w art. 15 kp, 283 § 2kp,
+            art. 94³ kp ,100 § 2 kp zapewnienia pracownikom bezpieczne i higieniczne warunki pracy rozumiane też jako bezpieczeństwo i higiena psychiczna:
+            </List.Item>
 
-            <li className="text-slate-500 dark:text-slate-200 p-2 m-3">
+              <List nested className="text-slate-500 dark:text-slate-200 mb-4">
+            
+                <List.Item className="">
+                wprowadzenia do przepisów regulujących obowiązki pracownika obowiązku powstrzymywania się od stosowania mobbingu w miejscy pracy
+                </List.Item>
+                <List.Item className="">
+                wprowadzenia obowiązku ustalania w regulaminie przepisów przeciwdziałających mobbingowi oraz sankcji karnych za ich nieprzestrzeganie przez pracodawców stosujących regulamin prawa pracy oraz obowiązku tworzenia odpowiednich instrukcji przez pracodawców, którzy zatrudniają mniej niż 20 pracowników
+                </List.Item>
+                <List.Item className="">
+                wprowadzenia delegacji dla Ministra Pracy i Polityki Socjalnej do określenia, w drodze rozporządzenia szczegółowych wytycznych (zasad) tworzenia przez pracodawcę procedur przeciwdziałania mobbingowi (przepisy wykonawcze do zmiany proponowanej w art. 94³ kp §3)
+                </List.Item>
+                <List.Item className="">
+                wprowadzenia obligatoryjnego powoływania komisji pojednawczych w sprawach mobbingu na wniosek pracownika lub pracodawcy
+                </List.Item>
+              </List>
+
+            <List.Item className="">
             W Kodeksie Karnym w art. 218 kk lub art. 207 kk wprowadzenia zapisów dotyczących ukarania sprawcy i osoby odpowiedzialnej za przeciwdziałanie przemocy w pracy – mobbingu.
-            </li>
-            <li className="text-slate-500 dark:text-slate-200 p-2 m-3">
+            </List.Item>
+            <List.Item className="">
             W zakresie regulacji dotyczących przeciwdziałania mobbingowi w grupach zawodowych, których stosunek pracy jest regulowany w odrębnych przepisach niż prawo pracy - służby mundurowe – w ustawach w dziale odpowiedzialność dyscyplinarna i karna.
-            </li>
-            <li className="text-slate-500 dark:text-slate-200 p-2 m-3">
+            </List.Item>
+            <List.Item className="">
             W zakresie ogólnopolskiego ujednolicenia diagnozowania zjawiska w postępowaniach przedsądowych i w postępowaniach przygotowawczych w ramach kpk i procesach sądowych. Stworzenia w ramach wymiaru sprawiedliwości wewnętrznej procedury postępowania, które wskazywałyby cechy zjawiska mobbingu,
             ułatwiając rozpoznanie zjawiska, będącego przedmiotem tych postępowań.
-            </li>
-          </ul>
+            </List.Item>
+
+          </List>
+
           <p className="text-slate-500 dark:text-slate-200 mb-4">
             <a href="/osa/pdf/zmiany_prawne_2008.pdf" type="application/pdf"target="_blank" className="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none
              focus:ring-gray-100 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700">
@@ -467,7 +507,7 @@ const Komunikaty = () => {
             </svg>
             </a>
             </p>
-          </article>
+        </article>
     </div>
   )
 }
