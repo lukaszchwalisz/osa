@@ -162,7 +162,7 @@ const About = () => {
         </Tabs.Item>
 
 
-      <Tabs.Item title="To już 20 lat stowarzyszenia OSA !">
+      <Tabs.Item title="Trochę historii">
       <h1 className="text-indigo-700 dark:text-indigo-400 font-bold font-mono text-2xl mt-8 mb-4">Historia powstania stowarzyszenia "OSA".</h1>
 
         <article >    
