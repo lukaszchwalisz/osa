@@ -1,8 +1,6 @@
 
 /* eslint-disable react/no-unescaped-entities */
 
-// import { Link } from "react-router-dom"
-
 import { Tabs } from "flowbite-react"
 
 const Wiedza = () => {
@@ -10,7 +8,7 @@ const Wiedza = () => {
        <>
       <div className="grid justify-center sm:mx-0 md:mx-0 lg:mx-20 xl:mx-40 2xl:mx-80">
       
-      <Tabs aria-label="Tabs with underline" style="underline">
+      <Tabs aria-label="Pills" style="pills">
       <Tabs.Item title="Mobbing jako zjawisko społeczne">
         <article >
           <h1 className="text-indigo-700 dark:text-indigo-400 font-bold font-mono text-2xl mt-8 mb-4">Charakterystyka zjawiska mobbingu.</h1>
