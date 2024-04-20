@@ -33,14 +33,13 @@ const About = () => {
 
         </Tabs.Item>
 
-
         <Tabs.Item title="Trochę historii">
         
           <Historia />
 
-        </Tabs.Item>
+      </Tabs.Item>
 
-      </Tabs>
+    </Tabs>
 
     </div>
 
