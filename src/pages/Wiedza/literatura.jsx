@@ -3,9 +3,8 @@
 export const Literatura = () => {
   return (
     <div>
-              <article>
-      <p className="text-slate-500 dark:text-slate-200 mb-4">
-        <b>Literatura.</b></p>
+      <article>
+      <h1 className="text-indigo-700 bg-slate-50 p-4 text-center dark:text-indigo-400 font-bold font-mono text-2xl mt-8 mb-4">Literatura</h1>
         <ul className="list-none">
           <li className="text-slate-500 dark:text-slate-200">Edelmann R. J., <i>Konflikty w pracy</i>, Gdańskie Wydawnictwo Psychologiczne, 2002, Gdańsk.</li>
           <li className="text-slate-500 dark:text-slate-200">L. Glass, <i>Toksyczni ludzie. 10 sposobów postępowania z ludźmi, którzy uprzykrzają ci życie</i>, Dom Wydawniczy Rebis, 1997, Poznań.</li>

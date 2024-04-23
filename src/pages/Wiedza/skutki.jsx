@@ -1,11 +1,10 @@
-
+import { List } from "flowbite-react"
 
 export const Skutki = () => {
   return (
     <div>
-        <article>  
-        <h1 className="text-indigo-700 dark:text-indigo-400 font-bold font-mono text-2xl mt-8 mb-4">
-        Skutki zjawiska</h1>
+        <article>
+        <h1 className="text-indigo-700 bg-slate-50 p-4 text-center dark:text-indigo-400 font-bold font-mono text-2xl mt-8 mb-4">Skutki zjawiska</h1>  
         <p className="text-slate-500 dark:text-slate-200 mb-4">
         Szkody indywidualne dotykają bezpośrednio ofiarę mobbingu. Podstawową konsekwencją tego zjawiska jest stres,
         który pojawia się w wyniku jej kontaktu ze stresogennym otoczeniem.
@@ -15,15 +14,15 @@ export const Skutki = () => {
         do zaistnienia mobbingu. Są to:
         </p>
         
-        <ul className="list-disc">
-            <li className="text-slate-500 dark:text-slate-200">stresory związane z relacjami interpersonalnymi charakteryzującymi się brakiem zaufania, wzajemną niechęcią i obojętnością występującą w grupie pracowniczej oraz nieodpowiedni i nieefektywny styl kierowania</li>
-            <li className="text-slate-500 dark:text-slate-200">czynniki stresogenne związane z funkcjonowaniem jednostki jako elementu organizacji, przejawiające się w izolowaniu, pomijaniu, niedocenianiu, czy braku możliwości wyrażania swojej opinii</li>
-            <li className="text-slate-500 dark:text-slate-200">stresory związane głównie brakiem poczucia stałości zatrudnienia</li>
-            <li className="text-slate-500 dark:text-slate-200">złe fizyczne warunki pracy, wynikające z nieprzestrzegania zasad bezpieczeństwa i higieny pracy</li>
-            <li className="text-slate-500 dark:text-slate-200">czynniki stresogenne związane ze sposobem wykonywania pracy,</li>
-            <li className="text-slate-500 dark:text-slate-200">stresory związane z pełnieniem ról organizacyjnych</li>
-            <li className="text-slate-500 dark:text-slate-200 mb-4">czynniki stresogenne związane z równoczesnym funkcjonowaniem w organizacji i poza nią</li>
-        </ul>     
+        <List className="text-slate-500 dark:text-slate-200 mb-4">
+          <List.Item>stresory związane z relacjami interpersonalnymi charakteryzującymi się brakiem zaufania, wzajemną niechęcią i obojętnością występującą w grupie pracowniczej oraz nieodpowiedni i nieefektywny styl kierowania</List.Item>
+          <List.Item>czynniki stresogenne związane z funkcjonowaniem jednostki jako elementu organizacji, przejawiające się w izolowaniu, pomijaniu, niedocenianiu, czy braku możliwości wyrażania swojej opinii</List.Item>
+          <List.Item>stresory związane głównie brakiem poczucia stałości zatrudnienia</List.Item>
+          <List.Item>złe fizyczne warunki pracy, wynikające z nieprzestrzegania zasad bezpieczeństwa i higieny pracy</List.Item>
+          <List.Item>czynniki stresogenne związane ze sposobem wykonywania pracy</List.Item>
+          <List.Item>stresory związane z pełnieniem ról organizacyjnych</List.Item>
+          <List.Item>czynniki stresogenne związane z równoczesnym funkcjonowaniem w organizacji i poza nią</List.Item>
+        </List>
 
         <p className="text-slate-500 dark:text-slate-200 mb-4">
         Następuje obniżona samoocena w obszarze przydatności zawodowej i społecznej. Brak poczucia bezpieczeństwa,

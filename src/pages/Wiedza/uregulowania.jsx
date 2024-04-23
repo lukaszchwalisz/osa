@@ -1,10 +1,11 @@
 /* eslint-disable react/no-unescaped-entities */
+import { List } from "flowbite-react"
 
 export const Uregulowania = () => {
   return (
     <div>
         <article>
-        <h1 className="text-indigo-700 dark:text-indigo-400 font-bold font-mono text-2xl mt-8 mb-4">
+        <h1 className="text-indigo-700 bg-slate-50 p-4 text-center dark:text-indigo-400 font-bold font-mono text-2xl mt-8 mb-4">
         Uregulowania prawne</h1>
         <p className="text-slate-500 dark:text-slate-200 mb-4">
         Mobbing stał się przedmiotem regulacji prawnych w Europie. W wielu krajach prowadzone są badania,
@@ -13,9 +14,9 @@ export const Uregulowania = () => {
         uregulowań prawnych. W Polsce praca znajduje się pod ochroną Konstytucji RP i państwo kontroluje
         warunki wykonywania pracy, która musi odpowiadać standardom ustalonym w odrębnych przepisach.
         </p>
-        <p className="text-slate-500 dark:text-slate-200 mb-4">Ustawa zasadnicza upatruje źródło praw i wolności człowieka i obywatela w jego godności:
-    
-        </p>
+        <p className="text-slate-500 dark:text-slate-200 mb-4">Ustawa zasadnicza upatruje źródło praw i wolności człowieka i obywatela w jego godności:</p>
+        
+        <blockquote className="p-4 my-4 border-s-4 border-gray-300 bg-gray-50 dark:border-gray-500 dark:bg-gray-800">
         <p className="text-slate-500 italic dark:text-slate-200  mb-4">
         Art. 30. Przyrodzona i niezbywalna godność człowieka stanowi źródło wolności i praw człowieka i obywatela.
         Jest ona nienaruszalna, a jej poszanowanie i ochrona jest obowiązkiem władz publicznych
@@ -44,28 +45,31 @@ export const Uregulowania = () => {
         Art. 66. 1. Każdy ma prawo do bezpiecznych i higienicznych warunków pracy. Sposób realizacji tego prawa
         oraz obowiązki pracodawcy określa ustawa.
         </p>
+        </blockquote>
 
         <p className="text-slate-500 dark:text-slate-200 mb-4">
         Przepisy mogące posłużyć jako instrument zapobiegania prześladowaniom i ograniczenia jego skutków
         rozsiane są po wielu gałęziach prawa. Ogólnie można powiedzieć, że wchodzą w grę następujące gałęzie prawa:
         </p>
 
-        <ul className="list-disc">
-          <li className="text-slate-500 dark:text-slate-200">prawo cywilne przepisy dotyczące ochrony dóbr osobistych oraz odpowiedzialności za czyny niedozwolone</li>
-          <li className="text-slate-500 dark:text-slate-200">prawo pracy przepisy dotyczące dóbr osobistych pracownika oraz uznanie standardów w zakresie bezpiecznych
-          i higienicznych warunków pracy</li>
-          <li className="text-slate-500 dark:text-slate-200">prawo karne przestępstwa przeciwko zdrowiu, czci i godności osobistej oraz przestępstwa przeciwko prawom
-          osób wykonujących pracę zarobkową</li>
-          <li className="text-slate-500 dark:text-slate-200 mb-4">procedury dyscyplinarne</li>
-        </ul>
+        <List className="text-slate-500 dark:text-slate-200 mb-4"> 
+          <List.Item>prawo cywilne przepisy dotyczące ochrony dóbr osobistych oraz odpowiedzialności za czyny niedozwolone</List.Item>
+          <List.Item>prawo pracy przepisy dotyczące dóbr osobistych pracownika oraz uznanie standardów w zakresie bezpiecznych i higienicznych warunków pracy</List.Item>
+          <List.Item>prawo karne przestępstwa przeciwko zdrowiu, czci i godności osobistej oraz przestępstwa przeciwko prawom osób wykonujących pracę zarobkową</List.Item>
+          <List.Item>procedury dyscyplinarne</List.Item>  
+        </List>
+        
         <p className="text-slate-500 dark:text-slate-200 mb-4">
         Zjawisko mobbingu ustawodawca zdefiniował w art. 94(3) §2 kodeksu pracy:
         </p>
+
+        <blockquote className="p-4 my-4 border-s-4 border-gray-300 bg-gray-50 dark:border-gray-500 dark:bg-gray-800">
         <p className="text-slate-500 dark:text-slate-200 mb-4"><i>
         "Mobbing oznacza działania lub zachowania dotyczące pracownika lub skierowane przeciwko pracownikowi,
         polegające na uporczywym i długotrwałym nękaniu lub zastraszaniu pracownika, wywołujące u niego zaniżoną
         ocenę przydatności zawodowej, powodujące lub mające na celu poniżenie lub ośmieszenie pracownika,
         izolowanie go lub wyeliminowanie z zespołu współpracowników."</i></p>
+        </blockquote>
 
         <p className="text-slate-500 dark:text-slate-200 mb-4">
         Zaznaczyć należy, iż w definicji tej wiele zwrotów jest niedookreślonych np. uporczywe, długotrwałe nękanie, a ich doprecyzowanie cały czas następuje w orzecznictwie sądowym.
@@ -81,6 +85,7 @@ export const Uregulowania = () => {
         <p className="text-slate-500 dark:text-slate-200 mb-4">
         Ustawodawca określił też skutki prawne mobbingu dla pracodawcy - w art. 94(3) §3 KP:</p>
 
+        <blockquote className="p-4 my-4 border-s-4 border-gray-300 bg-gray-50 dark:border-gray-500 dark:bg-gray-800">
         <p className="text-slate-500 dark:text-slate-200 mb-4"><i>
         "Pracownik, u którego mobbing wywołał rozstrój zdrowia, może dochodzić od pracodawcy odpowiedniej sumy
         tytułem zadośćuczynienia pieniężnego za doznaną krzywdę."</i></p>
@@ -93,19 +98,21 @@ export const Uregulowania = () => {
         <p className="text-slate-500 dark:text-slate-200 mb-4"><i>
         "Oświadczenie pracownika o rozwiązaniu umowy o pracę powinno nastąpić na piśmie z podaniem przyczyny,
         o której mowa w §2, uzasadniającej rozwiązanie umowy."</i></p>
-
+        </blockquote>
+        
         <p className="text-slate-500 dark:text-slate-200 mb-4">
         Tak więc finansowe konsekwencje mobbingu wobec pracownika ponosi pracodawca na drodze sądowej.</p>
         
         <p className="text-slate-500 dark:text-slate-200 mb-4">
         Osobie poszkodowanej przysługuje:</p>
 
-        <ul className="list-disc">
-          <li className="text-slate-500 dark:text-slate-200">zadośćuczynienie z tytułu rozstroju zdrowia</li>
-          <li className="text-slate-500 dark:text-slate-200">odszkodowanie za rozwiązanie stosunku pracy wskutek mobbingu</li>
-          <li className="text-slate-500 dark:text-slate-200 mb-4">odszkodowanie z tytułu innych szkód pozostających w związku z mobbingu - w ramach tego odszkodowania
-          wchodzą wszelkie szkody które można przeliczyć na wartość ekonomiczną, tzn. koszty leczenia, rehabilitacji o ile pozostają w adekwatnym związku przyczynowym ze szkodą tzn. z mobbingiem</li>
-        </ul>
+        <List className="text-slate-500 dark:text-slate-200 mb-4"> 
+          <List.Item>zadośćuczynienie z tytułu rozstroju zdrowia</List.Item>
+          <List.Item>odszkodowanie za rozwiązanie stosunku pracy wskutek mobbingu</List.Item>
+          <List.Item>odszkodowanie z tytułu innych szkód pozostających w związku z mobbingu - w ramach tego odszkodowania
+          wchodzą wszelkie szkody które można przeliczyć na wartość ekonomiczną, tzn. koszty leczenia, rehabilitacji o ile pozostają w adekwatnym związku przyczynowym ze szkodą tzn. z mobbingiem</List.Item>
+           
+        </List>
 
         <p className="text-slate-500 dark:text-slate-200 mb-4">
         Zatem finansowe konsekwencje mobbingu wobec pracownika może ponieść pracodawca, nawet, jeśli był on

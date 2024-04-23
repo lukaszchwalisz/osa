@@ -4,8 +4,8 @@ export const Płaszczyzny = () => {
   return (
     <div>
         <article> 
-        <h1 className="text-indigo-700 dark:text-indigo-400 font-bold font-mono text-2xl mt-8 mb-4">
-        Płaszczyzny występowania zjawiska</h1>         
+        <h1 className="text-indigo-700 bg-slate-50 p-4 text-center dark:text-indigo-400 font-bold font-mono text-2xl mt-8 mb-4">Płaszczyzny występowania zjawiska</h1>
+       
         <p className="text-slate-500 dark:text-slate-200 mb-4">
         Na płaszczyźnie współpracowników źródłem prześladowania może być osobista niechęć danych osób,
         wynikająca z jakichś zdarzeń z przeszłości, próba pokazania się w lepszym świetle kosztem drugiej osoby,
