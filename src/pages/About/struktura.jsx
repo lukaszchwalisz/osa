@@ -13,19 +13,19 @@ const Struktura = () => {
         <table className="mb-4">
             <tbody>
             <tr>
-                <td className="text-left dark:text-slate-200"><b>Prezes</b></td>
-                <td className="text-right dark:text-slate-200">Mariola Żarnoch-Elas</td>
+                <td className="text-left  dark:text-slate-200"><b>Prezes</b></td>
+                <td className="text-right  dark:text-slate-200">Mariola Żarnoch-Elas</td>
             </tr>
             <tr>
-                <td className="text-left dark:text-slate-200"><b>Wiceprezes</b></td>
-                <td className="text-right dark:text-slate-200">Małgorzata Kopydłowska</td>
+                <td className="text-left  dark:text-slate-200"><b>Wiceprezes</b></td>
+                <td className="text-right  dark:text-slate-200">Małgorzata Kopydłowska</td>
             </tr>
             <tr>
-                <td className="text-left dark:text-slate-200"><b>Członek Zarządu</b></td>
-                <td className="text-right dark:text-slate-200">Łukasz Chwalisz</td>
+                <td className="text-left p dark:text-slate-200"><b>Członek Zarządu</b></td>
+                <td className="text-right  dark:text-slate-200">Łukasz Chwalisz</td>
             </tr>
             <tr>
-                <td className="text-left dark:text-slate-200"><b>Członek Zarządu</b></td>
+                <td className="text-left  dark:text-slate-200"><b>Członek Zarządu</b></td>
                 <td className="text-right dark:text-slate-200">Barbara Cichosz</td>
             </tr>
             <tr>
@@ -39,12 +39,12 @@ const Struktura = () => {
         <table className="mb-4">
             <tbody>
             <tr>
-                <td className="text-left dark:text-slate-200"><b>Przewodnicząca</b></td>
-                <td className="text-center dark:text-slate-200">Bożena Luchowska</td>
+                <td className="text-left  dark:text-slate-200"><b>Przewodnicząca</b></td>
+                <td className="text-center px-7  dark:text-slate-200">Bożena Luchowska</td>
             </tr>
             <tr>
                 <td className="text-left dark:text-slate-200"><b>Członek komisji</b></td>
-                <td className="text-right dark:text-slate-200">Elżbieta Król</td>
+                <td className="text-right px-7  dark:text-slate-200">Elżbieta Król</td>
             </tr>
     
             </tbody>
