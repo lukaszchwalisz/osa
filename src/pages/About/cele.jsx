@@ -7,9 +7,9 @@ const Cele = () => {
     <div>
 
     <article>
+    <h1 className="text-indigo-700 bg-slate-50 p-4 text-center dark:text-indigo-400 font-bold font-mono text-2xl mt-8 mb-4">Cele statutowe stowarzyszenia</h1>
 
-    <h1 className="text-indigo-700 dark:text-indigo-400 font-bold font-mono text-2xl mt-8 mb-4">Cele statutowe stowarzyszenia:</h1>
-
+    <p className="text-slate-500 dark:text-slate-200 font-bold underline mb-4">Cele statutowe:</p>
     <List className="text-slate-500 dark:text-slate-200 mb-4">
     <List.Item>podnoszenie świadomości w zakresie profilaktyki i skutecznej walki z mobbingiem, rozumianym jako przemoc psychiczna w pracy</List.Item>
     <List.Item>nagłaśnianie problemu mobbingu, pokazywanie skutków ekonomicznych, zdrowotnych i moralnych występowania tego zjawiska</List.Item>
