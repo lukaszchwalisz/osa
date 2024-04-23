@@ -272,16 +272,8 @@ const Komunikaty = () => {
           Pracodawca może tworzyć sposoby regulacji różnych problemów ale powinny one być zgodne z obowiązującym prawem aby efekt działania miał wartość prawną. Nie trzeba być
           prawnikiem, aby to zrozumieć, wystarczy przeczytać.  
           </p>
-
-          <div className="inline-flex items-center justify-center w-full">
-            <hr className="w-64 h-1 my-8 bg-gray-200 border-0 rounded dark:bg-gray-700"></hr>
-          <div className="absolute px-4 -translate-x-1/2 bg-white left-1/2 dark:bg-gray-900">
-            <svg className="w-4 h-4 text-gray-700 dark:text-gray-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 14">
-            <path d="M6 0H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3H2a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Zm10 0h-4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3h-1a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Z"/>
-            </svg>
-          </div>
-          </div>
-          
+       
+          <blockquote className="p-4 my-4 border-s-4 border-gray-300 bg-gray-50 dark:border-gray-500 dark:bg-gray-800">
           <p className="text-slate-500 dark:text-slate-200 mb-4">
           Art. 94³ Kodeksu Pracy:
           </p>
@@ -304,14 +296,8 @@ const Komunikaty = () => {
           § 5. Oświadczenie pracownika o rozwiązaniu umowy o pracę powinno nastąpić na piśmie z podaniem przyczyny, o której mowa w § 2, uzasadniającej rozwiązanie umowy.
           </p>
           </i>
-          <div className="inline-flex items-center justify-center w-full">
-            <hr className="w-64 h-1 my-8 bg-gray-200 border-0 rounded dark:bg-gray-700"></hr>
-          <div className="absolute px-4 -translate-x-1/2 bg-white left-1/2 dark:bg-gray-900">
-            <svg className="w-4 h-4 text-gray-700 dark:text-gray-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 14">
-            <path d="M6 0H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3H2a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Zm10 0h-4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3h-1a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Z"/>
-            </svg>
-          </div>
-          </div>
+          </blockquote>
+
           <p className="text-slate-500 dark:text-slate-200 mb-4">
           Wewnętrzna Polityka Antymobbingowa ma wady prawne. Wobec <b>braku przepisów wykonawczych</b> do § 1. art. 94³ Kodeksu Pracy ("pracodawca jest obowiązany przeciwdziałać mobbingowi") zamieszczamy poniżej dwa wzory procedur,
           opracowane przez prawników naszego stowarzyszenia na podstawie obowiązującego prawa pracy, których zastosowanie da efekt mający wartość prawną. Poniżej dodatkowo zamieszczamy komentarz naszych konsultantów z zakresu prawa pracy i mobbingu.
