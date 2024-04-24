@@ -15,7 +15,7 @@ import Kontakt from "./pages/kontakt";
 function App() {
 
   return (
-    <div className="dark:bg-indigo-950"> 
+    <div className="min-h-screen dark:bg-indigo-950"> 
     <div className="container mx-auto">
       <Header/>
       <Routes>
