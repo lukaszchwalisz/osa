@@ -38,7 +38,7 @@ const Wiedza = () => {
 
         </Tabs.Item>
 
-        <Tabs.Item title="Skutki">
+        <Tabs.Item title="Skutki mobbingu">
 
           <Skutki />
 
@@ -50,7 +50,7 @@ const Wiedza = () => {
 
         </Tabs.Item>
 
-        <Tabs.Item title="Cechy">
+        <Tabs.Item title="Cechy mobbingu">
         
           <Cechy />
 
