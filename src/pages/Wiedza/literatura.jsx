@@ -4,7 +4,12 @@ export const Literatura = () => {
   return (
     <div>
       <article>
+      
       <h1 className="text-indigo-700 bg-slate-50 p-4 text-center dark:text-indigo-400 font-bold font-mono text-2xl mt-8 mb-4">Literatura</h1>
+      
+        <p className="text-slate-500 dark:text-slate-200 mb-4">
+        <b>Książki.</b></p>
+        
         <ul className="list-none">
           <li className="text-slate-500 dark:text-slate-200">Edelmann R. J., <i>Konflikty w pracy</i>, Gdańskie Wydawnictwo Psychologiczne, 2002, Gdańsk.</li>
           <li className="text-slate-500 dark:text-slate-200">L. Glass, <i>Toksyczni ludzie. 10 sposobów postępowania z ludźmi, którzy uprzykrzają ci życie</i>, Dom Wydawniczy Rebis, 1997, Poznań.</li>
@@ -42,6 +47,9 @@ export const Literatura = () => {
           <li className="text-slate-500 dark:text-slate-200">Chełpa S., Witkowski T.: <i>Paradoks zgody, czyli zarządzanie w sytuacjach konfliktowych i zarządzanie poprzez konflikt</i>, Personel i Zarządzanie nr 10/1999</li>
           <li className="text-slate-500 dark:text-slate-200 mb-4">Pietrzyk A., <i>Negocjacja i mediacja jako sposoby kierowania konfliktami</i>, Przegląd Psychologiczny nr 3-4 /1996</li>
         </ul>
+
+        <hr className="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700"></hr>
+       
         <p className="text-slate-500 dark:text-slate-200 mb-4">
         Opracowanie Zarządu Ogólnopolskiego Stowarzyszenia Antymobbingowego OSA na podstawie poniższych publikacji
         i doświadczeń z własnej działalności:</p>
