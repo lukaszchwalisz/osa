@@ -2,8 +2,8 @@
 import { Tabs } from "flowbite-react"
 import Programy from "./Actions/programy"
 import Komunikaty from "./Actions/komunikaty"
-import Wydarzenia from "./Actions/wydarzenia"
 import Archiwum from "./Actions/archiwum"
+import Nowy from "./Actions/nowy"
 
 const Actions = () => {
   return (
@@ -24,17 +24,17 @@ const Actions = () => {
 
       </Tabs.Item>
 
-      <Tabs.Item title="Wydarzenia">
-       
-        <Wydarzenia />
-    
-      </Tabs.Item>
-
       <Tabs.Item title="Archiwum">
 
         <Archiwum />
     
       </Tabs.Item>
+
+      <Tabs.Item title="Jak dołączyć ?">
+
+          <Nowy />
+
+        </Tabs.Item>
     
     </Tabs>
 

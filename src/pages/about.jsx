@@ -3,9 +3,8 @@
 import { Tabs } from "flowbite-react"
 import Struktura from "./About/struktura";
 import Cele from "./About/cele";
-import Nowy from "./About/nowy";
 import Historia from "./About/historia";
-
+import Wydarzenia from "./About/wydarzenia";
 
 const About = () => {
   return (
@@ -15,29 +14,30 @@ const About = () => {
 
       <Tabs aria-label="Tabs with underline" style="underline">
 
-        <Tabs.Item active title="Struktura organizacyjna">
+       
+        <Tabs.Item active title="Trochę historii">
+          
+          <Historia />
 
-          <Struktura />
+        </Tabs.Item>
+       
+        <Tabs.Item title="Wydarzenia">
+          
+          <Wydarzenia />
 
         </Tabs.Item>
 
         <Tabs.Item title="Cele statutowe">
 
           <Cele />
-  
-        </Tabs.Item>
-
-        <Tabs.Item title="Jak dołączyć ?">
-
-          <Nowy />
 
         </Tabs.Item>
+       
+        <Tabs.Item title="Struktura organizacyjna">
 
-        <Tabs.Item title="Trochę historii">
-        
-          <Historia />
+          <Struktura />
 
-      </Tabs.Item>
+        </Tabs.Item>
 
     </Tabs>
 
