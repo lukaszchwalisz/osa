@@ -87,6 +87,7 @@ const Kontakt = () => {
                 <li className="text-slate-500 dark:text-slate-200">email: <a href="mailto:osa-jeleniagora@wp.pl">osa-jeleniagora@wp.pl</a></li>
               </ul>
               </Table.Cell>
+              <Table.Cell></Table.Cell>
           </Table.Row>
 
           <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
