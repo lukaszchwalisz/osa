@@ -28,9 +28,6 @@ export function Header() {
                 <Link to="/osa/galeria">Galeria</Link>
                 </li>
                 <li className="text-slate-400 font-bold font-mono hover:text-slate-500 space-x-2 p-4">
-                <Link to="/osa/about">1,5%</Link>
-                </li>
-                <li className="text-slate-400 font-bold font-mono hover:text-slate-500 space-x-2 p-4">
                 <Link to="/osa/kontakt">Kontakt</Link>
                 </li>
             </ul>

@@ -114,7 +114,24 @@ const Programy = () => {
             (domofon nr 6) odbywają się we wtorki od godz. 16.00 po uprzednim koniecznym umówieniu się telefonicznym: 795 159 795.
             </p>      
         </article>
+
+        <hr className="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700"></hr>
+        
+        <article >
+          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          Programy i projekty stworzone i zrealizowane przez Ogólnopolskie Stowarzyszenie Antymobbingowe OSA (pliki pdf):
+          </p>  
+          <p className="text-slate-500 font-semibold dark:text-slate-200 m-3"><a href="/osa/pdf/programy.pdf" type="application/pdf" target="_blank">Programy realizowane w latach 2003 r. - 2018 r.</a></p>
+          <iframe src="/osa/pdf/programy.pdf" width="100%" height="750px"></iframe>
+          <p className="text-slate-500 font-semibold dark:text-slate-200 m-3"><a href="/osa/pdf/projekty.pdf" type="application/pdf"target="_blank">Programy realizowane w latach 2003 r. - 2022 r.</a></p>
+          <iframe src="/osa/pdf/projekty.pdf" width="100%" height="750px"></iframe>
+            
+        </article>
+        
+        
+        
         </div>
+
 
   )
 }
