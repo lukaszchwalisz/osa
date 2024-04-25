@@ -10,7 +10,7 @@ const About = () => {
   return (
     <>
    
-      <div className="grid justify-left sm:mx-0 md:mx-0 lg:mx-20 xl:mx-40 2xl:mx-80">
+      <div className="grid justify-left m-4 lg:mx-20 xl:mx-40 2xl:mx-80">
 
       <Tabs aria-label="Tabs with underline" style="underline">
 

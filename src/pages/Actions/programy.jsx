@@ -3,7 +3,8 @@ import { List } from "flowbite-react"
 
 const Programy = () => {
   return (
-    <article>
+        <div>
+        <article>
         <h1 className="text-indigo-700 bg-slate-50 p-4 text-center dark:text-indigo-400 font-bold font-mono text-2xl mt-8 mb-4">PROGRAMY</h1>
           <p className="text-slate-500 dark:text-slate-200 mb-4">
           Od dnia 10 stycznia 2023r. realizujemy nieodpłatną pomoc prawno - psychologiczną skierowaną do mieszkańców biorących udział w procesie pracy,
@@ -111,11 +112,9 @@ const Programy = () => {
             <p className="text-slate-500 dark:text-slate-200 mb-4">
             Konsultacje indywidualne w Punkcie Konsultacyjnym Zarządu Stowarzyszenia w Gdańsku mieszczącym się w Gdańsku przy ul. Warzywniczej 10A
             (domofon nr 6) odbywają się we wtorki od godz. 16.00 po uprzednim koniecznym umówieniu się telefonicznym: 795 159 795.
-            </p>
-          
-      </article>
-    
-
+            </p>      
+        </article>
+        </div>
 
   )
 }

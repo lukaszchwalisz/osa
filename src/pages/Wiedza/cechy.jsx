@@ -9,8 +9,6 @@ export const Cechy = () => {
         Na podstawie swoich badań Heinz Leymann, wyróżnił 45 aktywności mobbingowych. Według jego obserwacji mobbing można diagnozować w przypadku, gdy wobec ofiary stosowana jest, chociaż jedna z wymienionych niżej sytuacji:
         </p>
         
-
-        
         <p className="text-slate-500 font-bold dark:text-slate-200 dark:font-bold mb-4">
         Odziaływania zaburzające możliwości komunikowania się:
         </p>
