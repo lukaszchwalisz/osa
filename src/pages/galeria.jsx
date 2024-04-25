@@ -14,7 +14,7 @@ function Galeria() {
         </p>
         <hr className="my-5 h-0.5 border-t-0 bg-neutral-100 opacity-100 dark:opacity-50"/>
 
-        <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-4">
+        <div className="grid gap-4 justify-center m-4 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-4">
         <img className="w-64 m-4 hover:scale-150 sm:grid" src="/osa/memes/rys1.gif" alt="Rys.1"></img>
         <img className="w-64 m-4 hover:scale-150 sm:grid" src="/osa/memes/rys2.gif" alt="Rys.2"></img>
         <img className="w-64 m-4 hover:scale-150 sm:grid" src="/osa/memes/rys3.gif" alt="Rys.3"></img>
