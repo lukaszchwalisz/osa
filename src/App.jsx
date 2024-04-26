@@ -16,8 +16,8 @@ function App() {
 
   return (
     <div className="min-h-screen dark:bg-indigo-950"> 
-    <div className="container mx-auto">
       <Header/>
+      <div className="container mx-auto">
       <Routes>
         <Route path="/osa" element={<Home/>} />
         <Route path="/osa/about" element={<About/>} />
