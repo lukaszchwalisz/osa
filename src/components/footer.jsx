@@ -2,18 +2,10 @@
 // 'use client';
 // import { Footer } from 'flowbite-react';
 
-export function Foooter() {
+export function Footer() {
   return (
-    <div>
-        {/* <Footer container>
-        <Footer.Copyright href="/osa/" by="OSA™" year={2024} />
-        <Footer.LinkGroup>
-          <Footer.Link href="/osa/about">O nas</Footer.Link>
-          <Footer.Link href="#">Rodo</Footer.Link>
-          <Footer.Link href="#">Sponsorzy</Footer.Link>
-          <Footer.Link href="#">Kontact</Footer.Link>
-        </Footer.LinkGroup>
-        </Footer> */}
+    <div className="h-36 text-center font-bold bg-slate-500">
+      Footer
       </div>
 
   );
