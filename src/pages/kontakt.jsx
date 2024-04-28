@@ -1,16 +1,16 @@
 /* eslint-disable react/no-unescaped-entities */
 import { Table } from "flowbite-react";
+"use client";
 
 const Kontakt = () => {
   return (
     <>
     <div className="grid justify-center m-4 lg:mx-20 xl:mx-40 2xl:mx-80">
-
-      <article>
+    
       <h1 className="text-indigo-700 bg-slate-50 p-4 text-center dark:text-indigo-400 font-bold font-mono text-2xl mt-8 mb-4">
         Kontakt</h1>
         
-        <p className="text-slate-500 dark:text-slate-200 mb-4">
+        <p className="text-slate-500 text-center dark:text-slate-200 mb-4">
         <b>Adres tylko do korespondencji:</b>
         <ul className="list-none">
           <li className="text-slate-500 dark:text-slate-200">80-838 Gdańsk</li>
@@ -23,11 +23,10 @@ const Kontakt = () => {
         </ul>
         </p>
 
-      </article>
-
-      <article>
       <h1 className="text-indigo-700 bg-slate-50 p-4 text-center dark:text-indigo-400 font-bold font-mono text-2xl mt-8 mb-4">
         Punkty konsultacyjne</h1>
+
+        <div className="overflow-x-auto">
         <Table>
         <Table.Head>
           <Table.HeadCell>Przedstawiciel</Table.HeadCell>
@@ -145,8 +144,8 @@ const Kontakt = () => {
 
         </Table.Body>
       </Table>
-
-      </article>
+      </div>
+     
      </div>
     </>
   )
