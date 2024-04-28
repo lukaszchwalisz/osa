@@ -11,9 +11,12 @@ import Galeria from "./pages/galeria";
 import Kontakt from "./pages/kontakt";
 
 import Cele from './pages/About/cele.jsx';
+import Konf04 from './pages/About/konf04.jsx';
+import Konf05 from './pages/About/konf05.jsx';
 
 import './index.css'
 import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from 'react-router-dom';
+
 
 
 const router = createBrowserRouter(
@@ -24,6 +27,8 @@ const router = createBrowserRouter(
       <Route path='' element={<Home/>} />
       <Route path="about" element={<About/>} />
         <Route path='about/cele' element={<Cele/>} />
+        <Route path='about/konf04' element={<Konf04/>} />
+        <Route path='about/konf05' element={<Konf05/>} />
       <Route path="działania" element={<Actions/>} />
       <Route path="wiedza" element={<Wiedza/>} />
       <Route path="galeria" element={<Galeria/>} />
