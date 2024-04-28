@@ -2,7 +2,7 @@
 import { List } from "flowbite-react"
 import { Link } from "react-router-dom"
 
-const Konf05 = () => {
+const Konfr = () => {
     return (
         <>
         <div className="grid justify-center mt-40 m-4 lg:mx-20 xl:mx-40 2xl:mx-80">
@@ -38,7 +38,7 @@ const Konf05 = () => {
         <List.Item>"Psychologiczne aspekty mobbingu" Małgorzata Matusik-Belik - psycholog, terapeuta.</List.Item>
         <List.Item>"Mobbing - konsekwencje psychiatryczne" Iwona Fijałkowska - lekarz psychiatra.</List.Item>
         <List.Item>"Mobbing w procesie sądowym" Jadwiga Mucha - prawnik, konsultant OSA, specjalista w zakresie prawa pracy i spraw sądowych.</List.Item>
-        <List.Item><Link className="underline hover:text-indigo-400" to="/osa/pdf/konf05/prelekcjaELinowska.pdf" type="application/pdf" target="_blank">"Bądź świadom swoich praw i broń swojej godności"</Link> Elżbieta Linowska- specjalista w zakresie prawa oświatowego, rzecznik prasowy OSA (referat w zastępstwie odczytał Andrzej Pieczyski - OSA PK Jelenia Góra).</List.Item>
+        <List.Item><Link className="underline hover:text-indigo-400" to="/osa/pdf/konfr/prelekcjaELinowska.pdf" type="application/pdf" target="_blank">"Bądź świadom swoich praw i broń swojej godności"</Link> Elżbieta Linowska- specjalista w zakresie prawa oświatowego, rzecznik prasowy OSA (referat w zastępstwie odczytał Andrzej Pieczyski - OSA PK Jelenia Góra).</List.Item>
         <List.Item>"Współczesna organizacja a zjawisko mobbingu" Anna Szeliga - specjalista w zakresie zarządzania zasobami ludzkimi, doktorantka Uniwersytetu Jagiellońskiego w Krakowie ( referat w zastępstwie odczytała Bernadeta Chłapek - OSA PK Racibórz).</List.Item>
         <List.Item>"Byłam mobbowana, byłem mobbowany" relacja ofiary mobbingu.</List.Item>
         <List.Item>Panel dyskusyjny i zakończenie konferencji.</List.Item>
@@ -82,4 +82,4 @@ const Konf05 = () => {
     )
   }
   
-  export default Konf05
+  export default Konfr

@@ -3,7 +3,7 @@
 import { List, ListItem } from "flowbite-react"
 import { Link } from "react-router-dom"
 
-const Konf04 = () => {
+const Konfg = () => {
   return (
     <div className="grid justify-center mt-40 m-4 lg:mx-20 xl:mx-40 2xl:mx-80">
     <article > 
@@ -44,11 +44,11 @@ const Konf04 = () => {
     </p>
 
     <List ordered className="text-slate-500 dark:text-slate-200 mb-4">
-    <List.Item><Link className="underline hover:text-indigo-400" to="/osa/pdf/konf04/prelekcjaJŚlężak.pdf" type="application/pdf" target="_blank">"Mobbing i jego aspekty prawne"</Link> - przedstawił mgr Jarosław Ślęzak- radca prawny, asystent w Zakładzie Prawa Gospodarczego Wydziału Zarządzania i Ekonomii Politechniki Gdańskiej.</List.Item>
-    <List.Item><Link className="underline hover:text-indigo-400" to="/osa/pdf/konf04/prelekcjaELinowska04.pdf" type="application/pdf" target="_blank">"Regulacje prawne w oświacie pozwalają na stosowanie powszechnego mobbingu. Prawo oświatowe kreuje dyrektora - mobbera."</Link> - przedstawiła mgr Elżbieta Linowska - nauczyciel dyplomowany, 
+    <List.Item><Link className="underline hover:text-indigo-400" to="/osa/pdf/konfg/prelekcjaJŚlężak.pdf" type="application/pdf" target="_blank">"Mobbing i jego aspekty prawne"</Link> - przedstawił mgr Jarosław Ślęzak- radca prawny, asystent w Zakładzie Prawa Gospodarczego Wydziału Zarządzania i Ekonomii Politechniki Gdańskiej.</List.Item>
+    <List.Item><Link className="underline hover:text-indigo-400" to="/osa/pdf/konfg/prelekcjaELinowska04.pdf" type="application/pdf" target="_blank">"Regulacje prawne w oświacie pozwalają na stosowanie powszechnego mobbingu. Prawo oświatowe kreuje dyrektora - mobbera."</Link> - przedstawiła mgr Elżbieta Linowska - nauczyciel dyplomowany, 
         w tym 10 lat na stanowisku dyrektora szkoły średniej. Przedstawiciel Zarządu OSA na obszar woj. podlaskiego.</List.Item>
-    <List.Item><Link className="underline hover:text-indigo-400" to="/osa/pdf/konf04/prelekcjaLeskaŚlężak.pdf" type="application/pdf" target="_blank">"Europejska Polityka Społeczna: najważniejsze międzynarodowe akty społeczne obowiązujące w UE, Europejska Agenda Społeczna a Europejski Model Społeczny, Fundusze Strukturalne dla Polski w ramach Polityki Społecznej UE."</Link> - przedstawiła dr Joanna Leska - Ślęzak -pracownik naukowo - dydaktyczny Instytutu Politologii Uniwersytetu Gdańskiego.</List.Item>
-    <List.Item><Link className="underline hover:text-indigo-400" to="/osa/pdf/konf04/prelekcjaJMucha.pdf" type="application/pdf" target="_blank">"Uwaga, I ty możesz być mobbingowanym"</Link> - przedstawiła mgr Jadwiga Mucha - specjalista w zakresie prawa pracy, pracownik Urzędu Pracy w Lublinie, przedstawiciel Zarządu OSA na obszar wojew. lubelskiego.</List.Item>
+    <List.Item><Link className="underline hover:text-indigo-400" to="/osa/pdf/konfg/prelekcjaLeskaŚlężak.pdf" type="application/pdf" target="_blank">"Europejska Polityka Społeczna: najważniejsze międzynarodowe akty społeczne obowiązujące w UE, Europejska Agenda Społeczna a Europejski Model Społeczny, Fundusze Strukturalne dla Polski w ramach Polityki Społecznej UE."</Link> - przedstawiła dr Joanna Leska - Ślęzak -pracownik naukowo - dydaktyczny Instytutu Politologii Uniwersytetu Gdańskiego.</List.Item>
+    <List.Item><Link className="underline hover:text-indigo-400" to="/osa/pdf/konfg/prelekcjaJMucha.pdf" type="application/pdf" target="_blank">"Uwaga, I ty możesz być mobbingowanym"</Link> - przedstawiła mgr Jadwiga Mucha - specjalista w zakresie prawa pracy, pracownik Urzędu Pracy w Lublinie, przedstawiciel Zarządu OSA na obszar wojew. lubelskiego.</List.Item>
     </List>
     
     <p className="text-slate-500 dark:text-slate-200 mb-4">
@@ -56,10 +56,10 @@ const Konf04 = () => {
     </p>
 
     <List ordered className="text-slate-500 dark:text-slate-200 mb-4">
-    <List.Item><Link className="underline hover:text-indigo-400" to="/osa/pdf/konf04/prelekcjaHMachel.pdf" type="application/pdf" target="_blank">"Niektóre uwarunkowania społeczne mobbingu"</Link> - przedstawił prof. nadzw. Henryk Machel - kierownik Zakładu Patologii Społecznej i Resocjalizacji Uniwersytetu Gdańskiego zajmujący się patologią instytucji,
+    <List.Item><Link className="underline hover:text-indigo-400" to="/osa/pdf/konfg/prelekcjaHMachel.pdf" type="application/pdf" target="_blank">"Niektóre uwarunkowania społeczne mobbingu"</Link> - przedstawił prof. nadzw. Henryk Machel - kierownik Zakładu Patologii Społecznej i Resocjalizacji Uniwersytetu Gdańskiego zajmujący się patologią instytucji,
          społecznymi uwarunkowaniami zachowań dewiacyjnych i profilaktyką w tym zakresie.</List.Item>
-    <List.Item><Link className="underline hover:text-indigo-400" to="/osa/pdf/konf04/prelekcjaMSkłodowska.pdf" type="application/pdf" target="_blank">"Zjawisko mobbingu widziane "okiem psychologa"</Link> - przedstawiła mgr Maria Skodowska - psycholog, biegły sądowy, mediator. I stopień specjalizacji z psychologii klinicznej i specjalizacji poradnictwa rodzinnego.</List.Item>
-    <List.Item><Link className="underline hover:text-indigo-400" to="/osa/pdf/konf04/prelekcjaSępKowalikowa.pdf" type="application/pdf" target="_blank">"Konsekwencje psychiatryczne mobbingu - depresja, zaburzenia adaptacyjne i lękowe"</Link> - przedstawiła dr Barbara Sęp - Kowalikowa - dr nauk medycznych, specjalista chorób psychicznych, 
+    <List.Item><Link className="underline hover:text-indigo-400" to="/osa/pdf/konfg/prelekcjaMSkłodowska.pdf" type="application/pdf" target="_blank">"Zjawisko mobbingu widziane "okiem psychologa"</Link> - przedstawiła mgr Maria Skodowska - psycholog, biegły sądowy, mediator. I stopień specjalizacji z psychologii klinicznej i specjalizacji poradnictwa rodzinnego.</List.Item>
+    <List.Item><Link className="underline hover:text-indigo-400" to="/osa/pdf/konfg/prelekcjaSępKowalikowa.pdf" type="application/pdf" target="_blank">"Konsekwencje psychiatryczne mobbingu - depresja, zaburzenia adaptacyjne i lękowe"</Link> - przedstawiła dr Barbara Sęp - Kowalikowa - dr nauk medycznych, specjalista chorób psychicznych, 
         adiunkt I Kliniki Chorób Psychicznych Akademii Medycznej w Gdańsku, Ordynator Oddziału Dziennego Nerwic.</List.Item>
     </List>
 
@@ -68,11 +68,11 @@ const Konf04 = () => {
     </p>
     
     <List ordered className="text-slate-500 dark:text-slate-200 mb-4">
-    <List.Item><Link className="underline hover:text-indigo-400" to="/osa/pdf/konf04/prelekcjaMWrzesiński.pdf" type="application/pdf" target="_blank">"Mobbing jako problem etyki organizacji"</Link> - przedstawił dr Michał Wrzesiński - wykładowca i konsultant ds. zarządzania, specjalizujący się w zagadnieniach etyki organizacji oraz komunikacji internetowej.</List.Item>
-    <List.Item><Link className="underline hover:text-indigo-400" to="/osa/pdf/konf04/prelekcjaSZajączkowskaJakimiak.pdf" type="application/pdf" target="_blank">"Ekonomiczne aspekty mobbingu. Zagadnienie kapitału ludzkiego"</Link> - miała przedstawić mgr Sylwia Zajączkowska - Jakimiak - asystent Instytutu Nauk Ekonomicznych PAN, Zakład Gospodarki Światowej, 
+    <List.Item><Link className="underline hover:text-indigo-400" to="/osa/pdf/konfg/prelekcjaMWrzesiński.pdf" type="application/pdf" target="_blank">"Mobbing jako problem etyki organizacji"</Link> - przedstawił dr Michał Wrzesiński - wykładowca i konsultant ds. zarządzania, specjalizujący się w zagadnieniach etyki organizacji oraz komunikacji internetowej.</List.Item>
+    <List.Item><Link className="underline hover:text-indigo-400" to="/osa/pdf/konfg/prelekcjaSZajączkowskaJakimiak.pdf" type="application/pdf" target="_blank">"Ekonomiczne aspekty mobbingu. Zagadnienie kapitału ludzkiego"</Link> - miała przedstawić mgr Sylwia Zajączkowska - Jakimiak - asystent Instytutu Nauk Ekonomicznych PAN, Zakład Gospodarki Światowej, 
     która z powodów zdrowotnych nie przybyła na konferencję do Gdańska.</List.Item>
-    <List.Item><Link className="underline hover:text-indigo-400" to="/osa/pdf/konf04/prelekcjaJCzuchnowski.pdf" type="application/pdf" target="_blank">"Zarządzanie procesowe podstawą upełnomocniania pracowników"</Link> - przedstawił mgr inż. Janusz Czuchnowski - starszy wykładowca Politechniki Gdańskiej Wydziału Zarządzania i Ekonomii.</List.Item>
-    <List.Item><Link className="underline hover:text-indigo-400" to="/osa/pdf/konf04/prelekcjaJKlapkowski.pdf" type="application/pdf" target="_blank">"Pracodawcy wobec zjawiska mobbingu"</Link> - przedstawił mgr inż. Jan Klapkowski - Dyrektor Biura Gdańskiego Związku Pracodawców.</List.Item>
+    <List.Item><Link className="underline hover:text-indigo-400" to="/osa/pdf/konfg/prelekcjaJCzuchnowski.pdf" type="application/pdf" target="_blank">"Zarządzanie procesowe podstawą upełnomocniania pracowników"</Link> - przedstawił mgr inż. Janusz Czuchnowski - starszy wykładowca Politechniki Gdańskiej Wydziału Zarządzania i Ekonomii.</List.Item>
+    <List.Item><Link className="underline hover:text-indigo-400" to="/osa/pdf/konfg/prelekcjaJKlapkowski.pdf" type="application/pdf" target="_blank">"Pracodawcy wobec zjawiska mobbingu"</Link> - przedstawił mgr inż. Jan Klapkowski - Dyrektor Biura Gdańskiego Związku Pracodawców.</List.Item>
     <List.Item><Link className="underline hover:text-indigo-400" to="/osa/galeria" type="application/pdf" target="_blank">Ujęcie rysunkowe</Link> - Grzegorz Krzemiński.</List.Item>
     </List>
 
@@ -149,4 +149,4 @@ const Konf04 = () => {
   )
 }
 
-export default Konf04
+export default Konfg
