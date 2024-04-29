@@ -73,7 +73,7 @@ const Konfg = () => {
     która z powodów zdrowotnych nie przybyła na konferencję do Gdańska.</List.Item>
     <List.Item><Link className="underline hover:text-indigo-400" to="/osa/pdf/konfg/prelekcjaJCzuchnowski.pdf" type="application/pdf" target="_blank">"Zarządzanie procesowe podstawą upełnomocniania pracowników"</Link> - przedstawił mgr inż. Janusz Czuchnowski - starszy wykładowca Politechniki Gdańskiej Wydziału Zarządzania i Ekonomii.</List.Item>
     <List.Item><Link className="underline hover:text-indigo-400" to="/osa/pdf/konfg/prelekcjaJKlapkowski.pdf" type="application/pdf" target="_blank">"Pracodawcy wobec zjawiska mobbingu"</Link> - przedstawił mgr inż. Jan Klapkowski - Dyrektor Biura Gdańskiego Związku Pracodawców.</List.Item>
-    <List.Item><Link className="underline hover:text-indigo-400" to="/osa/galeria" type="application/pdf" target="_blank">Ujęcie rysunkowe</Link> - Grzegorz Krzemiński.</List.Item>
+    <List.Item><a className="underline hover:text-indigo-400" href="/osa/galeria" type="application/pdf" target="_blank">Ujęcie rysunkowe</a> - Grzegorz Krzemiński.</List.Item>
     </List>
 
 
