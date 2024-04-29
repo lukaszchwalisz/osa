@@ -26,9 +26,9 @@ const router = createBrowserRouter(
     <Route path='/osa' element={<Layout />}>
       <Route path='' element={<Home/>} />
       <Route path="about/" element={<About/>} />
-        <Route path='about/cele' element={<Cele/>} />
-        <Route path='about/konfg' element={<Konfg/>} />
-        <Route path='about/konfr' element={<Konfr/>} />
+        <Route path='cele' element={<Cele/>} />
+        <Route path='konfg' element={<Konfg/>} />
+        <Route path='konfr' element={<Konfr/>} />
       <Route path="działania" element={<Actions/>} />
       <Route path="wiedza" element={<Wiedza/>} />
       <Route path="galeria" element={<Galeria/>} />

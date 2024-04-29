@@ -22,7 +22,7 @@ const About = () => {
                   <a href="konfg" className="inline-block p-4 text-blue-600 border-b-2 border-blue-600 rounded-t-lg active dark:text-blue-500 dark:border-blue-500">Gdańsk</a>
               </li>
               <li className="me-2">
-                  <a href="about/cele" className="inline-block p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300">Cele statutowe</a>
+                  <a href="cele" className="inline-block p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300">Cele statutowe</a>
               </li>
               <li className="me-2">
                   <a href="konfr" className="inline-block p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300">Racibórz</a>
