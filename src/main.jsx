@@ -25,7 +25,7 @@ const router = createBrowserRouter(
 
     <Route path='/osa' element={<Layout />}>
       <Route path='' element={<Home/>} />
-      <Route path="about" element={<About/>} />
+      <Route path="about/" element={<About/>} />
         <Route path='about/cele' element={<Cele/>} />
         <Route path='about/konfg' element={<Konfg/>} />
         <Route path='about/konfr' element={<Konfr/>} />
