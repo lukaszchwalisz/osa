@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 
 import { Header } from "./components/header";
-import { Foooter } from "./components/footer";
+import { Footer } from "./components/footer";
 
 import Home from "./pages/home";
 import About from "./pages/about";
@@ -26,7 +26,7 @@ function App() {
         <Route path="/osa/galeria" element={<Galeria/>} />
         <Route path="/osa/kontakt" element={<Kontakt/>} />
       </Routes>
-      <Foooter/>
+      <Footer/>
       </div>
     </div>
   );
