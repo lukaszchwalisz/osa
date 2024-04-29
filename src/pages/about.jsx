@@ -2,9 +2,11 @@
 
 import { Tabs } from "flowbite-react"
 import Struktura from "./About/struktura";
-import Cele from "./About/cele";
+// import Cele from "./About/cele";
 import Historia from "./About/historia";
 import Wydarzenia from "./About/wydarzenia";
+import Konfg from "./About/konfg";
+import Konfr from "./About/konfr";
 // import { Link } from "react-router-dom";
 
 const About = () => {
@@ -46,9 +48,14 @@ const About = () => {
 
         </Tabs.Item>
 
-        <Tabs.Item title="Cele statutowe">
+        <Tabs.Item title="Gdańsk">
 
-          <Cele />
+          <Konfg />
+
+        </Tabs.Item>
+        <Tabs.Item title="Racibórz">
+
+          <Konfr />
 
         </Tabs.Item>
        
@@ -57,6 +64,11 @@ const About = () => {
           <Struktura />
 
         </Tabs.Item>
+
+
+
+
+
 
       </Tabs>
 
