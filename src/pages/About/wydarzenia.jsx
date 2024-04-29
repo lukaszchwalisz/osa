@@ -78,7 +78,7 @@ const Wydarzenia = () => {
               <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Konferencja "Mobbing - klęska zarządzania czy problem społeczny ?"</h3>
               <p className="text-base font-normal text-gray-500 dark:text-gray-400">
               W dniu 26 listopada 2005 r. zorganizowana została przez członków Punktu Konsultacyjnego Zarządu w Raciborzu wraz z Zarządem Stowarzyszenia konferencja - 
-              <a className="underline hover:text-indigo-400" href="konfr" type="application/pdf" target="_blank">"Mobbing - klęska zarządzania czy problem społeczny ?"</a>
+              <Link className="underline hover:text-indigo-400" to="/osa/pdf/konfr/konfr.pdf" type="application/pdf" target="_blank">"Mobbing - klęska zarządzania czy problem społeczny ?"</Link>
               pod patronatem honorowym Rzecznika Praw Obywatelskich i Pełnomocnika Wojewody Śląskiego ds. Równego
               Statusu Kobiet i Mężczyzn.</p>
           </li>
@@ -104,7 +104,7 @@ const Wydarzenia = () => {
               <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Konferencja "Mobbing - zalążek klęski czy sukcesu?"</h3>
               <p className="text-base font-normal text-gray-500 dark:text-gray-400">
               W dniu 29 czerwca 2004 r. w Gdańsku zorganizowana została przez zarząd stowarzyszenia konferencja - 
-              <a className="underline hover:text-indigo-400" href="konfg" type="application/pdf" target="_blank">"Mobbing - zalążek klęski czy sukcesu?"</a>
+              <Link className="underline hover:text-indigo-400" to="/osa/pdf/konfg/konfg.pdf" type="application/pdf" target="_blank">"Mobbing - zalążek klęski czy sukcesu?"</Link>
               współfinansowana ze środków Unii Europejskiej w ramach Counterpart Funds.</p>
           </li>
           <li className="mb-10 ms-4">
