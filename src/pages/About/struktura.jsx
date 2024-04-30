@@ -4,7 +4,7 @@ import { Link } from "react-router-dom"
 
 const Struktura = () => {
   return (
-        <dev>
+        <div>
 
         <article>
         <h1 className="text-indigo-700 bg-slate-50 p-4 text-center dark:text-indigo-400 font-bold font-mono text-2xl mt-8 mb-4">Struktura organizacyjna</h1>
@@ -39,11 +39,11 @@ const Struktura = () => {
             <tbody>
             <tr>
                 <td className="text-left  dark:text-slate-200"><b>Przewodnicząca</b></td>
-                <td className="text-center px-7  dark:text-slate-200">Bożena Luchowska</td>
+                <td className="text-center px-11  dark:text-slate-200">Bożena Luchowska</td>
             </tr>
             <tr>
                 <td className="text-left dark:text-slate-200"><b>Członek komisji</b></td>
-                <td className="text-right px-7  dark:text-slate-200">Elżbieta Król</td>
+                <td className="text-right px-11  dark:text-slate-200">Elżbieta Król</td>
             </tr>
     
             </tbody>
@@ -82,7 +82,7 @@ const Struktura = () => {
         </table>
         
         </article>
-        </dev>
+        </div>
   )
 }
 
