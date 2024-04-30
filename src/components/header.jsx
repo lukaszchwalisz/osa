@@ -8,7 +8,7 @@ export function Header() {
 
 
         <nav className="sticky top-0 z-10 h-max max-w-full"> 
-            <div className="bg-white dark:bg-gradient-to-r from-sky-100 from-10% to-indigo-200 to-90%">
+            <div className="bg-sky-50 dark:bg-gradient-to-r from-sky-100 from-10% to-indigo-200 to-90%">
                 
             <ul  className="container mx-auto text-center sm:justify-center sm:items-center sm:grid md:flex flex-row">
                 <span className="flex flex-center flex-1"><li><Link to="/osa"><img className="w-64 m-4 sm:grid" src="/osa/images/Web_logo.svg" alt="logo OSA"></img></Link></li></span>
