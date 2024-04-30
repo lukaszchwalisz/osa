@@ -6,11 +6,15 @@ function Layout() {
   return (
     <>
     <div className="min-h-screen dark:bg-indigo-950"> 
+      <div className="flex flex-col min-h-screen">
       <Header/>
-      <div className="container mx-auto">
+      <div className="mb-auto">
+        <div className="container mx-auto">
         <Outlet />
       </div>
+      </div>
       <Footer />
+      </div>
     </div>
 
     </>
