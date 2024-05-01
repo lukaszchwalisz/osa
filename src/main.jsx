@@ -19,16 +19,16 @@ const router = createBrowserRouter(
   createRoutesFromElements(
 
     <Route path='/osa' element={<Layout />}>
-      <Route path='' element={<Home/>} />
-      <Route path="/osa/about" element={<About/>} />
-      <Route path="/osa/projekty" element={<Actions/>} />
-      <Route path="/osa/wiedza" element={<Wiedza/>} />
-      <Route path="/osa/galeria" element={<Galeria/>} />
-      <Route path="/osa/kontakt" element={<Kontakt/>} />
+      <Route path='' element={<Home />} />
+      <Route path="/osa/about" element={<About />} />
+      <Route path="/osa/projekty" element={<Actions />} />
+      <Route path="/osa/wiedza" element={<Wiedza />} />
+      <Route path="/osa/galeria" element={<Galeria />} />
+      <Route path="/osa/kontakt" element={<Kontakt />} />
     </Route>
-  
 
-  
+
+
   ),
 
 )
@@ -36,6 +36,6 @@ const router = createBrowserRouter(
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-      <RouterProvider router={router} />
+    <RouterProvider router={router} />
   </React.StrictMode>,
 )
