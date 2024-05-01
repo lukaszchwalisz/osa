@@ -1,4 +1,4 @@
-import React from 'react'
+
 import ReactDOM from 'react-dom/client'
 import Layout from './components/Layout.jsx'
 
@@ -10,32 +10,71 @@ import Galeria from "./pages/galeria";
 import Kontakt from "./pages/kontakt";
 
 import './index.css'
-import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from 'react-router-dom';
+import { createHashRouter, RouterProvider } from 'react-router-dom';
 
 
 
-const router = createBrowserRouter(
+const router = createHashRouter([
+  {
+    path: "/",
+    element: <Layout />,
+    children: [
+      {
+        path: "/",
+        element: <Home />,
 
-  createRoutesFromElements(
-
-    <Route path='/osa' element={<Layout />}>
-      <Route path='' element={<Home />} />
-      <Route path="/osa/about" element={<About />} />
-      <Route path="/osa/projekty" element={<Actions />} />
-      <Route path="/osa/wiedza" element={<Wiedza />} />
-      <Route path="/osa/galeria" element={<Galeria />} />
-      <Route path="/osa/kontakt" element={<Kontakt />} />
-    </Route>
+      },
 
 
+      {
+        path: "about",
+        element: <About />,
 
-  ),
+      },
 
-)
+      {
+        path: "projekty",
+        element: <Actions />,
+
+      },
+      {
+        path: "wiedza",
+        element: <Wiedza />,
+        
+      },
+      {
+        path: "galeria",
+        element: <Galeria />,
+        
+      },
+      {
+        path: "kontakt",
+        element: <Kontakt />,
+        
+      },
+
+    ],
+
+  },
+
+]);
+
+
+ 
+
+    // <Route path='/osa' element={<Layout />}>
+    //   <Route path='' element={<Home />} />
+    //   <Route path="/osa/about" element={<About />} />
+    //   <Route path="/osa/projekty" element={<Actions />} />
+    //   <Route path="/osa/wiedza" element={<Wiedza />} />
+    //   <Route path="/osa/galeria" element={<Galeria />} />
+    //   <Route path="/osa/kontakt" element={<Kontakt />} />
+    // </Route>
+
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
+  
     <RouterProvider router={router} />
-  </React.StrictMode>,
+ 
 )
