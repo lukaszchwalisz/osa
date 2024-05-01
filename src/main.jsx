@@ -20,11 +20,11 @@ const router = createBrowserRouter(
 
     <Route path='/osa' element={<Layout />}>
       <Route path='' element={<Home/>} />
-      <Route path="about" element={<About/>} />
-      <Route path="projekty" element={<Actions/>} />
-      <Route path="wiedza" element={<Wiedza/>} />
-      <Route path="galeria" element={<Galeria/>} />
-      <Route path="kontakt" element={<Kontakt/>} />
+      <Route path="/osa/about" element={<About/>} />
+      <Route path="/osa/projekty" element={<Actions/>} />
+      <Route path="/osa/wiedza" element={<Wiedza/>} />
+      <Route path="/osa/galeria" element={<Galeria/>} />
+      <Route path="/osa/kontakt" element={<Kontakt/>} />
     </Route>
   
 
