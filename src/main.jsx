@@ -18,8 +18,8 @@ const router = createBrowserRouter(
 
   createRoutesFromElements(
 
-    <Route path='/osa' element={<Layout />}>
-      <Route path='' element={<Home/>} />
+    <Route element={<Layout />}>
+      <Route index path='/osa/' element={<Home/>} />
       <Route path="/osa/about" element={<About/>} />
       <Route path="/osa/projekty" element={<Actions/>} />
       <Route path="/osa/wiedza" element={<Wiedza/>} />
