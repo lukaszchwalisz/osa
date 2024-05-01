@@ -29,7 +29,7 @@ const router = createBrowserRouter(
         <Route path='cele' element={<Cele/>} />
         <Route path='konfg' element={<Konfg/>} />
         <Route path='konfr' element={<Konfr/>} />
-      <Route path="działania" element={<Actions/>} />
+      <Route path="projekty" element={<Actions/>} />
       <Route path="wiedza" element={<Wiedza/>} />
       <Route path="galeria" element={<Galeria/>} />
       <Route path="kontakt" element={<Kontakt/>} />

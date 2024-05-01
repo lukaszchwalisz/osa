@@ -1,11 +1,11 @@
 /* eslint-disable react/no-unescaped-entities */
 import { List } from "flowbite-react"
 
-const Programy = () => {
+const Projekty = () => {
   return (
         <div>
         <article>
-        <h1 className="text-indigo-700 bg-slate-50 p-4 text-center dark:text-indigo-400 font-bold font-mono text-2xl mt-8 mb-4">PROGRAMY</h1>
+        <h1 className="text-indigo-700 bg-slate-50 p-4 text-center dark:text-indigo-400 font-bold font-mono text-2xl mt-8 mb-4">PROJEKTY</h1>
           <p className="text-slate-500 dark:text-slate-200 mb-4">
           Od dnia 10 stycznia 2023r. realizujemy nieodpłatną pomoc prawno - psychologiczną skierowaną do mieszkańców biorących udział w procesie pracy,
           osób zagrożonych i dotkniętych zjawiskiem mobbingu oraz dyskryminacji, opartą na przesłankach takich jak: bezpłatność, bezstronność, otwartość
@@ -136,4 +136,4 @@ const Programy = () => {
   )
 }
 
-export default Programy
+export default Projekty

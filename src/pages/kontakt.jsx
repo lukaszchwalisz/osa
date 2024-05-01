@@ -1,7 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
 import { Table } from "flowbite-react";
-"use client";
-import { List, ListItem } from "flowbite-react"
 
 const Kontakt = () => {
   return (
@@ -147,44 +145,7 @@ const Kontakt = () => {
       </Table>
       </div>
       
-        <div>
 
-        <h1 className="text-indigo-700 bg-slate-50 p-4 text-center dark:text-indigo-400 font-bold font-mono text-2xl mt-8 mb-4">
-        Sponsorzy</h1>
-        <List className="styled text-slate-500 dark:text-slate-200 mb-4">
-        <List.Item>Andrzej Machała, firma "Ksero" w Gdańsku, ul. Szeroka 119/120</List.Item>
-        <List.Item>Piotr Badowski, firma Usługowego-Budowlana ORION - P.B. w Sopocie, ul. Wybickiego 41/1</List.Item>
-        <List.Item>Ewa Wosik - Biuro rachunkowe "Ekspert" 80-874 Gdańsk, ul. Na Stoku 48</List.Item>
-        <List.Item>EXPAK Sp. z o.o. Kalinowszczyzna 43, 20-201 Lublin</List.Item>
-        <List.Item>Pełnomocnik Rządu do Spraw Równego Statusu Kobiet i Mężczyzn Kancelarii Prezesa Rady Ministrów</List.Item>
-        <List.Item>Fundacja Ośrodek Informacji Środowisk Kobiecych OŚKA</List.Item>
-        <List.Item>Miasto Stołeczne Warszawa</List.Item>
-        <List.Item>Miasto Gdańsk</List.Item>
-        <List.Item>Fundacja "Fundusz Współpracy" w Warszawie</List.Item>
-        <List.Item>Burmistrz Gminy Łomianki</List.Item>
-        <List.Item>Komisja Międzyzakładowa NSZZ Solidarność POiW w Jeleniej Górze</List.Item>
-        <List.Item>Miejski Ośrodek Pomocy Rodzinie w Kielcach ul. 1-go Maja 196</List.Item>
-        <List.Item>Bank PKO BP S.A. I O/ Gdańsk</List.Item>
-        <List.Item>Samorząd Wojewodztwa Pomorskiego</List.Item>
-        <List.Item>Prezydent Miasta Racibórz</List.Item>
-        <List.Item>Danuta Bochnke - Zakład Usług Kserograficznych "KOPIA", Gdańsk ul. Tartaczna 1</List.Item>
-        </List>
-        </div>
-    
-        <div>
-        <h1 className="text-indigo-700 bg-slate-50 p-4 text-center dark:text-indigo-400 font-bold font-mono text-2xl mt-8 mb-4">
-        Współpracownicy</h1>
-        <List className="text-slate-500 dark:text-slate-200 mb-4">
-        <ListItem>Gdańskie Stowarzyszenie Pedagogów Praktyków - tel. (058) 307 30 61</ListItem>
-        <List.Item>Fundacja Centrum Praw Kobiet Odział w Gdańsk - tel. (058) 341 79 15</List.Item>
-        <List.Item>Towarzystwo Przyjaciół Gdańska - Gdańsk ul. Warzywnicza 10</List.Item>
-        <List.Item>Jarosław Ślęzak - radca prawny</List.Item>
-        <List.Item>Grzegorz Krzemiński - autor rysynków w materiałach OSA</List.Item>
-        <List.Item>Maria Skodowska - psycholog kliniczny</List.Item>
-        <List.Item>Polskie Towarzystwo Pomocy Telefonicznej</List.Item>
-        <List.Item>Gdański Telefon Zaufania Anonimowy Przyjaciel - tel. (58) 301 00 00</List.Item>
-        </List>
-        </div>
         </div>
      
     </>

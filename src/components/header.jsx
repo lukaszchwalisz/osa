@@ -21,20 +21,20 @@ export function Header() {
                 <Link to="/osa/">Home</Link>
                 </li> */}
                 <li className="text-slate-400 font-bold font-mono hover:text-slate-500 space-x-2 p-4">
-                <Link to="/osa/about">O nas</Link>
+                <Link to="/osa/about">O NAS</Link>
                 </li>
 
                 <li className="text-slate-400 font-bold font-mono hover:text-slate-500 space-x-2 p-4">
-                <Link to="/osa/działania">Działania</Link>
+                <Link to="/osa/projekty">PROJEKTY</Link>
                 </li>
                 <li className="text-slate-400 font-bold font-mono hover:text-slate-500 space-x-2 p-4">
-                <Link to="/osa/wiedza">Wiedza</Link>
+                <Link to="/osa/wiedza">WIEDZA</Link>
                 </li>
                 <li className="text-slate-400 font-bold font-mono hover:text-slate-500 space-x-2 p-4">
-                <Link to="/osa/galeria">Galeria</Link>
+                <Link to="/osa/galeria">GALERIA</Link>
                 </li>
                 <li className="text-slate-400 font-bold font-mono hover:text-slate-500 space-x-2 p-4">
-                <Link to="/osa/kontakt">Kontakt</Link>
+                <Link to="/osa/kontakt">KONTAKT</Link>
                 </li>
             </ul>
            

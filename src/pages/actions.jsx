@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import { Tabs } from "flowbite-react"
-import Programy from "./Actions/programy"
+import Projekty from "./Actions/projekty"
 import Komunikaty from "./Actions/komunikaty"
 import Tax_ngo from "./Actions/1_5ngo"
 import Nowy from "./Actions/nowy"
@@ -13,19 +13,19 @@ const Actions = () => {
 
     <Tabs aria-label="Tabs with underline" style="underline">
       
-      <Tabs.Item active title="Programy">
+      <Tabs.Item active title="PROJEKTY">
 
-        <Programy />
+        <Projekty />
 
       </Tabs.Item>
 
-      <Tabs.Item title="Komunikaty">
+      <Tabs.Item title="KOMUNIKATY">
       
         <Komunikaty />
 
       </Tabs.Item>
       
-      <Tabs.Item title="Jak dołączyć ?">
+      <Tabs.Item title="WSPÓŁPRACA">
 
         <Nowy />
 

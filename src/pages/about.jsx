@@ -16,25 +16,25 @@ const About = () => {
 
         <Tabs aria-label="Tabs with underline" style="underline">
         
-          <Tabs.Item active title="Trochę historii">
+          <Tabs.Item active title="POCZĄTKI">
             
             <Historia />
 
           </Tabs.Item>
         
-          <Tabs.Item title="Wydarzenia">
+          <Tabs.Item title="WYDARZENIA">
             
             <Wydarzenia />
 
           </Tabs.Item>
 
-          <Tabs.Item title="Cele">
+          <Tabs.Item title="CELE">
             
             <Cele />
 
           </Tabs.Item>
         
-          <Tabs.Item title="Struktura organizacyjna">
+          <Tabs.Item title="STRUKTURA">
 
             <Struktura />
 
