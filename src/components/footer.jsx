@@ -1,11 +1,9 @@
-
-// 'use client';
-// import { Footer } from 'flowbite-react';
+/* eslint-disable react/no-unescaped-entities */
 
 export function Footer() {
   return (
-    <div className="h-36 p-8 text-center font-semibold bg-sky-50">
-      © ŁukaszChwalisz 2024
+    <div className="h-36 p-8 text-center bg-stone-50 dark:text-stone-50 dark:bg-gray-800">
+      © Ogólnopolskie Stowarzyszenie Antymobbingowe "OSA" 2024
       </div>
 
   );
