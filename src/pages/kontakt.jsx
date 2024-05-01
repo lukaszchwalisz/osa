@@ -6,8 +6,7 @@ const Kontakt = () => {
     <>
     <div className="grid justify-center m-4 lg:mx-20 xl:mx-40 2xl:mx-80">
     
-      <h1 className="text-indigo-700 bg-slate-50 p-4 text-center dark:text-indigo-400 font-bold font-mono text-2xl mt-8 mb-4">
-        Kontakt</h1>
+      <h1 className="text-indigo-700 bg-slate-50 p-4 text-center dark:text-indigo-400 font-bold font-mono text-2xl mt-8 mb-4">KONTAKT</h1>
         
         <p className="text-slate-500 text-center dark:text-slate-200 mb-4">
         <b>Adres tylko do korespondencji:</b>

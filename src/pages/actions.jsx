@@ -31,7 +31,7 @@ const Actions = () => {
 
       </Tabs.Item>
 
-      <Tabs.Item title="1,5 %">
+      <Tabs.Item title="DOFINANSOWANIE">
 
         <Tax_ngo />
     

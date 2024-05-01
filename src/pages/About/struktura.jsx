@@ -82,6 +82,13 @@ const Struktura = () => {
         </table>
         
         </article>
+        <article className="pt-4">
+            <p className="text-slate-500 dark:text-slate-200 font-bold underline mb-4">Sprawozdania finansowe i merytoryczne</p>
+            <p className="text-slate-500 dark:text-slate-200 mb-4">Sprawozdania stowarzyszenia "OSA" dostępne są w bazie sprawozdań organizacji pożytku publicznego na stronie:  
+            <p><Link className="underline hover:text-indigo-400" to="https://sprawozdaniaopp.niw.gov.pl/" type="application/pdf" target="_blank">Narodowy Instytut Wolności Centrum Rozwoju Społeczeństwa Obywatelskiego</Link></p></p>
+            <p className="text-slate-500 dark:text-slate-200 mb-4">W celu wyszukania sprawozdań stowarzyszenia wpisz w zakładce KRS nr:  <b>0000088951</b></p>        
+        </article>
+
         </div>
   )
 }
