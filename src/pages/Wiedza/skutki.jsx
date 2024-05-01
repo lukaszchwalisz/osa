@@ -4,7 +4,7 @@ export const Skutki = () => {
   return (
     <div>
         <article>
-        <h1 className="text-indigo-700 bg-slate-50 p-4 text-center dark:text-indigo-400 font-bold font-mono text-2xl mt-8 mb-4">Skutki zjawiska</h1>  
+        <h1 className="text-indigo-700 bg-slate-50 p-4 text-center dark:text-indigo-400 font-bold font-mono text-2xl mt-8 mb-4">Skutki mobbingu</h1>  
         <p className="text-slate-500 dark:text-slate-200 mb-4">
         Szkody indywidualne dotykają bezpośrednio ofiarę mobbingu. Podstawową konsekwencją tego zjawiska jest stres,
         który pojawia się w wyniku jej kontaktu ze stresogennym otoczeniem.

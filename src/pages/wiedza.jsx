@@ -20,7 +20,7 @@ const Wiedza = () => {
         
         <Tabs aria-label="Pills" style="pills">
         
-        <Tabs.Item title="Mobbing jako zjawisko społeczne">
+        <Tabs.Item title="Charakterystyka zjawiska mobbingu">
           
           <M_zjawisko />    
         
@@ -74,13 +74,13 @@ const Wiedza = () => {
 
         </Tabs.Item>
         
-        <Tabs.Item title="Przeciwdziałanie mobbingowi (pracodawcy)">
+        <Tabs.Item title="Przeciwdziałanie (pracodawcy)">
 
           <Pracodawcy />
 
         </Tabs.Item>
 
-        <Tabs.Item title="Przeciwdziałanie mobbingowi (pracownicy)">
+        <Tabs.Item title="Przeciwdziałanie (pracownicy)">
   
           <Pracownicy />
        

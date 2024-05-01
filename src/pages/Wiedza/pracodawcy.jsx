@@ -4,7 +4,7 @@ export const Pracodawcy = () => {
   return (
     <div>
         <article>
-        <h1 className="text-indigo-700 bg-slate-50 p-4 text-center dark:text-indigo-400 font-bold font-mono text-2xl mt-8 mb-4">Jak przeciwdziałać mobbingowi (pracowdawcy) ?</h1>
+        <h1 className="text-indigo-700 bg-slate-50 p-4 text-center dark:text-indigo-400 font-bold font-mono text-2xl mt-8 mb-4">Przeciwdziałanie (pracowdawcy)</h1>
         <p className="text-slate-500 dark:text-slate-200 mb-4">
         Pracodawca może podjąć działania, aby zminimalizować mobbing lub nie dopuścić do powstania tego zjawiska:
         </p>
