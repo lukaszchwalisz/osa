@@ -30,7 +30,7 @@ const Home = () => {
               <a href="/osa/projekty" target="_blank">
                   <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Projekty</h5>
               </a>
-              <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Aktualności z działalności stowarzyszenia "OSA".</p>
+              <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Aktualności z działalności stowarzyszenia "OSA": realizowane projekty, ważne komunikaty, współpraca i możliwość dofinansowania działalności stowarzyszenia.</p>
               <a href="/osa/projekty" target="_blank" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                   Sprawdź
                   <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
@@ -54,7 +54,7 @@ const Home = () => {
               <a href="/osa/galeria" target="_blank">
                   <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Galeria</h5>
               </a>
-              <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Zapoznaj się z najważniejszą terminologią dotyczącą zjawiska mobbingu.</p>
+              <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Galeria prac rysunkowych współpracownika stowarzyszenia - Grzegorza Krzemińskiego.</p>
               <a href="/osa/galeria" target="_blank"className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                   Sprawdź
                   <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
@@ -66,7 +66,7 @@ const Home = () => {
               <a href="/osa/kontakt" target="_blank">
                   <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Kontakt</h5>
               </a>
-              <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Zapoznaj się z najważniejszą terminologią dotyczącą zjawiska mobbingu.</p>
+              <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Kontakt z przedstawicielami stowarzyszenia - w centrali w Gdańsku oraz w punktach konsultacyjnych na terenie całego kraju.</p>
               <a href="/osa/kontakt" target="_blank" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                   Sprawdź
                   <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
