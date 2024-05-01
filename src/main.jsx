@@ -10,16 +10,16 @@ import Galeria from "./pages/galeria";
 import Kontakt from "./pages/kontakt";
 
 import './index.css'
-import { createHashRouter, createRoutesFromElements, Route, RouterProvider } from 'react-router-dom';
+import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from 'react-router-dom';
 
 
 
-const router = createHashRouter(
+const router = createBrowserRouter(
 
   createRoutesFromElements(
 
-    <Route element={<Layout />}>
-      <Route index path='/' element={<Home/>} />
+    <Route path='/osa' element={<Layout />}>
+      <Route path='' element={<Home/>} />
       <Route path="/osa/about" element={<About/>} />
       <Route path="/osa/projekty" element={<Actions/>} />
       <Route path="/osa/wiedza" element={<Wiedza/>} />
