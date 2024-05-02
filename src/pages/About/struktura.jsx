@@ -49,7 +49,7 @@ const Struktura = () => {
             </tbody>
         </table>
 
-        <p className="text-slate-500 dark:text-slate-200 font-bold underline hover:text-indigo-400 mb-4"><Link to="/osa/kontakt">Punkty konsultacyjne:</Link></p>
+        <p className="text-slate-500 dark:text-slate-200 font-bold underline hover:text-indigo-400 mb-4"><Link to="../kontakt">Punkty konsultacyjne:</Link></p>
         <table className="mb-4">
             <tbody>
 
