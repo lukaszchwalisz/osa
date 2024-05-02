@@ -5,11 +5,10 @@ import { Link } from "react-router-dom";
 const Home = () => {
     return (
         <>
-            <div className="grid justify-center mt-40 m-4 lg:mx-20 xl:mx-40 2xl:mx-80">
-
+            <div className="grid justify-center mt-24 m-4 lg:mx-20 xl:mx-40 2xl:mx-80">
 
                 <h1 className="text-slate-500 font-bold text-4xl">Witamy na stronie Ogólnopolskiego Stowarzyszenia Antymobbingowego "OSA".</h1>
-                <h1 className="text-slate-400 text-2xl pt-4 mb-4">Nasze stowarzyszenie zajmuje się przeciwdziałaniem mobbingowi od ponad 20 lat.
+                <h1 className="text-slate-400 text-2xl pt-4 mb-10">Nasze stowarzyszenie zajmuje się przeciwdziałaniem mobbingowi od ponad 20 lat.
                     Jeżeli jesteś osobą, która interesuje się zjawiskiem mobbingu w pracy albo sama doświadczyła skutków tego zjawiska, zapraszamy do
                     zapoznania się z treściami zamieszczonymi na stronie w celu otrzymania konkretnej wiedzy i skutecznej pomocy. Nasi specjaliści
                     postarają się przyjrzeć każdemu zgłoszeniu. Zapraszamy!
