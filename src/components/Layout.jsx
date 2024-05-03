@@ -27,7 +27,7 @@ function Layout() {
               </div>
             </div>
 
-            <div className="bg-lime-100 dark:bg-gray-800">
+            <div className="bg-slate-50 dark:bg-gray-800">
               <div className="mx-auto w-full max-w-screen-xl">
 
                 <div className="px-4 py-6 md:flex md:items-center md:justify-between">

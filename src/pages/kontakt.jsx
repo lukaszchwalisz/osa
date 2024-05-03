@@ -6,7 +6,7 @@ const Kontakt = () => {
     <>
     <div className="grid justify-center m-4 lg:mx-20 xl:mx-40 2xl:mx-80">
     
-      <h1 className="text-indigo-700 bg-slate-50 p-4 text-center dark:text-slate-300 dark:bg-gray-800 font-bold font-mono text-2xl mt-8 mb-4">KONTAKT</h1>
+      <h1 className="border border-gray-200 rounded-lg shadow p-4 bg-blue-50 text-slate-700 text-center dark:text-slate-300 dark:bg-gray-900 dark:border-gray-700 font-bold font-mono text-2xl mt-8 mb-4">KONTAKT</h1>
         
         <p className="text-slate-500 text-center dark:text-slate-300 mb-4">
         <b>Adres tylko do korespondencji:</b>
@@ -21,7 +21,7 @@ const Kontakt = () => {
         </ul>
         </p>
 
-      <h1 className="text-indigo-700 bg-slate-50 p-4 text-center dark:text-slate-300 dark:bg-gray-800 font-bold font-mono text-2xl mt-8 mb-4">
+      <h1 className="border border-gray-200 rounded-lg shadow p-4 bg-blue-50 text-slate-700 text-center dark:text-slate-300 dark:bg-gray-900 dark:border-gray-700 font-bold font-mono text-2xl mt-8 mb-4">
         Punkty konsultacyjne</h1>
 
         <div className="overflow-x-auto">

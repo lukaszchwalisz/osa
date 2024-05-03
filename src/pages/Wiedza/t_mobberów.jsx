@@ -6,7 +6,7 @@ export const T_mobberów = () => {
   return (
     <div>
         <article>
-        <h1 className="text-indigo-700 bg-slate-50 p-4 text-center dark:text-slate-300 dark:bg-gray-800 font-bold font-mono text-2xl mt-8 mb-4">Typologie mobberów</h1>
+        <h1 className="border border-gray-200 rounded-lg shadow p-4 bg-cyan-50 text-slate-700 text-center dark:text-slate-300 dark:bg-gray-900 dark:border-gray-700 font-bold font-mono text-2xl mt-8 mb-4">Typologie mobberów</h1>
         <p className="text-slate-500 dark:text-slate-300 mb-4">
         G. Namie i R. Namie amerykańscy psychologowie, wyróżnili trzy typy prześladowców w firmie (Sidor Rządkowska, 2003):
         </p>

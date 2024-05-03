@@ -4,7 +4,7 @@ export function Footer() {
 
   return (
 
-    <footer className="bg-lime-100 dark:bg-gray-800">
+    <footer className="bg-slate-50 dark:bg-gray-800">
 
       <div className="mx-auto w-full max-w-screen-xl">
 
