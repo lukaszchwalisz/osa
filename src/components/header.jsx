@@ -6,7 +6,7 @@ export function Header() {
         <>
 
 
-        <nav className="sticky top-0 z-10 h-max max-w-full"> 
+        <nav className="md:sticky top-0 z-10 h-max max-w-full"> 
             <div className="bg-lime-100 dark:bg-gray-800">
                 
             <ul  className="container mx-auto text-center sm:justify-center sm:items-center sm:grid md:flex flex-row">
