@@ -4,9 +4,9 @@ function Galeria() {
   return (
     <>
       <div className="grid justify-center m-4 lg:mx-20 xl:mx-40 2xl:mx-80">
-      <h1 className="text-indigo-700 bg-slate-50 p-4 text-center dark:text-indigo-400 font-bold font-mono text-2xl mt-8 mb-4">GALERIA</h1>
+      <h1 className="text-indigo-700 bg-slate-50 p-4 text-center dark:text-slate-300 dark:bg-gray-800 font-bold font-mono text-2xl mt-8 mb-4">GALERIA</h1>
 
-        <p className="text-slate-500 dark:text-slate-200 mb-4">
+        <p className="text-slate-500 dark:text-slate-300 mb-4">
         Autorem umieszczonych tu rysunków jest <b>Grzegorz Krzemiński</b>, współpracujący ze Stowarzyszeniem. Absolwent Wyższej Szkoły Zawodowej w
         Kielcach na stałe mieszkający i pracujący w Warszawie. Poza Stowarzyszeniem podejmuje współpracę z różnymi instytucjami i firmami projektując
         loga, reklamy i plakaty, wykorzystując w nich swój rysunek. Od kilku lat jego prace można oglądać ma łamach "Tygodnika Koneckiego" i "Tygodnika Skarżyskiego".

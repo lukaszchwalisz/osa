@@ -4,9 +4,9 @@ export const T_ofiar = () => {
   return (
     <div>
         <article>
-        <h1 className="text-indigo-700 bg-slate-50 p-4 text-center dark:text-indigo-400 font-bold font-mono text-2xl mt-8 mb-4">
+        <h1 className="text-indigo-700 bg-slate-50 p-4 text-center dark:text-slate-300 dark:bg-gray-800 font-bold font-mono text-2xl mt-8 mb-4">
         Typologia ofiar mobbingu</h1>
-        <p className="text-slate-500 dark:text-slate-200 mb-4">
+        <p className="text-slate-500 dark:text-slate-300 mb-4">
         Nie są to osoby wcześniej dotknięte jakąś patologią lub szczególnie słabe. Przeciwnie bardzo często zjawisko pojawia się,
         gdy ofiara reaguje na autorytaryzm szefa i odmawia podporządkowania się. Jest wśród nich wiele osób skrupulatnych,
         odznaczających się pracowitością, szczególnie zaangażowanych w pracy, przewyższających wykształceniem i kompetencjami

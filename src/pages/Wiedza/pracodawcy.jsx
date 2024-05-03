@@ -4,12 +4,12 @@ export const Pracodawcy = () => {
   return (
     <div>
         <article>
-        <h1 className="text-indigo-700 bg-slate-50 p-4 text-center dark:text-indigo-400 font-bold font-mono text-2xl mt-8 mb-4">Przeciwdziałanie (pracowdawcy)</h1>
-        <p className="text-slate-500 dark:text-slate-200 mb-4">
+        <h1 className="text-indigo-700 bg-slate-50 p-4 text-center dark:text-slate-300 dark:bg-gray-800 font-bold font-mono text-2xl mt-8 mb-4">Przeciwdziałanie (pracowdawcy)</h1>
+        <p className="text-slate-500 dark:text-slate-300 mb-4">
         Pracodawca może podjąć działania, aby zminimalizować mobbing lub nie dopuścić do powstania tego zjawiska:
         </p>
 
-        <List className="text-slate-500 dark:text-slate-200 mb-4">
+        <List className="text-slate-500 dark:text-slate-300 mb-4">
         <List.Item>dozór i badanie nastrojów wśród pracowników</List.Item>
         <List.Item>badanie zachowań pracowników</List.Item>
         <List.Item>monitorowanie pracowników, u których można dostrzec chęć mszczenia się na innych za swoje niepowodzenia</List.Item>
@@ -21,7 +21,7 @@ export const Pracodawcy = () => {
         </List>
 
 
-        <p className="text-slate-500 dark:text-slate-200 mb-4">
+        <p className="text-slate-500 dark:text-slate-300 mb-4">
         Bardzo ważną sprawą jest motywowanie pracowników. Nie trzeba prześladować pracowników,
         aby lepiej pracowali. Pieniądz jest jednym ze słabszych bodźców, ale aby inne bodźce mogły zadziałać ta
         motywacja powinna zaistnieć. Stosowanie bodźców oraz ich skuteczność zależy od tego, w jaki sposób

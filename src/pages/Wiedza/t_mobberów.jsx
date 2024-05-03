@@ -6,12 +6,12 @@ export const T_mobberów = () => {
   return (
     <div>
         <article>
-        <h1 className="text-indigo-700 bg-slate-50 p-4 text-center dark:text-indigo-400 font-bold font-mono text-2xl mt-8 mb-4">Typologie mobberów</h1>
-        <p className="text-slate-500 dark:text-slate-200 mb-4">
+        <h1 className="text-indigo-700 bg-slate-50 p-4 text-center dark:text-slate-300 dark:bg-gray-800 font-bold font-mono text-2xl mt-8 mb-4">Typologie mobberów</h1>
+        <p className="text-slate-500 dark:text-slate-300 mb-4">
         G. Namie i R. Namie amerykańscy psychologowie, wyróżnili trzy typy prześladowców w firmie (Sidor Rządkowska, 2003):
         </p>
 
-        <List className="text-slate-500 dark:text-slate-200 mb-4">
+        <List className="text-slate-500 dark:text-slate-300 mb-4">
         
           <List.Item>oprawca chroniczny, któremu szykanowanie innych daje satysfakcję. Najczęściej wynika to z zaburzeń osobowości</List.Item>
           <List.Item>oprawca przypadkowy, który działa w sposób nieświadomy i można powiedzieć, że niechcący</List.Item>
@@ -21,11 +21,11 @@ export const T_mobberów = () => {
         </List>
 
 
-        <p className="text-slate-500 dark:text-slate-200 mb-4">
+        <p className="text-slate-500 dark:text-slate-300 mb-4">
         Inna typologia mobberów zaproponowana przez G. Namie i R. Namie obejmuje cztery obrazowe rodzaje prześladowców, nazwane dość żartobliwie, mimo że dotykają poważnych kwestii (Sidor Rządkowska, 2003):
         </p>
 
-        <List unstyled className="text-slate-500 dark:text-slate-200 mb-4">
+        <List unstyled className="text-slate-500 dark:text-slate-300 mb-4">
         
           <List.Item><b>"Dwugłowy wąż"</b> - (doktor Jekyll i mister Hyde); jakoest to człowiek z pozoru życzliwy zainteresowanym, dlatego ludzie mu ufają. Oczekuje od innych informacji pogrążających upatrzoną ofiarę. Uniemożliwia jej wykonywanie obowiązków poprzez zatajanie i fałszowanie danych.
              Przypisuje sobie sukcesy swojej ofiary, jednocześnie oficjalnie ze współczuciem odnosząc się do jego porażek. Jest to osoba obłudna i dwulicowa</List.Item>
@@ -35,11 +35,11 @@ export const T_mobberów = () => {
 
         </List>
 
-        <p className="text-slate-500 dark:text-slate-200 mb-4">
+        <p className="text-slate-500 dark:text-slate-300 mb-4">
         L. Glass (1997) wyróżnia cztery typy ludzi toksycznych nadając im nieco odmienne nazwy i charakterystyki:
         </p>
 
-        <List unstyled className="text-slate-500 dark:text-slate-200 mb-4">
+        <List unstyled className="text-slate-500 dark:text-slate-300 mb-4">
         
           <List.Item><b>"Bezwzględni tyrani"</b>, czyli osoby nieżyczliwe, nieobliczalne i aroganckie; tyrani dążą do tego, aby wszystko było podporządkowane ich woli. Są uparci, nie empatyczni i gwałtowni. Czerpią radość z poniżania innych.</List.Item>
           <List.Item><b>"Napastliwi krytycy"</b>, którzy są małostkowi i żądają przesadnej perfekcji; bez skrępowania wytykają niedociągnięcia innych osób, są w tym cyniczni.</List.Item>

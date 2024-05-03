@@ -4,8 +4,8 @@ export const Pracownicy = () => {
   return (
     <div>
         <article>
-        <h1 className="text-indigo-700 bg-slate-50 p-4 text-center dark:text-indigo-400 font-bold font-mono text-2xl mt-8 mb-4">Przeciwdziałanie (pracownicy)</h1>  
-        <List ordered className="text-slate-500 dark:text-slate-200 mb-4">
+        <h1 className="text-indigo-700 bg-slate-50 p-4 text-center dark:text-slate-300 dark:bg-gray-800 font-bold font-mono text-2xl mt-8 mb-4">Przeciwdziałanie (pracownicy)</h1>  
+        <List ordered className="text-slate-500 dark:text-slate-300 mb-4">
 
           <List.Item>Jeżeli ma poczucie, że naruszana jest jej godność i integralność psychiczna z powodu wrogiej postawy jednej lub wielu
           osób należy reagować jak tylko można najszybciej, zanim zostanie się wciągniętym w sytuację, z której nie będzie innego

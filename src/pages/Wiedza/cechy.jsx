@@ -4,16 +4,16 @@ export const Cechy = () => {
   return (
     <div>
         <article>
-        <h1 className="text-indigo-700 bg-slate-50 p-4 text-center dark:text-indigo-400 font-bold font-mono text-2xl mt-8 mb-4">Cechy mobbingu</h1>
-        <p className="text-slate-500 dark:text-slate-200 mb-4">
+        <h1 className="text-indigo-700 bg-slate-50 p-4 text-center dark:text-slate-300 dark:bg-gray-800 font-bold font-mono text-2xl mt-8 mb-4">Cechy mobbingu</h1>
+        <p className="text-slate-500 dark:text-slate-300 mb-4">
         Na podstawie swoich badań Heinz Leymann, wyróżnił 45 aktywności mobbingowych. Według jego obserwacji mobbing można diagnozować w przypadku, gdy wobec ofiary stosowana jest, chociaż jedna z wymienionych niżej sytuacji:
         </p>
         
-        <p className="text-slate-500 font-bold dark:text-slate-200 dark:font-bold mb-4">
+        <p className="text-slate-500 font-bold dark:text-slate-300 dark:font-bold mb-4">
         Odziaływania zaburzające możliwości komunikowania się:
         </p>
 
-        <List ordered className="text-slate-500 dark:text-slate-200 mb-4">
+        <List ordered className="text-slate-500 dark:text-slate-300 mb-4">
           <List.Item>Ograniczanie przez przełożonego możliwości wypowiadania się</List.Item>
           <List.Item>Stałe przerywanie wypowiedzi</List.Item>
           <List.Item>Ograniczanie przez kolegów możliwości wypowiadania się</List.Item>
@@ -28,11 +28,11 @@ export const Cechy = () => {
 
         </List>
 
-        <p className="text-slate-500 font-bold dark:text-slate-200 dark:font-bold mb-4">
+        <p className="text-slate-500 font-bold dark:text-slate-300 dark:font-bold mb-4">
         Oddziaływania zaburzające stosunki społeczne:
         </p>
 
-        <List ordered className="text-slate-500 dark:text-slate-200 mb-4">
+        <List ordered className="text-slate-500 dark:text-slate-300 mb-4">
           <List.Item>Unikanie przez przełożonego rozmów z ofiarą</List.Item>
           <List.Item>Nie dawanie możliwości odezwania się</List.Item>
           <List.Item>W pomieszczeniu, gdzie ofiara pracuje, przesadzenie na miejsce z dala od kolegów</List.Item>
@@ -40,11 +40,11 @@ export const Cechy = () => {
           <List.Item>Traktowanie jak powietrze</List.Item>
         </List>
 
-        <p className="text-slate-500 font-bold dark:text-slate-200 dark:font-bold mb-4">
+        <p className="text-slate-500 font-bold dark:text-slate-300 dark:font-bold mb-4">
         Działania mające na celu zaburzyć społeczny odbiór osoby:
         </p>
 
-        <List ordered className="text-slate-500 dark:text-slate-200 mb-4">
+        <List ordered className="text-slate-500 dark:text-slate-300 mb-4">
           <List.Item>Mówienie źle za plecami danej osoby</List.Item>
           <List.Item>Rozsiewanie plotek</List.Item>
           <List.Item>Podejmowanie prób ośmieszenia</List.Item>
@@ -69,11 +69,11 @@ export const Cechy = () => {
           <List.Item>Dawanie zadań przerastających możliwości i kompetencje ofiary w celu jej zdyskredytowania</List.Item>
         </List>
 
-        <p className="text-slate-500 font-bold dark:text-slate-200 dark:font-bold mb-4">
+        <p className="text-slate-500 font-bold dark:text-slate-300 dark:font-bold mb-4">
         Działania mające szkodliwy wpływ na zdrowie ofiary:
         </p>
           
-        <List ordered className="text-slate-500 dark:text-slate-200 mb-4">
+        <List ordered className="text-slate-500 dark:text-slate-300 mb-4">
           <List.Item>Zmuszanie do wykonywania prac szkodliwych dla zdrowia</List.Item>
           <List.Item>Grożenie przemocą fizyczną</List.Item>
           <List.Item>Stosowanie niewielkiej przemocy fizycznej</List.Item>

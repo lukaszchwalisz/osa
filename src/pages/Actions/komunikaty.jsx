@@ -5,17 +5,17 @@ const Komunikaty = () => {
   return (  
     <div>
 
-        <h1 className="text-indigo-700 bg-slate-50 p-4 text-center dark:text-indigo-400 font-bold font-mono text-2xl mt-8 mb-4">KOMUNIKATY</h1>
+        <h1 className="text-indigo-700 bg-slate-50 p-4 text-center dark:text-slate-300 dark:bg-gray-800 font-bold font-mono text-2xl mt-8 mb-4">KOMUNIKATY</h1>
 
-        <article className="box-border border-2 shadow-md p-4 mt-4">
-          <p className="text-slate-500 text-center dark:text-slate-200 mb-4">
+        <article className="border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 p-4 mt-4">
+          <p className="text-slate-500 text-center dark:text-slate-300 mb-4">
           <b>KOMUNIKAT 9</b>
           </p>
-          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          <p className="text-slate-500 dark:text-slate-300 mb-4">
           Nowelizacja kodeksu pracy, która weszła do obrotu prawnego 7 września 2019 r. objęła swym zakresem zmiany odnoszące się do problematyki mobbingu. 
           Poniżej krótkie wyjaśnienie przygotowane przez konsultanta stowarzyszenia mgr Tomasza Juraszka.
           </p>
-          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          <p className="text-slate-500 dark:text-slate-300 mb-4">
           Do kodeksu pracy wprowadzono nowy środek ochrony prawnej - odszkodowanie za mobbing. Dotychczas odszkodowanie przysługiwało wyłącznie wówczas gdy
           osoba doświadczona mobbingiem rozwiązała stosunek pracy - i z tego tytułu przysługiwało odszkodowanie. Obecnie ten środek ochrony prawnej został
           rozszerzony poprzez zmianę art. 94(3) § 4 k.p. Oznacza to, że obecnie odszkodowanie to przysługuje także wtedy, gdy osoba uprawniona poniosła szkodę
@@ -24,22 +24,22 @@ const Komunikaty = () => {
           rehabilitacji o ile pozostają w adekwatnym związku przyczynowym ze szkodą tzn. z mobbingiem. Należy zatem zbierać wszelkie rachunki, faktury jako dowody,
           które należy załączyć do pozwu. Roszczenia tego nie należy mylić z zadośćuczynieniem, które jest odrębnym środkiem ochrony prawnej.
           </p>
-          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          <p className="text-slate-500 dark:text-slate-300 mb-4">
           Obecnie zatem osobie poszkodowanej przez mobbing przysługuje: zadośćuczynienie z tytułu rozstroju zdrowia, odszkodowanie za rozwiązanie stosunku pracy wskutek mobbingu
           oraz odszkodowanie z tytułu innych szkód pozostających w związku ze zjawiskiem mobbingu. Roszczenia przedawnia się po upływie trzech lat od chwili wymagalności.
           </p>   
         </article>
 
-        <article className="box-border border-2 shadow-md p-4 mt-4">
-          <p className="text-slate-500 text-center dark:text-slate-200 mb-4">
+        <article className="border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 p-4 mt-4">
+          <p className="text-slate-500 text-center dark:text-slate-300 mb-4">
           <b>KOMUNIKAT 8</b>
           </p>
-          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          <p className="text-slate-500 dark:text-slate-300 mb-4">
           <b>Stowarzyszenie udziela nieodpłatnie pomoc psychologiczną</b> w otwartej grupie wsparcia prowadzonej przez psycholog mgr Paulinę Pers,
           gdzie realizowany jest program psychoprofilaktyczny pt. „Pracuję bez lęku” o tematyce zajęć dostosowanej do zapotrzebowania uczestników tj:
           </p>
 
-          <List className="text-slate-500 dark:text-slate-200 mb-4"> 
+          <List className="text-slate-500 dark:text-slate-300 mb-4"> 
             <List.Item className="">
             podstawowe informacje o mobbingu i dyskryminacji. Czym jest dyskryminacja i mobbing, różnice? Czynniki występowania dyskryminacji i mobbingu. Fazy mobbingu.
             </List.Item>
@@ -55,11 +55,11 @@ const Komunikaty = () => {
 
           </List>
 
-            <p className="text-slate-500 dark:text-slate-200 mb-4">
+            <p className="text-slate-500 dark:text-slate-300 mb-4">
             W trakcie zajęć można:
             </p>
 
-          <List className="text-slate-500 dark:text-slate-200 mb-4"> 
+          <List className="text-slate-500 dark:text-slate-300 mb-4"> 
             <List.Item className="">
             otrzymać wsparcie i pomoc od osób rozumiejących ten problem
             </List.Item>
@@ -86,45 +86,45 @@ const Komunikaty = () => {
           </List>
 
 
-          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          <p className="text-slate-500 dark:text-slate-300 mb-4">
           Zajęcia odbywają się we wtorki od 10 stycznia 2023r w godzinach od 17.00 do 19.00 w pomieszczeniach użyczonych przez Towarzystwo Przyjaciół Gdańska w Gdańsku przy ul. Warzywniczej 10.
           </p>
 
-          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          <p className="text-slate-500 dark:text-slate-300 mb-4">
           W okresie od 1 czerwca do 8 grudnia 2023r. zajęcia odbywają się dzięki dofinansowaniu ze środków Miasta Gdańsk w ramach Gdańskiego Funduszu Równości 2023.
           </p>
 
-          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          <p className="text-slate-500 dark:text-slate-300 mb-4">
           Serdecznie zapraszamy do uczestnictwa.
           </p>
 
-          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          <p className="text-slate-500 dark:text-slate-300 mb-4">
           Osobom zwracającym się o pomoc udzielamy indywidualnej konsultacji. W razie potrzeby prawnik Stowarzyszenia funkcjonuje, jako pełnomocnik OSA w postępowaniu sądowym.
           </p>
 
-          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          <p className="text-slate-500 dark:text-slate-300 mb-4">
           Pomoc prowadzi Konsultant Krajowy Stowarzyszenia mgr Jadwiga Mucha
           </p>
 
-          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          <p className="text-slate-500 dark:text-slate-300 mb-4">
           Kontakt telefoniczy: kom.504 659 911 w dni powszednie w godzinach 18.00 – 20.00
           </p>
 
-          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          <p className="text-slate-500 dark:text-slate-300 mb-4">
           Kontakt mailowy: <a href="mailto:osa-lublin@wp.pl">osa-lublin@wp.pl</a>
           </p>
 
         </article>
 
-        <article className="box-border border-2 shadow-md p-4 mt-4">
-          <p className="text-slate-500 text-center dark:text-slate-200 mb-4">
+        <article className="border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 p-4 mt-4">
+          <p className="text-slate-500 text-center dark:text-slate-300 mb-4">
           <b>KOMUNIKAT 7</b>
           </p>
-          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          <p className="text-slate-500 dark:text-slate-300 mb-4">
           Ogólnopolskie Stowarzyszenie Antymobbingowe OSA Punkt Konsultacyjny w Poznaniu oraz Gabinet Psychologiczny Łukasz Chwalisz w reakcji na stan zagrożenia
           epidemiologicznego proponuje bezpłatną pomoc psychologiczną dla osób potrzebujących wsparcia.
           </p>
-          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          <p className="text-slate-500 dark:text-slate-300 mb-4">
           <a href="/osa/pdf/poznan_covid.pdf" type="application/pdf"target="_blank" className="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none
              focus:ring-gray-100 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700">
               Czytaj dalej<svg className="w-3 h-3 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
@@ -134,34 +134,34 @@ const Komunikaty = () => {
           </p>
         </article>
 
-        <article className="box-border border-2 shadow-md p-4 mt-4">
-          <p className="text-slate-500 text-center dark:text-slate-200 mb-4">
+        <article className="border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 p-4 mt-4">
+          <p className="text-slate-500 text-center dark:text-slate-300 mb-4">
           <b>KOMUNIKAT 6</b>
           </p>
-          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          <p className="text-slate-500 dark:text-slate-300 mb-4">
           Czynnik finansowy ogranicza w znacznym stopniu nasze działania, ponieważ sama problematyka zjawiska,, jakim się zajmujemy ogranicza możliwości
           pozyskiwania funduszy w kraju. Dofinansowywanie naszych działań jest niezbędne, aby ilościowo i jakościowo pomoc była lepsza. Prosimy wszystkie
           osoby, które mogą choć drobnymi kwotami wesprzeć naszą pomoc udzielaną osobom pokrzywdzonym przemocą w pracy o przekazywanie pieniędzy w formie
            darowizn na konto Stowarzyszenia:
           </p>
-          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          <p className="text-slate-500 dark:text-slate-300 mb-4">
           <b>PKO BP S.A. II O/Gdańsk 88 1020 1811 0000 0102 0099 8427</b>
           </p>
-          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          <p className="text-slate-500 dark:text-slate-300 mb-4">
           Od roku 2012 jesteśmy organizacją pożytku publicznego. Zachęcamy do przekazywania 1,5% podatku na rzecz Stowarzyszenia <b>KRS 00000 88951</b>,
           jednocześnie dziękujemy wszystkim osobom, które do tej pory wsparły Stowarzyszenie 1,5% swojego podatku.
           </p>
         </article>
 
-        <article className="box-border border-2 shadow-md p-4 mt-4">
+        <article className="border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 p-4 mt-4">
           
-          <p className="text-slate-500 text-center dark:text-slate-200 mb-4">
+          <p className="text-slate-500 text-center dark:text-slate-300 mb-4">
           <b>KOMUNIKAT 5</b>
           </p>
-          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          <p className="text-slate-500 dark:text-slate-300 mb-4">
           W ramach wspierania pracodawców w przeciwdziałaniu mobbingowi Stowarzyszenie:
           </p>
-          <List ordered className="text-slate-500 dark:text-slate-200 mb-4"> 
+          <List ordered className="text-slate-500 dark:text-slate-300 mb-4"> 
             <List.Item className="">
             Realizuje program pt. "Mobbing się nie opłaca" w formie spotkania szkoleniowego,
             uczestnicy otrzymują komplet materiałów szkoleniowych oraz zaświadczenia o uczestnictwie.
@@ -170,7 +170,7 @@ const Komunikaty = () => {
             Realizuje program badawczy środowisk pracowniczych:
             </List.Item>
 
-          <List nested className="text-slate-500 dark:text-slate-200 mb-4">
+          <List nested className="text-slate-500 dark:text-slate-300 mb-4">
 
             <List.Item className="">
             diagnozuje zjawisko mobbingu
@@ -195,62 +195,62 @@ const Komunikaty = () => {
             
           </article>
 
-          <article className="box-border border-2 shadow-md p-4 mt-4">
-          <p className="text-slate-500 text-center dark:text-slate-200 mb-4">
+          <article className="border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 p-4 mt-4">
+          <p className="text-slate-500 text-center dark:text-slate-300 mb-4">
           <b>KOMUNIKAT 4</b>
           </p>
-          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          <p className="text-slate-500 dark:text-slate-300 mb-4">
           Bezpłatną pomoc świadczymy w Punktach Konsultacyjnych Zarządu za pośrednictwem przedstawicieli mających odpowiednie pełnomocnictwa do reprezentowania Stowarzyszenia tj.:
           </p>
             <ul className="list-none">
-              <li className="text-slate-500 dark:text-slate-200 m-3">
+              <li className="text-slate-500 dark:text-slate-300 m-3">
               w Gdańsku- członków Zarządu OSA,
               </li>
-              <li className="text-slate-500 dark:text-slate-200 m-3">
+              <li className="text-slate-500 dark:text-slate-300 m-3">
               w Jeleniej Górze - Lecha Rębisza,
               </li>
-              <li className="text-slate-500 dark:text-slate-200 m-3">
+              <li className="text-slate-500 dark:text-slate-300 m-3">
               w Lublinie - Jadwigi Muchy,
               </li>
-              <li className="text-slate-500 dark:text-slate-200 m-3">
+              <li className="text-slate-500 dark:text-slate-300 m-3">
               w Łęczycy - Katarzyny Ratajczyk-Rusek,
               </li>
-              <li className="text-slate-500 dark:text-slate-200 m-3">
+              <li className="text-slate-500 dark:text-slate-300 m-3">
               w Lubaniu - Katarzyny Urbaniak,
               </li>
-              <li className="text-slate-500 dark:text-slate-200 m-3">
+              <li className="text-slate-500 dark:text-slate-300 m-3">
               w Poznaniu - Łukasza Chwalisza.
               </li>
             </ul>
           </article>
 
-          <article className="box-border border-2 shadow-md p-4 mt-4">
-          <p className="text-slate-500 text-center dark:text-slate-200 mb-4">
+          <article className="border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 p-4 mt-4">
+          <p className="text-slate-500 text-center dark:text-slate-300 mb-4">
           <b>KOMUNIKAT 3</b>
           </p>
           <b> 
-          <p className="text-slate-500 text-center dark:text-slate-200 mb-4">
+          <p className="text-slate-500 text-center dark:text-slate-300 mb-4">
           STANOWISKO OGÓLNOPOLSKIEGO STOWARZYSZENIA ANTYMOBBINGOWEGO "OSA"
           </p>
-          <p className="text-slate-500 text-center dark:text-slate-200 mb-4">
+          <p className="text-slate-500 text-center dark:text-slate-300 mb-4">
           UWAGA PRACOWNICY I PRACODAWCY!!!
           </p>
           </b>
-          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          <p className="text-slate-500 dark:text-slate-300 mb-4">
           Uważamy, iż każdy pracownik, niezależnie od zajmowanej funkcji, ma prawo mieć wiedzę i możliwości wyboru sposobu rozpatrzenia jego problemu w zakresie działań
           i zachowań mobbingowych. Przestrzegamy przed powoływaniem komisji nazywanych antymobbingowymi, które nie mają umocowania w prawie polskim. Działania tych komisji
           mogą być podważane i nie stanowić dowodu przeciwdziałania zjawisku mobbingu w procesie sądowym. Określenie "antymobbing" dotyczy ruchu społecznego. 
           Prawnym określeniem, zgodnie z art. 94³ Kodeksu Pracy jest "przeciwdziałanie mobbingowi".
           </p>
-          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          <p className="text-slate-500 dark:text-slate-300 mb-4">
           Poniżej przedstawiamy stanowisko Stowarzyszenia w tej sprawie.
           </p>
-          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          <p className="text-slate-500 dark:text-slate-300 mb-4">
           Z informacji wpływających do naszego stowarzyszenia z całego kraju, w dalszym ciągu w ramach przeciwdziałania mobbingowi tworzone są wewnątrzzakładowe przepisy
           pt. Wewnętrzna Polityka Antymobbingowa oraz tworzone są Komisje Antymobbingowe. Praktyka pokazuje, że zapisy te pogłębiają konflikty, a nie przeciwdziałają mobbingowi np.:
           </p>
 
-          <List nested className="text-slate-500 dark:text-slate-200 mb-4">
+          <List nested className="text-slate-500 dark:text-slate-300 mb-4">
 
             <List.Item className="">
             przesłuchiwani pracownicy są nagrywani
@@ -266,7 +266,7 @@ const Komunikaty = () => {
             </List.Item>
           </List>
 
-          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          <p className="text-slate-500 dark:text-slate-300 mb-4">
           Aby można było porównać, poniżej cytujemy jedyny obowiązujący w polskim prawie przepis dotyczący mobbingu, w którym ustawodawca nie daje przyzwolenia do tworzenia tzw. 
           wewnętrznej polityki antymobbingowej oraz tzw. komisji antymobbingowych. Ustawodawca zobowiązując pracodawcę do przeciwdziałania mobbingowi nie określił jego sposobu.
           Pracodawca może tworzyć sposoby regulacji różnych problemów ale powinny one być zgodne z obowiązującym prawem aby efekt działania miał wartość prawną. Nie trzeba być
@@ -274,36 +274,36 @@ const Komunikaty = () => {
           </p>
        
           <blockquote className="p-4 my-4 border-s-4 border-gray-300 bg-gray-50 dark:border-gray-500 dark:bg-gray-800">
-          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          <p className="text-slate-500 dark:text-slate-300 mb-4">
           Art. 94³ Kodeksu Pracy:
           </p>
           <i>
-          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          <p className="text-slate-500 dark:text-slate-300 mb-4">
           § 1. Pracodawca jest obowiązany przeciwdziałać mobbingowi.
           </p>
-          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          <p className="text-slate-500 dark:text-slate-300 mb-4">
           § 2. Mobbing oznacza działania lub zachowania dotyczące pracownika lub skierowane przeciwko pracownikowi, polegające na uporczywym i długotrwałym nękaniu lub zastraszaniu pracownika,
           wywołujące u niego zaniżoną ocenę przydatności zawodowej, powodujące lub mające na celu poniżenie lub ośmieszenie pracownika, izolowanie go lub wyeliminowanie z zespołu współpracowników.
           </p>
-          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          <p className="text-slate-500 dark:text-slate-300 mb-4">
           § 3. Pracownik, u którego mobbing wywołał rozstrój zdrowia, może dochodzić od pracodawcy odpowiedniej sumy tytułem zadośćuczynienia pieniężnego za doznaną krzywdę.
           </p>
-          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          <p className="text-slate-500 dark:text-slate-300 mb-4">
           § 4. Pracownik, który wskutek mobbingu rozwiązał umowę o pracę, ma prawo dochodzić od pracodawcy odszkodowania w wysokości nie niższej niż minimalne wynagrodzenie za pracę, 
           ustalane na podstawie odrębnych przepisów.
           </p>
-          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          <p className="text-slate-500 dark:text-slate-300 mb-4">
           § 5. Oświadczenie pracownika o rozwiązaniu umowy o pracę powinno nastąpić na piśmie z podaniem przyczyny, o której mowa w § 2, uzasadniającej rozwiązanie umowy.
           </p>
           </i>
           </blockquote>
 
-          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          <p className="text-slate-500 dark:text-slate-300 mb-4">
           Wewnętrzna Polityka Antymobbingowa ma wady prawne. Wobec <b>braku przepisów wykonawczych</b> do § 1. art. 94³ Kodeksu Pracy ("pracodawca jest obowiązany przeciwdziałać mobbingowi") zamieszczamy poniżej dwa wzory procedur,
           opracowane przez prawników naszego stowarzyszenia na podstawie obowiązującego prawa pracy, których zastosowanie da efekt mający wartość prawną. Poniżej dodatkowo zamieszczamy komentarz naszych konsultantów z zakresu prawa pracy i mobbingu.
           </p>
           <hr className="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700"></hr>
-          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          <p className="text-slate-500 dark:text-slate-300 mb-4">
           Wprowadzony przez ustawodawcę w art.94³ Kodeksu Pracy obowiązek dla pracodawcy przeciwdziałania mobbingowi nałożył na wszystkich pracodawców obowiązek podejmowania działań /oczywiście prawem przewidzianych/, które będą stwarzały w miejscu pracy pracodawcy bezpieczne i higieniczne
           warunki pracy pozbawione przemocy i wolne od negatywnego stresu. Stosowana przemoc /fizyczna czy psychiczna/ w czasie trwania stosunku pracy w stosunku do pracownika jest zachowaniem i działaniem mobbingowym i dlatego ustawodawca czyniąc pracodawcę odpowiedzialnym za takie zjawiska
           nakazał mu temu przeciwdziałać. Obowiązek ten jest skierowany do pracodawcy a to oznacza, że tylko ten, tzn. pracodawca, ma podejmować działania, które mają na celu zapobieganie powstawaniu takim zjawiskom. Pracodawcy tworzą regulaminy, szkolą pracowników, ale i powołują tzw. Komisje
@@ -318,14 +318,14 @@ const Komunikaty = () => {
           a warunkiem jej powołania jest zgodna wola pracodawcy i załogi. Skoro taka - prawnie usankcjonowana komisja jest organem zgodnej woli obydwu stron stosunku pracy to, jakie prawo upoważnia pracodawcę do powołania komisji antymobbingowych, które nie mając nadanych przez ustawodawcę uprawnień
           do funkcjonowania, podejmują decyzje, które to następnie są uważane przez pracodawcę, jako ich działania do uwolnienia od odpowiedzialności prawnej, o której mówi ustawodawca w art. 94³ Kodeksu Pracy."
           </p>
-          <p className="text-slate-500 text-center dark:text-slate-200 mb-4">
+          <p className="text-slate-500 text-center dark:text-slate-300 mb-4">
           <b>mgr Jadwiga Mucha</b>
           </p>
           <hr className="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700"></hr>
-          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          <p className="text-slate-500 dark:text-slate-300 mb-4">
           Postępowanie pojednawcze, jako alternatywa dla procesu sądowego.
           </p>
-          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          <p className="text-slate-500 dark:text-slate-300 mb-4">
           Sprawy o mobbing należą do niezwykle skomplikowanych, zarówno pod względem prawa materialnego jak i procesowego. Dlatego też warto rozważyć możliwość uzyskania środków kompensacyjnych za pomocą alternatywnych metod rozwiązywania sporów pracowniczych. Jedną z nich jest postępowanie pojednawcze.
           Należy zaznaczyć, że postępowanie pojednawcze – uregulowane w art. 244 – 258 kp. - toczy się przed komisjami pojednawczymi. Rozwiązanie to umożliwia szybsze zakończenie sporu (co do zasady prace komisji pojednawczej trwają 14 dni od dnia złożenia wniosku), bez konieczności kierowania sprawy
           na drogę postępowania sądowego. Istotny przy tym jest fakt, że komisja pojednawcza zostaje powołana nie przez samego pracodawcę, ale wespół z reprezentantem pracowników, np. w postaci zakładowej organizacji związkowej. Jeżeli jednak takowa nie występuje na terenie zakładu pracy to wymagane
@@ -336,25 +336,25 @@ const Komunikaty = () => {
           ugody sprawa zostaje przekazana do sądu pracy. Przy czym pamiętać należy, że tego rodzaju przekazanie nie następuje automatycznie, zaś będzie dokonane wyłącznie na żądanie poszkodowanego przez mobbing pracownika.
           </p>
 
-          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          <p className="text-slate-500 dark:text-slate-300 mb-4">
           Wobec braku przepisów wykonawczych do § 1. art. 94³ Kodeksu Pracy ( Pracodawca jest obowiązany przeciwdziałać mobbingowi) zamieszczamy poniżej dwa wzory procedur, opracowane przez prawników naszego stowarzyszenia na podstawie obowiązującego prawa pracy, których zastosowanie da efekt mający wartość prawną.
           </p>
 
-          <List unstyled className="text-slate-500 dark:text-slate-200 mb-4">
+          <List unstyled className="text-slate-500 dark:text-slate-300 mb-4">
 
             <List.Item className="">
             I. Procedura przeciwdziałania mobbingowi w formie zarządzenia pracodawcy.
             </List.Item>
               <div className="flex">
-              <p className=" text-slate-500 underline dark:text-slate-200 m-3  hover:text-indigo-400 hover:font-bold"><a href="/osa/pdf/wzor1.pdf" type="application/pdf"target="_blank">WZÓR I</a></p>   
-              <p className="text-slate-500 underline dark:text-slate-200 m-3 hover:text-indigo-400 hover:font-bold"><a href="/osa/pdf/wzor2.pdf" type="application/pdf"target="_blank">WZÓR II</a></p>
+              <p className=" text-slate-500 underline dark:text-slate-300 m-3  hover:text-indigo-400 hover:font-bold"><a href="/osa/pdf/wzor1.pdf" type="application/pdf"target="_blank">WZÓR I</a></p>   
+              <p className="text-slate-500 underline dark:text-slate-300 m-3 hover:text-indigo-400 hover:font-bold"><a href="/osa/pdf/wzor2.pdf" type="application/pdf"target="_blank">WZÓR II</a></p>
               </div>
         
             <List.Item className="">
             II. Procedura rozpatrywania skargi pracownika w związku ze stosowanymi wobec niego zachowaniami i działaniami mobbingowymi,
             opracowana przez prawników stowarzyszenia na podstawie zapisów w dziale XII Kodeksu Pracy ( rozpatrywanie sporów o roszczenia ze stosunku pracy, rozdział II postępowanie pojednawcze art. 244 § 1 i dalsze ):
             </List.Item>
-            <List nested ordered className="text-slate-500 dark:text-slate-200 mt-4 mb-4">
+            <List nested ordered className="text-slate-500 dark:text-slate-300 mt-4 mb-4">
 
               <List.Item className="mt-4">
               Pracodawca po otrzymaniu od pracownika skargi/pisma związanej ze stosowaniem wobec niego zjawiska mobbingu dekretuje skargę do wyjaśnienia przez powołany przez niego zespół/komisję opiniodawczą.
@@ -412,24 +412,24 @@ const Komunikaty = () => {
 
 
 
-          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          <p className="text-slate-500 dark:text-slate-300 mb-4">
           Zachęcamy do zmiany już przyjętych przepisów pt. "Wewnętrzna Polityka Antymobbingowa" oraz tzw." Komisje Antymobbingowe" na "Wewnętrzna Polityka Przeciwdziałająca Mobbingowi" i "Zespoły/Komisje Przeciwdziałające Mobbingowi".
           </p>
 
-          <p className="text-slate-500 text-center dark:text-slate-200 mb-4">
+          <p className="text-slate-500 text-center dark:text-slate-300 mb-4">
           <b>mgr Tomasz Juraszek</b>
           </p>
 
           </article>
 
-          <article className="box-border border-2 shadow-md p-4 mt-4">
-          <p className="text-slate-500 text-center dark:text-slate-200 mb-4">
+          <article className="border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 p-4 mt-4">
+          <p className="text-slate-500 text-center dark:text-slate-300 mb-4">
           <b>KOMUNIKAT 2</b>
           </p>
-          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          <p className="text-slate-500 dark:text-slate-300 mb-4">
           Problematyka mobbingu w świetle orzecznictwa sądowego zebrana przez mgr Tomasza Juraszka.
           </p>
-          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          <p className="text-slate-500 dark:text-slate-300 mb-4">
             <a href="/osa/pdf/orzecznictwo_2014.pdf" type="application/pdf"target="_blank" className="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none
              focus:ring-gray-100 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700">
               Czytaj dalej<svg className="w-3 h-3 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
@@ -439,24 +439,24 @@ const Komunikaty = () => {
           </p>
           </article>
 
-          <article className="box-border border-2 shadow-md p-4 mt-4">
-          <p className="text-slate-500 text-center dark:text-slate-200 mb-4">
+          <article className="border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 p-4 mt-4">
+          <p className="text-slate-500 text-center dark:text-slate-300 mb-4">
           <b>KOMUNIKAT 1</b>
           </p>
-          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          <p className="text-slate-500 dark:text-slate-300 mb-4">
           W dniu 29 października 2008r. nasze Stowarzyszenie zostało zaproszone do uczestniczenia w pracach Zespołu ds. przeciwdziałania mobbingowi,
           powołanego przez Pełnomocnika ds. Równego Traktowania Kancelarii Prezesa Rady Ministrów. W piśmie z dnia 20.11.2008r.przedstawiliśmy konkretne
           propozycje zmian legislacyjnych i wykonawczych, a także w zakresie diagnozowania zjawiska mobbingu:
           </p>
 
-          <List ordered className="text-slate-500 dark:text-slate-200 mb-4">
+          <List ordered className="text-slate-500 dark:text-slate-300 mb-4">
           
             <List.Item className="">
             Pomoc prawna polega na wyjaśnianiu wątpliwości prawnych osoby zgłaszającej się w przedstawionej przez nią sprawie:W Kodeksie Pracy w art. 15 kp, 283 § 2kp,
             art. 94³ kp ,100 § 2 kp zapewnienia pracownikom bezpieczne i higieniczne warunki pracy rozumiane też jako bezpieczeństwo i higiena psychiczna:
             </List.Item>
 
-              <List nested className="text-slate-500 dark:text-slate-200 mb-4">
+              <List nested className="text-slate-500 dark:text-slate-300 mb-4">
             
                 <List.Item className="">
                 wprowadzenia do przepisów regulujących obowiązki pracownika obowiązku powstrzymywania się od stosowania mobbingu w miejscy pracy
@@ -485,7 +485,7 @@ const Komunikaty = () => {
 
           </List>
 
-          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          <p className="text-slate-500 dark:text-slate-300 mb-4">
             <a href="/osa/pdf/zmiany_prawne_2008.pdf" type="application/pdf"target="_blank" className="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none
              focus:ring-gray-100 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700">
               Czytaj dalej<svg className="w-3 h-3 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">

@@ -5,18 +5,18 @@ const Projekty = () => {
   return (
         <div>
         <article>
-        <h1 className="text-indigo-700 bg-slate-50 p-4 text-center dark:text-indigo-400 font-bold font-mono text-2xl mt-8 mb-4">PROJEKTY</h1>
-          <p className="text-slate-500 dark:text-slate-200 mb-4">
+        <h1 className="text-indigo-700 bg-slate-50 p-4 text-center dark:text-slate-300 dark:bg-gray-800 font-bold font-mono text-2xl mt-8 mb-4">PROJEKTY</h1>
+          <p className="text-slate-500 dark:text-slate-300 mb-4">
           Od dnia 10 stycznia 2023r. realizujemy nieodpłatną pomoc prawno - psychologiczną skierowaną do mieszkańców biorących udział w procesie pracy,
           osób zagrożonych i dotkniętych zjawiskiem mobbingu oraz dyskryminacji, opartą na przesłankach takich jak: bezpłatność, bezstronność, otwartość
           dla wszystkich, poufność, niezależność, aktualność i rzetelność. Finansowaną ze środków własnych stowarzyszenia oraz dofinansowania ze środków
           Miasta Gdańsk w ramach Gdańskiego Funduszu Równości 2023.
           </p>
 
-          <List ordered className="text-slate-500 dark:text-slate-200 mb-4">
+          <List ordered className="text-slate-500 dark:text-slate-300 mb-4">
             <List.Item><b>Pomoc prawna polega na wyjaśnianiu wątpliwości prawnych osoby zgłaszającej się w przedstawionej przez nią sprawie:</b></List.Item>
 
-              <List nested className="text-slate-500 dark:text-slate-200 mb-4">
+              <List nested className="text-slate-500 dark:text-slate-300 mb-4">
                 <List.Item>udzieleniu odpowiedzi na pytania związane z obowiązującym prawem w zakresie wiążącym się ze
                   sprawą tj. udzieleniu informacji i edukacji o treści obowiązującego prawa, o prawach i 
                   obowiązkach wynikających z obowiązujących uregulowań prawnych oraz instytucjach właściwych dla
@@ -24,10 +24,10 @@ const Projekty = () => {
                 <List.Item>wskazaniu możliwych prawnie dróg postępowania</List.Item>
               </List>
 
-            <p className="text-slate-500 dark:text-slate-200 mb-4">Pomoc udzielana jest w kontakcie bezpośrednim, 
+            <p className="text-slate-500 dark:text-slate-300 mb-4">Pomoc udzielana jest w kontakcie bezpośrednim, 
                   telefonicznie, pocztą internetową oraz pocztą tradycyjną poprzez:</p>
 
-              <List  nested className="text-slate-500 dark:text-slate-200 mb-4"> 
+              <List  nested className="text-slate-500 dark:text-slate-300 mb-4"> 
                 <List.Item>udzielanie indywidualnych konsultacji osobom zwracającym się o pomoc</List.Item>
                 <List.Item>ocenę faktów związanych z przemocą w pracy z uwzględnieniem kwalifikacji prawnej problemów</List.Item>
                 <List.Item>ocenę realnych szans powodzenia postępowań sądowych w sprawach z zakresu mobbingu i dyskryminacji (ocena mocy dowodów)</List.Item>
@@ -37,11 +37,11 @@ const Projekty = () => {
               </List>
 
               
-              <p className="text-slate-500 pt-4 dark:text-slate-200"> 
+              <p className="text-slate-500 pt-4 dark:text-slate-300"> 
                 Pomoc prowadzi Konsultant Krajowy Stowarzyszenia, pani mgr Jadwiga Mucha.</p>
-              <p className="text-slate-500 dark:text-slate-200"> 
+              <p className="text-slate-500 dark:text-slate-300"> 
                tel.: 504 659 911 (w dni powszednie w godzinach 18.00 - 20.00)</p>
-               <p className="text-slate-500 dark:text-slate-200"> 
+               <p className="text-slate-500 dark:text-slate-300"> 
                 <a href="mailto:osa-lublin@wp.pl">email.: osa-lublin@wp.pl</a>         
               </p>
               
@@ -51,7 +51,7 @@ const Projekty = () => {
               gdzie realizowany jest program psychoprofilaktyczny "Pracuję bez lęku" o tematyce zajęć dostosowanej do zapotrzebowania uczestników t.j.:</b></List.Item>
             </List>
 
-            <List nested className="text-slate-500 dark:text-slate-200 mb-4"> 
+            <List nested className="text-slate-500 dark:text-slate-300 mb-4"> 
               <List.Item>
               podstawowe informacje o mobbingu i dyskryminacji. Czym jest dyskryminacja i mobbing, różnice? Czynniki występowania dyskryminacji i mobbingu. Fazy mobbingu.
               </List.Item>
@@ -69,11 +69,11 @@ const Projekty = () => {
               </List.Item>
             </List>
 
-            <p className="text-slate-500 dark:text-slate-200 mb-4">
+            <p className="text-slate-500 dark:text-slate-300 mb-4">
             W trakcie zajęć można:
             </p>
 
-            <List nested className="text-slate-500 dark:text-slate-200 mb-4"> 
+            <List nested className="text-slate-500 dark:text-slate-300 mb-4"> 
               <List.Item className="">
               otrzymać wsparcie i pomoc od osób rozumiejących ten problem
               </List.Item>
@@ -98,18 +98,18 @@ const Projekty = () => {
               </List.Item>
             </List>
 
-            <p className="text-slate-500 dark:text-slate-200 mb-4">
+            <p className="text-slate-500 dark:text-slate-300 mb-4">
             Zajęcia odbywają się we wtorki od 10 stycznia 2023r w godzinach od 17.00 do 19.00 w pomieszczeniach
             użyczonych odpłatnie przez Towarzystwo Przyjaciół Gdańska w Gdańsku przy ul. Warzywniczej 10.
             </p>
-            <p className="text-slate-500 dark:text-slate-200 mb-4">
+            <p className="text-slate-500 dark:text-slate-300 mb-4">
             W okresie od 1 czerwca do 8 grudnia 2023r. zajęcia odbywają się dzięki dofinansowaniu ze środków Miasta Gdańsk
             w ramach Gdańskiego Funduszu Równości 2023.
             </p>
-            <p className="text-slate-500 dark:text-slate-200 mb-4">
+            <p className="text-slate-500 dark:text-slate-300 mb-4">
             Serdecznie zapraszamy do uczestnictwa :)
             </p>
-            <p className="text-slate-500 dark:text-slate-200 mb-4">
+            <p className="text-slate-500 dark:text-slate-300 mb-4">
             Konsultacje indywidualne w Punkcie Konsultacyjnym Zarządu Stowarzyszenia w Gdańsku mieszczącym się w Gdańsku przy ul. Warzywniczej 10A
             (domofon nr 6) odbywają się we wtorki od godz. 16.00 po uprzednim koniecznym umówieniu się telefonicznym: 795 159 795.
             </p>      
@@ -118,12 +118,12 @@ const Projekty = () => {
         <hr className="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700"></hr>
         
         <article >
-          <p className="text-slate-500 dark:text-slate-200 mb-4">
+          <p className="text-slate-500 dark:text-slate-300 mb-4">
           Programy i projekty stworzone i zrealizowane przez Ogólnopolskie Stowarzyszenie Antymobbingowe OSA (pliki pdf):
           </p>  
-          <p className="text-slate-500 font-semibold dark:text-slate-200 m-3"><a href="/osa/pdf/programy.pdf" type="application/pdf" target="_blank">Programy realizowane w latach 2003 r. - 2018 r.</a></p>
+          <p className="text-slate-500 font-semibold dark:text-slate-300 m-3"><a href="/osa/pdf/programy.pdf" type="application/pdf" target="_blank">Programy realizowane w latach 2003 r. - 2018 r.</a></p>
           <iframe src="/osa/pdf/programy.pdf" width="100%" height="750px"></iframe>
-          <p className="text-slate-500 font-semibold dark:text-slate-200 m-3"><a href="/osa/pdf/projekty.pdf" type="application/pdf"target="_blank">Programy realizowane w latach 2003 r. - 2022 r.</a></p>
+          <p className="text-slate-500 font-semibold dark:text-slate-300 m-3"><a href="/osa/pdf/projekty.pdf" type="application/pdf"target="_blank">Programy realizowane w latach 2003 r. - 2022 r.</a></p>
           <iframe src="/osa/pdf/projekty.pdf" width="100%" height="750px"></iframe>
             
         </article>

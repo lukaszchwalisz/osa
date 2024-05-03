@@ -7,7 +7,7 @@ export function Header() {
 
 
         <nav className="sticky top-0 z-10 h-max max-w-full"> 
-            <div className="bg-lime-100 dark:bg-gray-800 to-80%">
+            <div className="bg-lime-100 dark:bg-gray-800">
                 
             <ul  className="container mx-auto text-center sm:justify-center sm:items-center sm:grid md:flex flex-row">
                 <span className="flex flex-center flex-1"><li><Link to="/"><img className="w-64 m-4 sm:grid" src="/osa/images/Web_logo.svg" alt="logo OSA"></img></Link></li></span>

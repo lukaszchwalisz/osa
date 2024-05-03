@@ -7,10 +7,10 @@ const Cele = () => {
     <div>
 
     <article>
-    <h1 className="text-indigo-700 bg-slate-50 p-4 text-center dark:text-indigo-400 font-bold font-mono text-2xl mt-8 mb-4">CELE</h1>
+    <h1 className="text-indigo-700 bg-slate-50 p-4 text-center dark:text-slate-300 dark:bg-gray-800 font-bold font-mono text-2xl mt-8 mb-4">CELE</h1>
 
-    <p className="text-slate-500 dark:text-slate-200 font-bold underline mb-4">Cele statutowe stowarzyszenia:</p>
-    <List className="text-slate-500 dark:text-slate-200 mb-4">
+    <p className="text-slate-500 dark:text-slate-300 font-bold underline mb-4">Cele statutowe stowarzyszenia:</p>
+    <List className="text-slate-500 dark:text-slate-300 mb-4">
     <List.Item>podnoszenie świadomości w zakresie profilaktyki i skutecznej walki z mobbingiem, rozumianym jako przemoc psychiczna w pracy</List.Item>
     <List.Item>nagłaśnianie problemu mobbingu, pokazywanie skutków ekonomicznych, zdrowotnych i moralnych występowania tego zjawiska</List.Item>
     <List.Item>pomoc osobom zagrożonym i poddawanym mobbingowi</List.Item>
@@ -22,9 +22,9 @@ const Cele = () => {
     <List.Item>przeciwdziałanie wykluczeniu społecznemu osób mobbingowanych</List.Item>
     </List>
 
-    <p className="text-slate-500 dark:text-slate-200 font-bold underline mb-4">Realizujemy poprzez:</p>
+    <p className="text-slate-500 dark:text-slate-300 font-bold underline mb-4">Realizujemy poprzez:</p>
 
-    <List className="text-slate-500 dark:text-slate-200 mb-4">
+    <List className="text-slate-500 dark:text-slate-300 mb-4">
     <List.Item>zrzeszanie w swoich szeregach specjainteresowanych identyfikacji i prewencji przypadków dyskryminacji i przemocy w miejscu pracy</List.Item>
     <List.Item>pomoc prawną, medyczną, psychologiczną</List.Item>
     <List.Item>tworzenie grup samopomocowych i grup wsparcia dla ofiar mobbingu</List.Item>

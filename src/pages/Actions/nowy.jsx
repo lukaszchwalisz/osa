@@ -7,11 +7,11 @@ const Nowy = () => {
     <div>
 
       <article>
-        <h1 className="text-indigo-700 bg-slate-50 p-4 text-center dark:text-indigo-400 font-bold font-mono text-2xl mt-8 mb-4">WSPÓŁPRACA</h1>
+        <h1 className="text-indigo-700 bg-slate-50 p-4 text-center dark:text-slate-300 dark:bg-gray-800 font-bold font-mono text-2xl mt-8 mb-4">WSPÓŁPRACA</h1>
 
-        <p className="text-slate-500 dark:text-slate-200 font-bold underline mb-4">Członkiem Ogólnopolskiego Stowarzyszenia Antymobbingowego "OSA" może zostać każdy, kto :</p>
+        <p className="text-slate-500 dark:text-slate-300 font-bold underline mb-4">Członkiem Ogólnopolskiego Stowarzyszenia Antymobbingowego "OSA" może zostać każdy, kto :</p>
 
-        <List className="text-slate-500 dark:text-slate-200 mb-4">
+        <List className="text-slate-500 dark:text-slate-300 mb-4">
           <List.Item>zna i chce przestrzegać postanowień statutu, jak też celów i zadań Stowarzyszenia</List.Item>
           <List.Item>chce uczestniczyć w działalności Stowarzyszenia, pomagać innym członkom Stowarzyszenia w realizowaniu zadań statutowych</List.Item>
           <List.Item>sumiennie wypełnia uchwały władz Stowarzyszenia</List.Item>
@@ -21,9 +21,9 @@ const Nowy = () => {
           <List.Item>regularnie opłaca składki członkowskie w kwocie 5,00 złotych (słownie pięć złotych) miesięcznie</List.Item>
         </List>
 
-        <p className="text-slate-500 dark:text-slate-200 font-bold underline mb-4">Co należy zrobić, zostać członkiem Stowarzyszenia "OSA" ?</p>
+        <p className="text-slate-500 dark:text-slate-300 font-bold underline mb-4">Co należy zrobić, zostać członkiem Stowarzyszenia "OSA" ?</p>
 
-        <List ordered className="text-slate-500 dark:text-slate-200">
+        <List ordered className="text-slate-500 dark:text-slate-300">
           <List.Item>Zgłosić chęć członkostwa do Zarządu Stowarzyszenia lub jego Punktów Konsultacyjnych.</List.Item>
           <List.Item>Zapoznać się z treścią ustawy o stowarzyszeniach, statutem Stowarzyszenia, ustawy o ochronie danych osobowych, ustawy o pożytku publicznym i wolontariacie.</List.Item>
           <List.Item>Wypełnić deklarację członkowską, na podstawie której podejmowana jest przez Zarząd Stowarzyszenia decyzja o przyjęciu w poczet członków.</List.Item>
@@ -33,8 +33,8 @@ const Nowy = () => {
 
       <div>
         <hr className="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700"></hr>
-        <p className="text-slate-500 dark:text-slate-200 font-bold underline mb-4">Sponsorzy</p>
-        <List className="styled text-slate-500 dark:text-slate-200 mb-4">
+        <p className="text-slate-500 dark:text-slate-300 font-bold underline mb-4">Sponsorzy</p>
+        <List className="styled text-slate-500 dark:text-slate-300 mb-4">
           <List.Item>Andrzej Machała, firma "Ksero" w Gdańsku, ul. Szeroka 119/120</List.Item>
           <List.Item>Piotr Badowski, firma Usługowego-Budowlana ORION - P.B. w Sopocie, ul. Wybickiego 41/1</List.Item>
           <List.Item>Ewa Wosik - Biuro rachunkowe "Ekspert" 80-874 Gdańsk, ul. Na Stoku 48</List.Item>
@@ -55,8 +55,8 @@ const Nowy = () => {
       </div>
 
       <div>
-        <p className="text-slate-500 dark:text-slate-200 font-bold underline mb-4">Współpracownicy</p>
-        <List className="text-slate-500 dark:text-slate-200 mb-4">
+        <p className="text-slate-500 dark:text-slate-300 font-bold underline mb-4">Współpracownicy</p>
+        <List className="text-slate-500 dark:text-slate-300 mb-4">
           <List.Item>Gdańskie Stowarzyszenie Pedagogów Praktyków - tel. (058) 307 30 61</List.Item>
           <List.Item>Fundacja Centrum Praw Kobiet Odział w Gdańsk - tel. (058) 341 79 15</List.Item>
           <List.Item>Towarzystwo Przyjaciół Gdańska - Gdańsk ul. Warzywnicza 10</List.Item>
