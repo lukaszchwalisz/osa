@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Home = () => {
     return (
         <>
-            <div className="grid justify-center mt-20 mb-20 lg:mx-20 xl:mx-40 2xl:mx-80">
+            <div className="grid justify-center m-4 mt-20 mb-20 lg:mx-20 xl:mx-40 2xl:mx-80">
 
                 <h1 className="text-slate-500 font-bold text-3xl">Ogólnopolskie Stowarzyszenie Antymobbingowe "OSA"</h1>
                 <h1 className="text-slate-400 text-2xl pt-4 mb-10">Nasze stowarzyszenie zajmuje się przeciwdziałaniem mobbingowi od ponad 20 lat.
