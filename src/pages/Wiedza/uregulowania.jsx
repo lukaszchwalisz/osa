@@ -5,7 +5,7 @@ export const Uregulowania = () => {
   return (
     <div>
         <article>
-        <h1 className="border border-gray-200 rounded-lg shadow p-4 bg-cyan-50 text-slate-700 text-center dark:text-slate-300 dark:bg-gray-900 dark:border-gray-700 font-bold font-mono text-2xl mt-8 mb-4">
+        <h1 className="border border-gray-200 rounded-lg shadow p-4 bg-cyan-50 text-slate-700 text-center dark:text-slate-300 dark:bg-gray-800 dark:border-gray-700 font-bold font-mono text-2xl mt-8 mb-4">
         Uregulowania prawne</h1>
         <p className="text-slate-500 dark:text-slate-300 mb-4">
         Mobbing stał się przedmiotem regulacji prawnych w Europie. W wielu krajach prowadzone są badania,
@@ -16,7 +16,7 @@ export const Uregulowania = () => {
         </p>
         <p className="text-slate-500 dark:text-slate-300 mb-4">Ustawa zasadnicza upatruje źródło praw i wolności człowieka i obywatela w jego godności:</p>
         
-        <blockquote className="p-4 my-4 border-s-4 border-gray-300 bg-gray-50 dark:border-gray-500 dark:bg-gray-800">
+        <blockquote className="p-4 my-4 border-s-4 border-gray-300 bg-gray-50 dark:border-gray-800 dark:bg-gray-900">
         <p className="text-slate-500 italic dark:text-slate-300  mb-4">
         Art. 30. Przyrodzona i niezbywalna godność człowieka stanowi źródło wolności i praw człowieka i obywatela.
         Jest ona nienaruszalna, a jej poszanowanie i ochrona jest obowiązkiem władz publicznych
@@ -63,7 +63,7 @@ export const Uregulowania = () => {
         Zjawisko mobbingu ustawodawca zdefiniował w art. 94(3) §2 kodeksu pracy:
         </p>
 
-        <blockquote className="p-4 my-4 border-s-4 border-gray-300 bg-gray-50 dark:border-gray-500 dark:bg-gray-800">
+        <blockquote className="p-4 my-4 border-s-4 border-gray-300 bg-gray-50 dark:border-gray-800 dark:bg-gray-900">
         <p className="text-slate-500 dark:text-slate-300 mb-4"><i>
         "Mobbing oznacza działania lub zachowania dotyczące pracownika lub skierowane przeciwko pracownikowi,
         polegające na uporczywym i długotrwałym nękaniu lub zastraszaniu pracownika, wywołujące u niego zaniżoną
@@ -85,7 +85,7 @@ export const Uregulowania = () => {
         <p className="text-slate-500 dark:text-slate-300 mb-4">
         Ustawodawca określił też skutki prawne mobbingu dla pracodawcy - w art. 94(3) §3 KP:</p>
 
-        <blockquote className="p-4 my-4 border-s-4 border-gray-300 bg-gray-50 dark:border-gray-500 dark:bg-gray-800">
+        <blockquote className="p-4 my-4 border-s-4 border-gray-300 bg-gray-50 dark:border-gray-800 dark:bg-gray-900">
         <p className="text-slate-500 dark:text-slate-300 mb-4"><i>
         "Pracownik, u którego mobbing wywołał rozstrój zdrowia, może dochodzić od pracodawcy odpowiedniej sumy
         tytułem zadośćuczynienia pieniężnego za doznaną krzywdę."</i></p>

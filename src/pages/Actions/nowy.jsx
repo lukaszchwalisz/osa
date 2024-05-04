@@ -7,7 +7,7 @@ const Nowy = () => {
     <div>
 
       <article>
-        <h1 className="border border-gray-200 rounded-lg shadow p-4 bg-emerald-50 text-slate-700 text-center dark:text-slate-300 dark:bg-gray-900 dark:border-gray-700 font-bold font-mono text-2xl mt-8 mb-4">WSPÓŁPRACA</h1>
+        <h1 className="border border-gray-200 rounded-lg shadow p-4 bg-emerald-50 text-slate-700 text-center dark:text-slate-300 dark:bg-gray-800 dark:border-gray-700 font-bold font-mono text-2xl mt-8 mb-4">WSPÓŁPRACA</h1>
 
         <p className="text-slate-500 dark:text-slate-300 font-bold underline mb-4">Członkiem Ogólnopolskiego Stowarzyszenia Antymobbingowego "OSA" może zostać każdy, kto :</p>
 

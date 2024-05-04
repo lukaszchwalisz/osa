@@ -4,7 +4,7 @@ export const M_zjawisko = () => {
   return (
     <div>
         <article >
-        <h1 className="border border-gray-200 rounded-lg shadow p-4 bg-cyan-50 text-slate-700 text-center dark:text-slate-300 dark:bg-gray-900 dark:border-gray-700 font-bold font-mono text-2xl mt-8 mb-4">Charakterystyka zjawiska mobbingu</h1>
+        <h1 className="border border-gray-200 rounded-lg shadow p-4 bg-cyan-50 text-slate-700 text-center dark:text-slate-300 dark:bg-gray-800 dark:border-gray-700 font-bold font-mono text-2xl mt-8 mb-4">Charakterystyka zjawiska mobbingu</h1>
           <p className="text-slate-500 dark:text-slate-300 mb-4">
           Mobbing dotyczy głównie obszarów nękania psychicznego, dyskryminacji i prześladowania w miejscu pracy.
           Ma wiele postaci może to być wyjątkowo zjadliwa krytyka, negowanie wartości wykonanej pracy,

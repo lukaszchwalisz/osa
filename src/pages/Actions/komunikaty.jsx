@@ -5,9 +5,9 @@ const Komunikaty = () => {
   return (  
     <div>
 
-        <h1 className="border border-gray-200 rounded-lg shadow p-4 bg-emerald-50 text-slate-700 text-center dark:text-slate-300 dark:bg-gray-900 dark:border-gray-700 font-bold font-mono text-2xl mt-8 mb-4">KOMUNIKATY</h1>
+        <h1 className="border border-gray-200 rounded-lg shadow p-4 bg-emerald-50 text-slate-700 text-center dark:text-slate-300 dark:bg-gray-800 dark:border-gray-700 font-bold font-mono text-2xl mt-8 mb-4">KOMUNIKATY</h1>
 
-        <article className="border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 p-4 mt-4">
+        <article className="border border-gray-200 rounded-lg shadow dark:bg-gray-900 dark:border-gray-800 p-4 mt-4">
           <p className="text-slate-500 text-center dark:text-slate-300 mb-4">
           <b>KOMUNIKAT 9</b>
           </p>
@@ -30,7 +30,7 @@ const Komunikaty = () => {
           </p>   
         </article>
 
-        <article className="border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 p-4 mt-4">
+        <article className="border border-gray-200 rounded-lg shadow dark:bg-gray-900 dark:border-gray-800 p-4 mt-4">
           <p className="text-slate-500 text-center dark:text-slate-300 mb-4">
           <b>KOMUNIKAT 8</b>
           </p>
@@ -116,7 +116,7 @@ const Komunikaty = () => {
 
         </article>
 
-        <article className="border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 p-4 mt-4">
+        <article className="border border-gray-200 rounded-lg shadow dark:bg-gray-900 dark:border-gray-800 p-4 mt-4">
           <p className="text-slate-500 text-center dark:text-slate-300 mb-4">
           <b>KOMUNIKAT 7</b>
           </p>
@@ -134,7 +134,7 @@ const Komunikaty = () => {
           </p>
         </article>
 
-        <article className="border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 p-4 mt-4">
+        <article className="border border-gray-200 rounded-lg shadow dark:bg-gray-900 dark:border-gray-800 p-4 mt-4">
           <p className="text-slate-500 text-center dark:text-slate-300 mb-4">
           <b>KOMUNIKAT 6</b>
           </p>
@@ -153,7 +153,7 @@ const Komunikaty = () => {
           </p>
         </article>
 
-        <article className="border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 p-4 mt-4">
+        <article className="border border-gray-200 rounded-lg shadow dark:bg-gray-900 dark:border-gray-800 p-4 mt-4">
           
           <p className="text-slate-500 text-center dark:text-slate-300 mb-4">
           <b>KOMUNIKAT 5</b>
@@ -195,7 +195,7 @@ const Komunikaty = () => {
             
           </article>
 
-          <article className="border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 p-4 mt-4">
+          <article className="border border-gray-200 rounded-lg shadow dark:bg-gray-900 dark:border-gray-800 p-4 mt-4">
           <p className="text-slate-500 text-center dark:text-slate-300 mb-4">
           <b>KOMUNIKAT 4</b>
           </p>
@@ -224,7 +224,7 @@ const Komunikaty = () => {
             </ul>
           </article>
 
-          <article className="border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 p-4 mt-4">
+          <article className="border border-gray-200 rounded-lg shadow dark:bg-gray-900 dark:border-gray-800 p-4 mt-4">
           <p className="text-slate-500 text-center dark:text-slate-300 mb-4">
           <b>KOMUNIKAT 3</b>
           </p>
@@ -422,7 +422,7 @@ const Komunikaty = () => {
 
           </article>
 
-          <article className="border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 p-4 mt-4">
+          <article className="border border-gray-200 rounded-lg shadow dark:bg-gray-900 dark:border-gray-800 p-4 mt-4">
           <p className="text-slate-500 text-center dark:text-slate-300 mb-4">
           <b>KOMUNIKAT 2</b>
           </p>
@@ -439,7 +439,7 @@ const Komunikaty = () => {
           </p>
           </article>
 
-          <article className="border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 p-4 mt-4">
+          <article className="border border-gray-200 rounded-lg shadow dark:bg-gray-900 dark:border-gray-800 p-4 mt-4">
           <p className="text-slate-500 text-center dark:text-slate-300 mb-4">
           <b>KOMUNIKAT 1</b>
           </p>

@@ -4,7 +4,7 @@ export const Etapy = () => {
   return (
     <div>
         <article>
-        <h1 className="border border-gray-200 rounded-lg shadow p-4 bg-cyan-50 text-slate-700 text-center dark:text-slate-300 dark:bg-gray-900 dark:border-gray-700 font-bold font-mono text-2xl mt-8 mb-4">Etapy</h1>  
+        <h1 className="border border-gray-200 rounded-lg shadow p-4 bg-cyan-50 text-slate-700 text-center dark:text-slate-300 dark:bg-gray-800 dark:border-gray-700 font-bold font-mono text-2xl mt-8 mb-4">Etapy</h1>  
         <p className="text-slate-500 dark:text-slate-300 mb-4">
         W początkowym etapie osoba, która zaczyna być szykanowana nie zdaje jeszcze sobie z tego sprawy. Próbuje działać
         racjonalnie, załagodzić lub rozwiązać sporadyczne konflikty, ale bezskutecznie. Podważa się jej wiedzę i umiejętności,
