@@ -8,18 +8,19 @@ const Kontakt = () => {
     
       <h1 className="border border-gray-200 rounded-lg shadow p-4 bg-blue-50 text-slate-700 text-center dark:text-slate-300 dark:bg-gray-800 dark:border-gray-700 font-bold font-mono text-2xl mt-8 mb-4">KONTAKT</h1>
         
-        <p className="text-slate-500 text-center dark:text-slate-300 mb-4">
-        <b>Adres tylko do korespondencji:</b>
+        <div className="text-center text-xl">
+        <p className="text-slate-500 font-bold dark:text-slate-300 mt-4 mb-4">
+        Adres (tylko do korespondencji):
+        </p>
+        
         <ul className="list-none">
           <li className="text-slate-500 dark:text-slate-300">80-838 Gdańsk</li>
           <li className="text-slate-500 dark:text-slate-300">ul. Warzywnicza 10C/7</li>
-          <li className="text-slate-500 dark:text-slate-300">tel.: (058) 301 98 72</li>
-          <li className="text-slate-500 dark:text-slate-300">kom.: 795 159 795</li>
-          <li className="text-slate-500 dark:text-slate-300">email: <a href="mailto:osa_stowarzyszenie@wp.pl">osa_stowarzyszenie@wp.pl</a></li>
-          <li className="text-slate-500 dark:text-slate-300">www: <a href="http://www.osastowarzyszenie.pl/start.html" target="_blank">Strona WWW OSA - [STARA]</a></li>
-          <li className="text-slate-500 dark:text-slate-300">www: <a href="https://lukaszchwalisz.github.io/osa/" target="_blank">Strona WWW OSA - [NOWA]</a></li>
+          <li className="text-slate-500 dark:text-slate-300">(058) 301 98 72</li>
+          <li className="text-slate-500 dark:text-slate-300">795 159 795</li>
+          <li className="text-slate-500 underline hover:text-indigo-400 dark:text-slate-300"><a href="mailto:osa_stowarzyszenie@wp.pl">osa_stowarzyszenie@wp.pl</a></li>
         </ul>
-        </p>
+        </div>
 
       <h1 className="border border-gray-200 rounded-lg shadow p-4 bg-blue-50 text-slate-700 text-center dark:text-slate-300 dark:bg-gray-800 dark:border-gray-700 font-bold font-mono text-2xl mt-8 mb-4">
         Punkty konsultacyjne</h1>
@@ -43,10 +44,10 @@ const Kontakt = () => {
               <ul className="list-none">
                 <li className="text-slate-500 dark:text-slate-300">80-838 Gdańsk</li>
                 <li className="text-slate-500 dark:text-slate-300">ul. Warzywnicza 10C/7</li>
-                <li className="text-slate-500 dark:text-slate-300">tel.: (058) 301 98 72</li>
-                <li className="text-slate-500 dark:text-slate-300">kom.: 795 159 795</li>
-                <li className="text-slate-500 dark:text-slate-300">email: <a href="mailto:osa_stowarzyszenie@wp.pl">osa_stowarzyszenie@wp.pl</a></li>
-                <li className="text-slate-500 dark:text-slate-300">www: <a href="http://www.osastowarzyszenie.pl/start.html" target="_blank">http://www.osastowarzyszenie.pl/</a></li>
+                <li className="text-slate-500 dark:text-slate-300"> (058) 301 98 72</li>
+                <li className="text-slate-500 dark:text-slate-300"> 795 159 795</li>
+                <li className="text-slate-500 underline hover:text-indigo-400 dark:text-slate-300"> <a href="mailto:osa_stowarzyszenie@wp.pl">osa_stowarzyszenie@wp.pl</a></li>
+                
               </ul>
             </Table.Cell>
             <Table.Cell>
@@ -64,8 +65,8 @@ const Kontakt = () => {
               <ul className="list-none">
                 <li className="text-slate-500 dark:text-slate-300">20-860 Lublin</li>
                 <li className="text-slate-500 dark:text-slate-300">ul. Szpinalskiego 2/22</li>
-                <li className="text-slate-500 dark:text-slate-300">kom.: 504 659 911</li>
-                <li className="text-slate-500 dark:text-slate-300">email: <a href="mailto:osa-lublin@wp.pl">osa-lublin@wp.pl</a></li>
+                <li className="text-slate-500 dark:text-slate-300"> 504 659 911</li>
+                <li className="text-slate-500 underline hover:text-indigo-400 dark:text-slate-300"> <a href="mailto:osa-lublin@wp.pl">osa-lublin@wp.pl</a></li>
               </ul>
             </Table.Cell>
             <Table.Cell>
@@ -81,8 +82,8 @@ const Kontakt = () => {
               <ul className="list-none">
                 <li className="text-slate-500 dark:text-slate-300">58-573 Piechowice</li>
                 <li className="text-slate-500 dark:text-slate-300">ul. Sienkiewicza 7</li>
-                <li className="text-slate-500 dark:text-slate-300">kom.: 606 28 40 76</li>
-                <li className="text-slate-500 dark:text-slate-300">email: <a href="mailto:osa-jeleniagora@wp.pl">osa-jeleniagora@wp.pl</a></li>
+                <li className="text-slate-500 dark:text-slate-300"> 606 28 40 76</li>
+                <li className="text-slate-500 underline hover:text-indigo-400 dark:text-slate-300"> <a href="mailto:osa-jeleniagora@wp.pl">osa-jeleniagora@wp.pl</a></li>
               </ul>
               </Table.Cell>
               <Table.Cell></Table.Cell>
@@ -98,7 +99,7 @@ const Kontakt = () => {
                 <li className="text-slate-500 dark:text-slate-300">99-100 Łęczyca</li>
                 <li className="text-slate-500 dark:text-slate-300">ul. Zachodnia 25/28</li>
                 <li className="text-slate-500 dark:text-slate-300">tel. (024) 721 60 60</li>
-                <li className="text-slate-500 dark:text-slate-300">email: <a href="mailto:osa-leczyca@wp.pl">osa-leczyca@wp.pl</a></li>
+                <li className="text-slate-500 underline hover:text-indigo-400 dark:text-slate-300"> <a href="mailto:osa-leczyca@wp.pl">osa-leczyca@wp.pl</a></li>
               </ul>
             </Table.Cell>
             <Table.Cell>
@@ -113,8 +114,8 @@ const Kontakt = () => {
             <Table.Cell>Lubań (woj. dolnośląskie)</Table.Cell>
             <Table.Cell>
               <ul className="list-none">
-                <li className="text-slate-500 dark:text-slate-300">kom.: 602 588 149</li>
-                <li className="text-slate-500 dark:text-slate-300">email: <a href="mailto:osa-luban@wp.pl">osa-luban@wp.pl</a></li>
+                <li className="text-slate-500 dark:text-slate-300"> 602 588 149</li>
+                <li className="text-slate-500 underline hover:text-indigo-400 dark:text-slate-300"> <a href="mailto:osa-luban@wp.pl">osa-luban@wp.pl</a></li>
               </ul>
             </Table.Cell>
             <Table.Cell>
@@ -131,8 +132,8 @@ const Kontakt = () => {
               <ul className="list-none">
                 <li className="text-slate-500 dark:text-slate-300">60-803 Poznań</li>
                 <li className="text-slate-500 dark:text-slate-300">ul. Polna 74/9</li>
-                <li className="text-slate-500 dark:text-slate-300">kom.: 665 696 372</li>
-                <li className="text-slate-500 dark:text-slate-300">email: <a href="mailto:osa-poznan@wp.pl">osa-poznan@wp.pl</a></li>
+                <li className="text-slate-500 dark:text-slate-300"> 665 696 372</li>
+                <li className="text-slate-500 underline hover:text-indigo-400 dark:text-slate-300"> <a href="mailto:osa-poznan@wp.pl">osa-poznan@wp.pl</a></li>
               </ul>
             </Table.Cell>
             <Table.Cell>
