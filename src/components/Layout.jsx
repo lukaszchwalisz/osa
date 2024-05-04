@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 
-import { Outlet } from "react-router-dom"
+import { Outlet, ScrollRestoration } from "react-router-dom"
 import { Header } from "./header"
 import { Footer } from "./footer"
 
@@ -52,6 +52,7 @@ function Layout() {
 
           </div>
         </div>
+        <ScrollRestoration />
       </div>
     </>
   )
