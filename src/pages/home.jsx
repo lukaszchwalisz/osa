@@ -19,7 +19,7 @@ const Home = () => {
                         <Link to="about">
                             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-slate-500">O nas</h5>
                         </Link>
-                        <p className="mb-3 font-normal text-gray-700 dark:text-slate-300">Poczytaj o historii powstania stowarzyszenia "OSA", najciekawszych wydarzeniach, sprawozdaniach i strukturze organizacyjne.</p>
+                        <p className="mb-3 font-normal text-gray-700 dark:text-slate-300">Poczytaj o historii powstania stowarzyszenia "OSA", najciekawszych wydarzeniach, sprawozdaniach i strukturze organizacyjnej.</p>
                         <Link to="about" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-indigo-700 rounded-lg hover:bg-indigo-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-indigo-600 dark:hover:bg-indigo-700 dark:focus:ring-blue-800">
                             Sprawdź
                             <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
