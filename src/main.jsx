@@ -13,7 +13,6 @@ import './index.css'
 import { createHashRouter, RouterProvider } from 'react-router-dom';
 
 
-
 const router = createHashRouter([
   {
     path: "/",
@@ -56,20 +55,6 @@ const router = createHashRouter([
   },
 
 ]);
-
-
- 
-
-    // <Route path='/osa' element={<Layout />}>
-    //   <Route path='' element={<Home />} />
-    //   <Route path="/osa/about" element={<About />} />
-    //   <Route path="/osa/projekty" element={<Actions />} />
-    //   <Route path="/osa/wiedza" element={<Wiedza />} />
-    //   <Route path="/osa/galeria" element={<Galeria />} />
-    //   <Route path="/osa/kontakt" element={<Kontakt />} />
-    // </Route>
-
-
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
