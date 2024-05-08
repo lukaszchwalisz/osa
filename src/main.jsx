@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client'
-import Layout from './components/Layout.jsx'
+import Layout from './components/layout.jsx'
 
 import Home from "./pages/home";
 import About from "./pages/about";
