@@ -1,35 +1,63 @@
-import  { useRef } from 'react';
+import  { useState } from 'react';
 import emailjs from '@emailjs/browser';
 
 export const Email = () => {
-  const form = useRef();
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
 
-  const sendEmail = (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
 
-    emailjs
-      .sendForm('service_2e4ns4j', 'template_51r7uri', form.current, {
-        publicKey: 'cdCD3-UsUijWdhOTZ',
+    // Your EmailJS service ID, template ID, and Public Key
+    const serviceId = 'service_2e4ns4j';
+    const templateId = 'template_51r7uri';
+    const publicKey = 'cdCD3-UsUijWdhOTZ';
+
+    // Create a new object that contains dynamic template params
+    const templateParams = {
+      from_name: name,
+      from_email: email,
+      to_name: 'Stowarzyszenie "OSA"',
+      message: message,
+    };
+
+    // Send the email using EmailJS
+    emailjs.send(serviceId, templateId, templateParams, publicKey)
+      .then((response) => {
+        console.log('Email sent successfully!', response);
+        setName('');
+        setEmail('');
+        setMessage('');
       })
-      .then(
-        () => {
-          console.log('SUCCESS!');
-        },
-        (error) => {
-          console.log('FAILED...', error.text);
-        },
-      );
-  };
+      .catch((error) => {
+        console.error('Error sending email:', error);
+      });
+  }
 
   return (
-    <form ref={form} onSubmit={sendEmail}>
-      <label>Name</label>
-      <input type="text" name="user_name" />
-      <label>Email</label>
-      <input type="email" name="user_email" />
-      <label>Message</label>
-      <textarea name="message" />
-      <input type="submit" value="Send" />
+    <form onSubmit={handleSubmit} className='flex flex-col border border-gray-200 rounded-lg shadow'>
+      <input
+        type="text"
+        placeholder="Your Name"
+        value={name}
+        onChange={(e) => setName(e.target.value)}
+      />
+      <input
+        type="email"
+        placeholder="Your Email"
+        value={email}
+        onChange={(e) => setEmail(e.target.value)}
+      />
+      <textarea
+        cols="30"
+        rows="10"
+        value={message}
+        onChange={(e) => setMessage(e.target.value)}
+      >
+      </textarea>
+      <button type="submit">Send Email</button>
     </form>
-  );
+  )
 };
+  

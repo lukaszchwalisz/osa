@@ -1,5 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
-import { Email } from "../emails/email"
+import { Email } from "../emails/email.jsx"
 
 
 const Form = () => {
