@@ -8,6 +8,7 @@ import Actions from "./pages/actions";
 import Wiedza from "./pages/wiedza";
 import Galeria from "./pages/galeria";
 import Kontakt from "./pages/kontakt";
+import Form from "./pages/form";
 
 import './index.css'
 import { createHashRouter, RouterProvider } from 'react-router-dom';
@@ -47,6 +48,11 @@ const router = createHashRouter([
       {
         path: "kontakt",
         element: <Kontakt />,
+        
+      },
+      {
+        path: "form",
+        element: <Form />,
         
       },
 
