@@ -10,9 +10,9 @@ export const Email = () => {
     e.preventDefault(false);
 
     // Your EmailJS service ID, template ID, and Public Key
-    const serviceId = 'service_2e4ns4j';
-    const templateId = 'template_51r7uri';
-    const publicKey = 'cdCD3-UsUijWdhOTZ';
+    const serviceId = import.meta.env.VITE_APP_SERVICE_ID;
+    const templateId = import.meta.env.VITE_APP_TEMPLATE_ID;
+    const publicKey = import.meta.env.VITE_APP_PUBLIC_KEY;
 
     // Create a new object that contains dynamic template params
     const templateParams = {
