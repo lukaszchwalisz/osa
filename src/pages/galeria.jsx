@@ -4,7 +4,7 @@ function Galeria() {
   return (
     <>
       <div className="grid justify-center m-4 lg:mx-20 xl:mx-40 2xl:mx-80">
-      <h1 className="border border-gray-200 rounded-lg shadow p-4 bg-violet-100 text-slate-700 text-center dark:text-slate-300 dark:bg-gray-800 dark:border-gray-700 font-bold font-mono text-2xl mt-8 mb-4">GALERIA</h1>
+      <h1 className="border border-gray-200 rounded-lg shadow p-4 bg-blue-50 text-slate-700 text-center dark:text-slate-300 dark:bg-gray-800 dark:border-gray-700 font-bold font-mono text-2xl mt-8 mb-4">GALERIA</h1>
 
         <p className="text-slate-500 dark:text-slate-300 mb-4">
         Autorem umieszczonych tu rysunków jest <b>Grzegorz Krzemiński</b>, współpracujący ze Stowarzyszeniem. Absolwent Wyższej Szkoły Zawodowej w

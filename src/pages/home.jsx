@@ -15,7 +15,7 @@ const Home = () => {
                 </h1>
 
                 <div className="grid gap-4 justify-center m-4 sm:grid-cols-2 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-3">
-                    <div className="max-w-sm p-6 bg-yellow-100 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                    <div className="max-w-sm p-6 bg-blue-50 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                         <Link to="about">
                             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-slate-500">O nas</h5>
                         </Link>
@@ -27,7 +27,7 @@ const Home = () => {
                             </svg>
                         </Link>
                     </div>
-                    <div className="max-w-sm p-6 border bg-emerald-50 border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                    <div className="max-w-sm p-6 border bg-blue-50 border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                         <Link to="projekty">
                             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-slate-500">Projekty</h5>
                         </Link>
@@ -39,7 +39,7 @@ const Home = () => {
                             </svg>
                         </Link>
                     </div>
-                    <div className="max-w-sm p-6 bg-cyan-50 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                    <div className="max-w-sm p-6 bg-blue-50 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                         <Link to="wiedza"> 
                             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-slate-500">Wiedza</h5>
                         </Link>
@@ -51,7 +51,7 @@ const Home = () => {
                             </svg>
                         </Link>
                     </div>
-                    <div className="max-w-sm p-6 bg-violet-100 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                    <div className="max-w-sm p-6 bg-blue-50 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                         <Link to="galeria">
                             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-slate-500">Galeria</h5>
                         </Link>
@@ -75,7 +75,7 @@ const Home = () => {
                             </svg>
                         </Link>
                     </div>
-                    <div className="max-w-sm p-6 bg-cyan-100 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                    <div className="max-w-sm p-6 bg-blue-50 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                         <Link to="form">
                             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-slate-500">Formularz</h5>
                         </Link>

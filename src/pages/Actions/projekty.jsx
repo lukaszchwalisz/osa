@@ -5,7 +5,7 @@ const Projekty = () => {
   return (
         <div>
         <article>
-        <h1 className="border border-gray-200 rounded-lg shadow p-4 bg-emerald-50 text-slate-700 text-center dark:text-slate-300 dark:bg-gray-800 dark:border-gray-700 font-bold font-mono text-2xl mt-8 mb-4">PROJEKTY</h1>
+        <h1 className="border border-gray-200 rounded-lg shadow p-4 bg-blue-50 text-slate-700 text-center dark:text-slate-300 dark:bg-gray-800 dark:border-gray-700 font-bold font-mono text-2xl mt-8 mb-4">PROJEKTY</h1>
           <p className="text-slate-500 dark:text-slate-300 mb-4">
           Od dnia 10 stycznia 2023r. realizujemy nieodpłatną pomoc prawno - psychologiczną skierowaną do mieszkańców biorących udział w procesie pracy,
           osób zagrożonych i dotkniętych zjawiskiem mobbingu oraz dyskryminacji, opartą na przesłankach takich jak: bezpłatność, bezstronność, otwartość

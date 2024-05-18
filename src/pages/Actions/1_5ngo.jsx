@@ -4,7 +4,7 @@ const Tax_ngo = () => {
   return (
     <article >
 
-    <h1 className="border border-gray-200 rounded-lg shadow p-4 bg-emerald-50 text-slate-700 text-center dark:text-slate-300 dark:bg-gray-800 dark:border-gray-700 font-bold font-mono text-2xl mt-8 mb-4">DOFINANSOWANIE</h1>
+    <h1 className="border border-gray-200 rounded-lg shadow p-4 bg-blue-50 text-slate-700 text-center dark:text-slate-300 dark:bg-gray-800 dark:border-gray-700 font-bold font-mono text-2xl mt-8 mb-4">DOFINANSOWANIE</h1>
     <p className="text-slate-500 dark:text-slate-300 mb-4">
     Informujemy, iż nasze Stowarzyszenie działa na terenie kraju poprzez pracę członków i wolontariuszy oraz posiadanych środków finansowych.
     Czynnik finansowy ogranicza w znacznym stopniu nasze działania, ponieważ sama problematyka zjawiska, jakim się zajmujemy ogranicza możliwości pozyskiwania funduszy w kraju.
