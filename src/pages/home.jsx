@@ -20,7 +20,7 @@ const Home = () => {
                             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-slate-500">O nas</h5>
                         </Link>
                         <p className="mb-3 font-normal text-gray-700 dark:text-slate-300">Poczytaj o historii powstania stowarzyszenia "OSA", najciekawszych wydarzeniach, sprawozdaniach i strukturze organizacyjnej.</p>
-                        <Link to="about" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-indigo-700 rounded-lg hover:bg-indigo-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-indigo-600 dark:hover:bg-indigo-700 dark:focus:ring-blue-800">
+                        <Link to="about" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 hover:bg-blue-800 rounded-lg  focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-indigo-600 dark:hover:bg-indigo-700 dark:focus:ring-blue-800">
                             Sprawdź
                             <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                                 <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
@@ -32,7 +32,7 @@ const Home = () => {
                             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-slate-500">Projekty</h5>
                         </Link>
                         <p className="mb-3 font-normal text-gray-700 dark:text-slate-300">Aktualności z działalności stowarzyszenia "OSA": realizowane projekty, ważne komunikaty, współpraca i możliwość dofinansowania działalności stowarzyszenia.</p>
-                        <Link to="projekty" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-indigo-700 rounded-lg hover:bg-indigo-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-indigo-600 dark:hover:bg-indigo-700 dark:focus:ring-blue-800">
+                        <Link to="projekty" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 hover:bg-blue-800 rounded-lg focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-indigo-600 dark:hover:bg-indigo-700 dark:focus:ring-blue-800">
                             Sprawdź
                             <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                                 <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
@@ -44,7 +44,7 @@ const Home = () => {
                             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-slate-500">Wiedza</h5>
                         </Link>
                         <p className="mb-3 font-normal text-gray-700 dark:text-slate-300">Zapoznaj się z najważniejszą terminologią dotyczącą zjawiska mobbingu.</p>
-                        <Link to="wiedza" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-indigo-700 rounded-lg hover:bg-indigo-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-indigo-600 dark:hover:bg-indigo-700 dark:focus:ring-blue-800">
+                        <Link to="wiedza" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 hover:bg-blue-800 rounded-lg focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-indigo-600 dark:hover:bg-indigo-700 dark:focus:ring-blue-800">
                             Sprawdź
                             <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                                 <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
@@ -56,7 +56,7 @@ const Home = () => {
                             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-slate-500">Galeria</h5>
                         </Link>
                         <p className="mb-3 font-normal text-gray-700 dark:text-slate-300">Galeria prac rysunkowych współpracownika stowarzyszenia - Grzegorza Krzemińskiego.</p>
-                        <Link to="galeria" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-indigo-700 rounded-lg hover:bg-indigo-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-indigo-600 dark:hover:bg-indigo-700 dark:focus:ring-blue-800">
+                        <Link to="galeria" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 hover:bg-blue-800 rounded-lg focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-indigo-600 dark:hover:bg-indigo-700 dark:focus:ring-blue-800">
                             Sprawdź
                             <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                                 <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
@@ -68,7 +68,7 @@ const Home = () => {
                             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-slate-500">Kontakt</h5>
                         </Link>
                         <p className="mb-3 font-normal text-gray-700 dark:text-slate-300">Kontakt z przedstawicielami stowarzyszenia - w centrali w Gdańsku oraz w punktach konsultacyjnych na terenie całego kraju.</p>
-                        <Link to="kontakt" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-indigo-700 rounded-lg hover:bg-indigo-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-indigo-600 dark:hover:bg-indigo-700 dark:focus:ring-blue-800">
+                        <Link to="kontakt" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 hover:bg-blue-800 rounded-lg focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-indigo-600 dark:hover:bg-indigo-700 dark:focus:ring-blue-800">
                             Sprawdź
                             <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                                 <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
@@ -80,7 +80,7 @@ const Home = () => {
                             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-slate-500">Formularz</h5>
                         </Link>
                         <p className="mb-3 font-normal text-gray-700 dark:text-slate-300">Istnieje możliwość kontaktu ze stowarzyszeniem bezpośrednio ze strony internetowej.</p>
-                        <Link to="form" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-indigo-700 rounded-lg hover:bg-indigo-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-indigo-600 dark:hover:bg-indigo-700 dark:focus:ring-blue-800">
+                        <Link to="form" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 hover:bg-blue-800 rounded-lg focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-indigo-600 dark:hover:bg-indigo-700 dark:focus:ring-blue-800">
                             Sprawdź
                             <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                                 <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
