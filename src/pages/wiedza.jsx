@@ -11,11 +11,14 @@ import { Pracownicy } from "./Wiedza/pracownicy"
 import { Pracodawcy } from "./Wiedza/pracodawcy"
 import { Uregulowania } from "./Wiedza/uregulowania"
 import { Literatura } from "./Wiedza/literatura"
-
+import { Helmet } from "react-helmet";
 
 const Wiedza = () => {
   return (
       <>
+        <Helmet>
+            <title>Wiedza. - Ogólnopolskie Stowarzyszenie Antymobbingowe "OSA"</title>
+        </Helmet>
         <div className="grid justify-center m-4 lg:mx-20 xl:mx-40 2xl:mx-80">
         
         <Tabs aria-label="Pills" style="pills">
