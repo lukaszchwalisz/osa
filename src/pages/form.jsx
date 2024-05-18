@@ -7,7 +7,7 @@ const Form = () => {
     <>
       <Helmet>
         <title>
-          Formularz. - Ogólnopolskie Stowarzyszenie Antymobbingowe "OSA"
+          Formularz - Ogólnopolskie Stowarzyszenie Antymobbingowe "OSA"
         </title>
       </Helmet>
       <div className="grid justify-center m-4 mb-20 lg:mx-20 xl:mx-40 2xl:mx-80">

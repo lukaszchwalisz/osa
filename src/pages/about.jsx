@@ -13,7 +13,7 @@ const About = () => {
   return (
     <>
       <Helmet>
-          <title>O nas. - Ogólnopolskie Stowarzyszenie Antymobbingowe "OSA"</title>
+          <title>O nas - Ogólnopolskie Stowarzyszenie Antymobbingowe "OSA"</title>
       </Helmet>
       <div className="grid justify-left m-4 lg:mx-20 xl:mx-40 2xl:mx-80">
 

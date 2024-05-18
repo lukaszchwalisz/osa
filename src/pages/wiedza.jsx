@@ -1,3 +1,5 @@
+/* eslint-disable react/no-unescaped-entities */
+
 import { Tabs } from "flowbite-react"
 import { M_zjawisko } from "./Wiedza/m_zjawisko"
 import { Przyczyny } from "./Wiedza/przyczyny"
@@ -17,7 +19,7 @@ const Wiedza = () => {
   return (
       <>
         <Helmet>
-            <title>Wiedza. - Ogólnopolskie Stowarzyszenie Antymobbingowe "OSA"</title>
+            <title>Wiedza - Ogólnopolskie Stowarzyszenie Antymobbingowe "OSA"</title>
         </Helmet>
         <div className="grid justify-center m-4 lg:mx-20 xl:mx-40 2xl:mx-80">
         

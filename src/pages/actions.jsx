@@ -11,7 +11,7 @@ const Actions = () => {
     <>
       <Helmet>
         <title>
-          Projekty. - Ogólnopolskie Stowarzyszenie Antymobbingowe "OSA"
+          Projekty - Ogólnopolskie Stowarzyszenie Antymobbingowe "OSA"
         </title>
       </Helmet>
       <div className="grid justify-center m-4 lg:mx-20 xl:mx-40 2xl:mx-80">

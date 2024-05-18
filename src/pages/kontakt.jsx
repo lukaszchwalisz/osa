@@ -6,7 +6,7 @@ const Kontakt = () => {
   return (
     <>
     <Helmet>
-          <title>Kontakt. - Ogólnopolskie Stowarzyszenie Antymobbingowe "OSA"</title>
+          <title>Kontakt - Ogólnopolskie Stowarzyszenie Antymobbingowe "OSA"</title>
     </Helmet>
     <div className="grid justify-center m-4 lg:mx-20 xl:mx-40 2xl:mx-80">
     
